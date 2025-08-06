@@ -48,6 +48,10 @@ This framework describes a principled, hierarchical taxonomy for classifying rob
 | Swimming-Soft    | Soft-bodied underwater mobility like an octopus   |
 | Modular-Lattice  | Interconnected units that reshape structure       |
 | Swarm-Agent      | Many small robots acting as one system            |
+| Articulated Arm  | Jointed Manipulator, Mechanical Arm               |
+| others-Static    | Any other static robots                           |
+| others-Mobie     | some special robots like snake, Spherical-Rolling..|
+
 
 ---
 

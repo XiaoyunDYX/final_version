@@ -1,3 +1,12 @@
+#!/usr/bin/env python3
+"""
+Robot Classifier - Rule-based Classification System
+
+This module provides rule-based classification of robots according to a hierarchical
+taxonomy system. It uses keyword matching and heuristic rules to classify robots
+into the appropriate taxonomic categories.
+"""
+
 import json
 import re
 from typing import Dict, List, Any, Optional
@@ -5,11 +14,17 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 import numpy as np
 import pandas as pd
+from collections import Counter, defaultdict
 
 class RobotTaxonomy:
-    def __init__(self, taxonomy_file: str = "Robotic taxonomy.md"):
+    """Manages the robot taxonomy structure and classification rules."""
+    
+    def __init__(self, taxonomy_file: str = "robot_taxonomy_framework.md"):
         """
-        Initialize taxonomy from markdown file
+        Initialize taxonomy from markdown file or use default taxonomy.
+        
+        Args:
+            taxonomy_file: Path to the taxonomy markdown file
         """
         self.taxonomy_file = taxonomy_file
         self.taxonomy = self._parse_taxonomy_from_markdown()
@@ -17,7 +32,10 @@ class RobotTaxonomy:
         
     def _parse_taxonomy_from_markdown(self) -> Dict[str, Any]:
         """
-        Parse the taxonomy structure from the markdown file
+        Parse the taxonomy structure from the markdown file.
+        
+        Returns:
+            Dictionary containing the taxonomy structure
         """
         try:
             with open(self.taxonomy_file, 'r', encoding='utf-8') as f:
@@ -106,7 +124,10 @@ class RobotTaxonomy:
     
     def _get_default_taxonomy(self) -> Dict[str, Any]:
         """
-        Fallback taxonomy if markdown file is not available
+        Get default taxonomy structure when markdown file is not available.
+        
+        Returns:
+            Default taxonomy dictionary
         """
         return {
             "Domain": {
@@ -166,437 +187,448 @@ class RobotTaxonomy:
                 "Smart_Materials": "Shape memory alloys, piezoelectric actuators",
                 "Bio_Hybrid": "Integration of biological and artificial components",
                 "Passive": "No active actuation, gravity or environmental forces",
-                "Magnetic": "Magnetic field-based actuation and control systems"
+                "Magnetic": "Magnetic field-based actuation"
             },
             "Species": {
-                "Assembly": "Manufacturing assembly line tasks",
-                "Inspection": "Quality control and monitoring applications",
-                "Transport": "Material handling and logistics operations",
-                "Surgery": "Medical procedures requiring extreme precision",
-                "Exploration": "Discovery and reconnaissance missions",
-                "Maintenance": "Repair and upkeep operations",
-                "Security": "Surveillance and protection tasks",
-                "Education": "Teaching and learning assistance",
-                "Companionship": "Social interaction and emotional support",
-                "Agriculture_Specific": "Farming and crop management",
-                "Rescue": "Emergency response and disaster relief",
-                "Entertainment_Performance": "Shows, games, interactive experiences",
-                "Mining": "Resource extraction and underground operations",
-                "Construction": "Building and infrastructure development",
-                "Environmental_Monitoring": "Ecosystem and pollution monitoring"
+                "Surgery": "Surgical procedures and medical interventions",
+                "Inspection": "Quality control and inspection tasks",
+                "Transport": "Material and object transportation",
+                "Assembly": "Manufacturing and assembly operations",
+                "Exploration": "Environmental and spatial exploration",
+                "Surveillance": "Monitoring and security applications",
+                "Companionship": "Social interaction and companionship",
+                "Education": "Educational and training applications",
+                "Mapping": "Environmental mapping and surveying",
+                "Rescue": "Search and rescue operations",
+                "Entertainment": "Recreational and entertainment purposes",
+                "Agricultural_Task": "Farming and agricultural operations",
+                "Construction": "Building and construction tasks",
+                "Maintenance": "Equipment and infrastructure maintenance",
+                "Environmental_Monitoring": "Environmental data collection and monitoring"
             }
         }
-        
+    
     def _extract_keywords(self) -> Dict[str, List[str]]:
         """
-        Extract keywords from taxonomy for classification
+        Extract keywords for each taxonomy level for classification.
+        
+        Returns:
+            Dictionary mapping taxonomy levels to keyword lists
         """
-        keywords = {}
-        
-        for level, categories in self.taxonomy.items():
-            for category, description in categories.items():
-                # Extract keywords from description
-                words = re.findall(r'\b\w+\b', description.lower())
-                keywords[f"{level}.{category}"] = words
-        
+        keywords = {
+            "Domain": {
+                "Physical": ["physical", "real", "hardware", "mechanical", "material"],
+                "Virtual": ["virtual", "software", "simulation", "digital", "computer"],
+                "Hybrid": ["hybrid", "mixed", "augmented", "telepresence", "ar", "vr"]
+            },
+            "Kingdom": {
+                "Industrial": ["industrial", "manufacturing", "factory", "production", "assembly"],
+                "Service": ["service", "domestic", "household", "assistance", "help"],
+                "Medical": ["medical", "surgical", "healthcare", "hospital", "therapy"],
+                "Military": ["military", "defense", "security", "tactical", "combat"],
+                "Research": ["research", "experimental", "laboratory", "scientific"],
+                "Entertainment": ["entertainment", "toy", "game", "recreation", "fun"],
+                "Agriculture": ["agriculture", "farming", "crop", "harvest", "agricultural"],
+                "Space": ["space", "satellite", "planetary", "extraterrestrial", "orbit"],
+                "Marine": ["marine", "underwater", "submarine", "aquatic", "ocean"]
+            },
+            "Phylum": {
+                "Manipulator": ["manipulator", "arm", "articulated", "fixed", "stationary"],
+                "Mobile": ["mobile", "moving", "navigation", "locomotion"],
+                "Humanoid": ["humanoid", "human-like", "bipedal", "anthropomorphic"],
+                "Modular": ["modular", "reconfigurable", "interchangeable", "adaptable"],
+                "Swarm": ["swarm", "collective", "multiple", "coordinated", "group"],
+                "Soft": ["soft", "flexible", "deformable", "compliant", "elastic"],
+                "Hybrid_Morphology": ["hybrid", "combined", "multi-modal", "mixed"]
+            },
+            "Class": {
+                "Static": ["static", "fixed", "stationary", "immobile"],
+                "Wheeled": ["wheel", "wheeled", "rolling", "car", "vehicle"],
+                "Legged": ["leg", "legged", "walking", "bipedal", "quadrupedal"],
+                "Flying": ["flying", "aerial", "drone", "helicopter", "aircraft"],
+                "Swimming": ["swimming", "aquatic", "underwater", "submarine"],
+                "Morphing": ["morphing", "shape-changing", "transformable"]
+            },
+            "Order": {
+                "Teleoperated": ["teleoperated", "remote", "controlled", "manual", "human-controlled"],
+                "Semi_Autonomous": ["semi-autonomous", "partial", "assisted", "supervised"],
+                "Autonomous": ["autonomous", "independent", "self-driving", "automatic"],
+                "Collaborative": ["collaborative", "cooperative", "human-robot", "interactive"]
+            },
+            "Family": {
+                "Vision_Based": ["vision", "camera", "visual", "image", "optical"],
+                "LiDAR_Based": ["lidar", "laser", "radar", "distance", "scanning"],
+                "Tactile_Based": ["tactile", "touch", "force", "pressure", "contact"],
+                "Multimodal": ["multimodal", "multiple", "sensors", "integrated"],
+                "Minimal_Sensing": ["minimal", "simple", "basic", "limited"],
+                "GPS_Navigation": ["gps", "navigation", "positioning", "satellite"],
+                "Acoustic_Based": ["acoustic", "sound", "audio", "ultrasonic"],
+                "Chemical_Sensing": ["chemical", "gas", "sensor", "detection"]
+            },
+            "Genus": {
+                "Electric": ["electric", "motor", "servo", "battery", "electronic"],
+                "Hydraulic": ["hydraulic", "fluid", "pressure", "pump"],
+                "Pneumatic": ["pneumatic", "air", "compressed", "pneumatic"],
+                "Hybrid_Actuation": ["hybrid", "mixed", "combined", "actuation"],
+                "Smart_Materials": ["smart", "material", "shape", "memory", "piezoelectric"],
+                "Bio_Hybrid": ["bio", "biological", "organic", "living"],
+                "Passive": ["passive", "gravity", "environmental", "no actuation"],
+                "Magnetic": ["magnetic", "magnet", "field", "electromagnetic"]
+            },
+            "Species": {
+                "Surgery": ["surgery", "surgical", "medical", "operation", "procedure"],
+                "Inspection": ["inspection", "quality", "control", "check", "examine"],
+                "Transport": ["transport", "carry", "move", "delivery", "logistics"],
+                "Assembly": ["assembly", "manufacturing", "production", "build"],
+                "Exploration": ["exploration", "explore", "discovery", "investigation"],
+                "Surveillance": ["surveillance", "monitor", "security", "watch"],
+                "Companionship": ["companionship", "social", "interaction", "companion"],
+                "Education": ["education", "teaching", "learning", "training"],
+                "Mapping": ["mapping", "survey", "map", "topography"],
+                "Rescue": ["rescue", "emergency", "search", "save"],
+                "Entertainment": ["entertainment", "fun", "game", "recreation"],
+                "Agricultural_Task": ["agriculture", "farming", "crop", "harvest"],
+                "Construction": ["construction", "building", "construction"],
+                "Maintenance": ["maintenance", "repair", "service", "upkeep"],
+                "Environmental_Monitoring": ["environmental", "monitoring", "climate", "pollution"]
+            }
+        }
         return keywords
-    
-    def classify_robot(self, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify a robot according to the hierarchical taxonomy
-        """
-        classification = {
-            "Domain": {},
-            "Kingdom": {},
-            "Phylum": {},
-            "Class": {},
-            "Order": {},
-            "Family": {},
-            "Genus": {},
-            "Species": {}
-        }
-        
-        # Extract text for analysis
-        text = self._extract_text(robot_data)
-        text_lower = text.lower()
-        
-        # Classify by each taxonomic level
-        classification["Domain"] = self._classify_domain(text_lower, robot_data)
-        classification["Kingdom"] = self._classify_kingdom(text_lower, robot_data)
-        classification["Phylum"] = self._classify_phylum(text_lower, robot_data)
-        classification["Class"] = self._classify_class(text_lower, robot_data)
-        classification["Order"] = self._classify_order(text_lower, robot_data)
-        classification["Family"] = self._classify_family(text_lower, robot_data)
-        classification["Genus"] = self._classify_genus(text_lower, robot_data)
-        classification["Species"] = self._classify_species(text_lower, robot_data)
-        
-        return classification
-    
-    def _extract_text(self, robot_data: Dict[str, Any]) -> str:
-        """
-        Extract all text from robot data for analysis
-        """
-        text_parts = []
-        
-        if 'name' in robot_data:
-            text_parts.append(robot_data['name'])
-        
-        if 'description' in robot_data:
-            text_parts.append(robot_data['description'])
-        
-        if 'applications' in robot_data:
-            text_parts.extend(robot_data['applications'])
-        
-        if 'category' in robot_data:
-            text_parts.append(robot_data['category'])
-        
-        return ' '.join(text_parts)
-    
-    def _classify_domain(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by domain
-        """
-        domain_scores = {}
-        
-        # Keywords for each domain
-        domain_keywords = {
-            "Physical": ["physical", "real", "material", "hardware", "mechanical"],
-            "Virtual": ["virtual", "digital", "software", "simulation", "computer"],
-            "Hybrid": ["hybrid", "mixed", "augmented", "virtual reality", "ar", "vr"]
-        }
-        
-        for domain, keywords in domain_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                domain_scores[domain] = 0.8
-        
-        # Default to Physical if unclear
-        if not domain_scores:
-            domain_scores["Physical"] = 0.5
-        
-        return domain_scores
-    
-    def _classify_kingdom(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by kingdom
-        """
-        kingdom_scores = {}
-        
-        # Keywords for each kingdom
-        kingdom_keywords = {
-            "Industrial": ["industrial", "manufacturing", "factory", "production", "assembly"],
-            "Service": ["service", "domestic", "home", "assistance", "cleaning"],
-            "Medical": ["medical", "surgical", "healthcare", "hospital", "therapy"],
-            "Military": ["military", "defense", "weapon", "combat", "surveillance"],
-            "Research": ["research", "experimental", "laboratory", "exploration"],
-            "Entertainment": ["entertainment", "game", "toy", "recreation", "performance"],
-            "Agriculture": ["agriculture", "farming", "crop", "agricultural"],
-            "Space": ["space", "satellite", "extraterrestrial", "orbital"],
-            "Marine": ["marine", "underwater", "ocean", "submarine", "aquatic"]
-        }
-        
-        for kingdom, keywords in kingdom_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                kingdom_scores[kingdom] = 0.8
-        
-        # Default to Service if unclear
-        if not kingdom_scores:
-            kingdom_scores["Service"] = 0.5
-        
-        return kingdom_scores
-    
-    def _classify_phylum(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by phylum
-        """
-        phylum_scores = {}
-        
-        # Keywords for each phylum
-        phylum_keywords = {
-            "Manipulator": ["manipulator", "arm", "articulated", "fixed base"],
-            "Mobile": ["mobile", "moving", "navigation", "locomotion"],
-            "Humanoid": ["humanoid", "human-like", "bipedal", "anthropomorphic"],
-            "Modular": ["modular", "reconfigurable", "interchangeable"],
-            "Swarm": ["swarm", "collective", "group", "cooperative"],
-            "Soft": ["soft", "compliant", "deformable", "flexible"],
-            "Hybrid_Morphology": ["hybrid", "combined", "multi-modal"]
-        }
-        
-        for phylum, keywords in phylum_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                phylum_scores[phylum] = 0.8
-        
-        # Default to Mobile if unclear
-        if not phylum_scores:
-            phylum_scores["Mobile"] = 0.5
-        
-        return phylum_scores
-    
-    def _classify_class(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by class (locomotion mechanism)
-        """
-        class_scores = {}
-        
-        # Keywords for each class
-        class_keywords = {
-            "Static": ["static", "fixed", "stationary", "mounted"],
-            "Wheeled": ["wheel", "wheeled", "drive", "track"],
-            "Legged": ["leg", "legged", "biped", "quadruped", "walk"],
-            "Flying": ["fly", "flying", "drone", "aerial", "helicopter"],
-            "Swimming": ["swim", "swimming", "underwater", "aquatic"],
-            "Morphing": ["morph", "shape-changing", "transform"]
-        }
-        
-        for class_type, keywords in class_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                class_scores[class_type] = 0.8
-        
-        # Default to Wheeled if unclear
-        if not class_scores:
-            class_scores["Wheeled"] = 0.5
-        
-        return class_scores
-    
-    def _classify_order(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by order (autonomy level)
-        """
-        order_scores = {}
-        
-        # Keywords for each order
-        order_keywords = {
-            "Teleoperated": ["teleoperated", "remote", "controlled", "manual"],
-            "Semi_Autonomous": ["semi", "assisted", "supervised", "collaborative"],
-            "Autonomous": ["autonomous", "ai", "artificial intelligence", "independent"],
-            "Collaborative": ["collaborative", "cooperative", "human-robot"]
-        }
-        
-        for order, keywords in order_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                order_scores[order] = 0.8
-        
-        # Default to Semi_Autonomous if unclear
-        if not order_scores:
-            order_scores["Semi_Autonomous"] = 0.5
-        
-        return order_scores
-    
-    def _classify_family(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by family (sensing modality)
-        """
-        family_scores = {}
-        
-        # Keywords for each family
-        family_keywords = {
-            "Vision_Based": ["vision", "camera", "visual", "image"],
-            "LiDAR_Based": ["lidar", "laser", "distance", "mapping"],
-            "Tactile_Based": ["tactile", "touch", "force", "pressure"],
-            "Multimodal": ["multimodal", "multiple", "integrated", "sensors"],
-            "Minimal_Sensing": ["minimal", "simple", "basic", "sensor"],
-            "GPS_Navigation": ["gps", "satellite", "positioning", "navigation"],
-            "Acoustic_Based": ["acoustic", "sound", "ultrasonic", "audio"],
-            "Chemical_Sensing": ["chemical", "gas", "compound", "detection"]
-        }
-        
-        for family, keywords in family_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                family_scores[family] = 0.8
-        
-        # Default to Vision_Based if unclear
-        if not family_scores:
-            family_scores["Vision_Based"] = 0.5
-        
-        return family_scores
-    
-    def _classify_genus(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by genus (actuation system)
-        """
-        genus_scores = {}
-        
-        # Keywords for each genus
-        genus_keywords = {
-            "Electric": ["electric", "motor", "servo", "electronic"],
-            "Hydraulic": ["hydraulic", "fluid", "pressure", "oil"],
-            "Pneumatic": ["pneumatic", "air", "compressed", "pneumatic"],
-            "Hybrid_Actuation": ["hybrid", "combined", "multiple", "actuation"],
-            "Smart_Materials": ["smart", "memory", "piezoelectric", "alloy"],
-            "Bio_Hybrid": ["bio", "biological", "hybrid", "living"],
-            "Passive": ["passive", "gravity", "environmental", "no actuation"],
-            "Magnetic": "Magnetic field-based actuation"
-        }
-        
-        for genus, keywords in genus_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                genus_scores[genus] = 0.8
-        
-        # Default to Electric if unclear
-        if not genus_scores:
-            genus_scores["Electric"] = 0.5
-        
-        return genus_scores
-    
-    def _classify_species(self, text: str, robot_data: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Classify robot by species (application specialization)
-        """
-        species_scores = {}
-        
-        # Keywords for each species
-        species_keywords = {
-            "Assembly": ["assembly", "manufacturing", "production", "line"],
-            "Inspection": ["inspection", "quality", "control", "monitoring"],
-            "Transport": ["transport", "material", "handling", "logistics"],
-            "Surgery": ["surgery", "surgical", "medical", "procedure"],
-            "Exploration": ["exploration", "discovery", "reconnaissance", "mission"],
-            "Maintenance": ["maintenance", "repair", "upkeep", "service"],
-            "Security": ["security", "surveillance", "protection", "guard"],
-            "Education": ["education", "teaching", "learning", "training"],
-            "Companionship": ["companion", "social", "interaction", "emotional"],
-            "Agriculture_Specific": ["agriculture", "farming", "crop", "agricultural"],
-            "Rescue": ["rescue", "emergency", "disaster", "relief"],
-            "Entertainment_Performance": ["entertainment", "performance", "show", "game"],
-            "Mining": ["mining", "extraction", "underground", "resource"],
-            "Construction": ["construction", "building", "infrastructure", "development"],
-            "Environmental_Monitoring": ["environmental", "ecosystem", "pollution", "monitoring"]
-        }
-        
-        for species, keywords in species_keywords.items():
-            if any(keyword in text for keyword in keywords):
-                species_scores[species] = 0.8
-        
-        # Default to Exploration if unclear
-        if not species_scores:
-            species_scores["Exploration"] = 0.5
-        
-        return species_scores
 
 class RobotClassifier:
-    def __init__(self, taxonomy_file: str = "Robotic taxonomy.md"):
+    """Main robot classification system using rule-based approach."""
+    
+    def __init__(self, taxonomy_file: str = "robot_taxonomy_framework.md"):
+        """
+        Initialize the robot classifier.
+        
+        Args:
+            taxonomy_file: Path to the taxonomy markdown file
+        """
         self.taxonomy = RobotTaxonomy(taxonomy_file)
         self.classified_robots = []
         
     def classify_robots(self, robots_data: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
         """
-        Classify a list of robots according to the hierarchical taxonomy
+        Classify a list of robots according to the taxonomy.
+        
+        Args:
+            robots_data: List of robot dictionaries to classify
+            
+        Returns:
+            List of classified robot dictionaries
         """
         classified_robots = []
         
         for robot in robots_data:
-            classification = self.taxonomy.classify_robot(robot)
-            robot['classification'] = classification
-            classified_robots.append(robot)
-            
+            classified_robot = self.classify_robot(robot)
+            classified_robots.append(classified_robot)
+        
         self.classified_robots = classified_robots
         return classified_robots
     
+    def classify_robot(self, robot_data: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Classify a single robot according to the taxonomy.
+        
+        Args:
+            robot_data: Robot information dictionary
+            
+        Returns:
+            Classified robot dictionary with taxonomy fields
+        """
+        # Extract text for analysis
+        text = self._extract_text(robot_data)
+        
+        # Classify each taxonomic level
+        classification = {
+            "name": robot_data.get("name", "Unknown"),
+            "url": robot_data.get("url", ""),
+            "description": robot_data.get("description", ""),
+            "domain": self._classify_domain(text, robot_data),
+            "kingdom": self._classify_kingdom(text, robot_data),
+            "phylum": self._classify_phylum(text, robot_data),
+            "class": self._classify_class(text, robot_data),
+            "order": self._classify_order(text, robot_data),
+            "family": self._classify_family(text, robot_data),
+            "genus": self._classify_genus(text, robot_data),
+            "species": self._classify_species(text, robot_data)
+        }
+        
+        return classification
+    
+    def _extract_text(self, robot_data: Dict[str, Any]) -> str:
+        """
+        Extract all text content from robot data for analysis.
+        
+        Args:
+            robot_data: Robot information dictionary
+            
+        Returns:
+            Combined text string for analysis
+        """
+        text_parts = []
+        
+        # Add name
+        if robot_data.get("name"):
+            text_parts.append(robot_data["name"])
+        
+        # Add description
+        if robot_data.get("description"):
+            text_parts.append(robot_data["description"])
+        
+        # Add any additional text fields
+        for key, value in robot_data.items():
+            if isinstance(value, str) and key not in ["name", "description", "url"]:
+                text_parts.append(value)
+        
+        return " ".join(text_parts).lower()
+    
+    def _classify_domain(self, text: str, robot_data: Dict[str, Any]) -> str:
+        """Classify the domain level."""
+        text_lower = text.lower()
+        
+        # Check for virtual/software robots
+        if any(word in text_lower for word in ["virtual", "software", "simulation", "digital"]):
+            return "Virtual"
+        
+        # Check for hybrid systems
+        if any(word in text_lower for word in ["hybrid", "mixed", "augmented", "telepresence"]):
+            return "Hybrid"
+        
+        # Default to physical
+        return "Physical"
+    
+    def _classify_kingdom(self, text: str, robot_data: Dict[str, Any]) -> str:
+        """Classify the kingdom level."""
+        text_lower = text.lower()
+        
+        # Check each kingdom with keywords
+        kingdom_keywords = self.taxonomy.keywords["Kingdom"]
+        
+        for kingdom, keywords in kingdom_keywords.items():
+            if any(keyword in text_lower for keyword in keywords):
+                return kingdom
+        
+        # Default classification based on common patterns
+        if any(word in text_lower for word in ["surgery", "medical", "hospital"]):
+            return "Medical"
+        elif any(word in text_lower for word in ["factory", "manufacturing", "industrial"]):
+            return "Industrial"
+        elif any(word in text_lower for word in ["service", "assistance", "help"]):
+            return "Service"
+        else:
+            return "Research"  # Default fallback
+    
+    def _classify_phylum(self, text: str, robot_data: Dict[str, Any]) -> str:
+        """Classify the phylum level."""
+        text_lower = text.lower()
+        
+        # Check each phylum with keywords
+        phylum_keywords = self.taxonomy.keywords["Phylum"]
+        
+        for phylum, keywords in phylum_keywords.items():
+            if any(keyword in text_lower for keyword in keywords):
+                return phylum
+        
+        # Default classification
+        if any(word in text_lower for word in ["humanoid", "human-like", "bipedal"]):
+            return "Humanoid"
+        elif any(word in text_lower for word in ["arm", "manipulator", "gripper"]):
+            return "Manipulator"
+        else:
+            return "Mobile"  # Default fallback
+    
+    def _classify_class(self, text: str, robot_data: Dict[str, Any]) -> str:
+        """Classify the class level."""
+        text_lower = text.lower()
+        
+        # Check each class with keywords
+        class_keywords = self.taxonomy.keywords["Class"]
+        
+        for class_type, keywords in class_keywords.items():
+            if any(keyword in text_lower for keyword in keywords):
+                return class_type
+        
+        # Default classification
+        if any(word in text_lower for word in ["wheel", "car", "vehicle"]):
+            return "Wheeled"
+        elif any(word in text_lower for word in ["leg", "walking", "bipedal"]):
+            return "Legged"
+        else:
+            return "Static"  # Default fallback
+    
+    def _classify_order(self, text: str, robot_data: Dict[str, Any]) -> str:
+        """Classify the order level."""
+        text_lower = text.lower()
+        
+        # Check each order with keywords
+        order_keywords = self.taxonomy.keywords["Order"]
+        
+        for order, keywords in order_keywords.items():
+            if any(keyword in text_lower for keyword in keywords):
+                return order
+        
+        # Default classification
+        if any(word in text_lower for word in ["autonomous", "automatic", "self"]):
+            return "Autonomous"
+        elif any(word in text_lower for word in ["remote", "controlled", "manual"]):
+            return "Teleoperated"
+        else:
+            return "Semi_Autonomous"  # Default fallback
+    
+    def _classify_family(self, text: str, robot_data: Dict[str, Any]) -> str:
+        """Classify the family level."""
+        text_lower = text.lower()
+        
+        # Check each family with keywords
+        family_keywords = self.taxonomy.keywords["Family"]
+        
+        for family, keywords in family_keywords.items():
+            if any(keyword in text_lower for keyword in keywords):
+                return family
+        
+        # Default classification
+        if any(word in text_lower for word in ["camera", "vision", "image"]):
+            return "Vision_Based"
+        else:
+            return "Minimal_Sensing"  # Default fallback
+    
+    def _classify_genus(self, text: str, robot_data: Dict[str, Any]) -> str:
+        """Classify the genus level."""
+        text_lower = text.lower()
+        
+        # Check each genus with keywords
+        genus_keywords = self.taxonomy.keywords["Genus"]
+        
+        for genus, keywords in genus_keywords.items():
+            if any(keyword in text_lower for keyword in keywords):
+                return genus
+        
+        # Default classification
+        if any(word in text_lower for word in ["motor", "electric", "battery"]):
+            return "Electric"
+        else:
+            return "Electric"  # Default fallback
+    
+    def _classify_species(self, text: str, robot_data: Dict[str, Any]) -> List[str]:
+        """Classify the species level (can be multiple)."""
+        text_lower = text.lower()
+        species_list = []
+        
+        # Check each species with keywords
+        species_keywords = self.taxonomy.keywords["Species"]
+        
+        for species, keywords in species_keywords.items():
+            if any(keyword in text_lower for keyword in keywords):
+                species_list.append(species)
+        
+        # If no species found, add default based on kingdom
+        if not species_list:
+            kingdom = self._classify_kingdom(text, robot_data)
+            if kingdom == "Medical":
+                species_list.append("Surgery")
+            elif kingdom == "Industrial":
+                species_list.append("Assembly")
+            elif kingdom == "Service":
+                species_list.append("Companionship")
+            else:
+                species_list.append("Research")
+        
+        return species_list
+    
     def cluster_robots(self, n_clusters: int = 5) -> Dict[str, Any]:
         """
-        Use machine learning to cluster robots based on their descriptions
+        Perform clustering analysis on classified robots.
+        
+        Args:
+            n_clusters: Number of clusters to create
+            
+        Returns:
+            Dictionary containing clustering information
         """
         if not self.classified_robots:
-            return {}
+            return {"error": "No classified robots available"}
         
-        # Extract text features
-        texts = [robot.get('description', '') + ' ' + robot.get('name', '') 
-                for robot in self.classified_robots]
+        # Prepare data for clustering
+        texts = []
+        for robot in self.classified_robots:
+            text = f"{robot.get('name', '')} {robot.get('description', '')}"
+            texts.append(text)
         
-        # Create TF-IDF vectors
-        vectorizer = TfidfVectorizer(max_features=1000, stop_words='english')
-        X = vectorizer.fit_transform(texts)
-        
-        # Perform clustering
-        kmeans = KMeans(n_clusters=n_clusters, random_state=42)
-        clusters = kmeans.fit_predict(X)
-        
-        # Add cluster information to robots
-        for i, robot in enumerate(self.classified_robots):
-            robot['cluster'] = int(clusters[i])
-        
-        return {
-            'n_clusters': n_clusters,
-            'cluster_centers': kmeans.cluster_centers_.tolist(),
-            'feature_names': vectorizer.get_feature_names_out().tolist()
-        }
+        # Vectorize text data
+        vectorizer = TfidfVectorizer(max_features=100, stop_words='english')
+        try:
+            X = vectorizer.fit_transform(texts)
+            
+            # Perform clustering
+            kmeans = KMeans(n_clusters=n_clusters, random_state=42)
+            cluster_labels = kmeans.fit_predict(X)
+            
+            # Organize results
+            clusters = defaultdict(list)
+            for i, label in enumerate(cluster_labels):
+                clusters[f"cluster_{label}"].append(self.classified_robots[i])
+            
+            return {
+                "n_clusters": n_clusters,
+                "cluster_labels": cluster_labels.tolist(),
+                "clusters": dict(clusters),
+                "feature_names": vectorizer.get_feature_names_out().tolist()
+            }
+            
+        except Exception as e:
+            return {"error": f"Clustering failed: {str(e)}"}
     
-    def save_classified_data(self, filename: str = 'classified_robots.json'):
-        """
-        Save classified robot data to JSON file
-        """
-        with open(f'./data/{filename}', 'w') as f:
-            json.dump(self.classified_robots, f, indent=2)
-        print(f"Saved {len(self.classified_robots)} classified robots to {filename}")
+    def save_classified_data(self, filename: str = 'data/classified_robots.json'):
+        """Save classified robot data to JSON file."""
+        if not self.classified_robots:
+            print("Warning: No classified robots to save")
+            return
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(self.classified_robots, f, indent=2, ensure_ascii=False)
+        
+        print(f"✅ Saved {len(self.classified_robots)} classified robots to {filename}")
     
     def get_taxonomy_summary(self) -> Dict[str, Any]:
         """
-        Get a summary of the classification results
+        Get summary statistics of the classification.
+        
+        Returns:
+            Dictionary containing taxonomy summary statistics
         """
+        if not self.classified_robots:
+            return {"error": "No classified robots available"}
+        
         summary = {
-            'total_robots': len(self.classified_robots),
-            'domain_distribution': {},
-            'kingdom_distribution': {},
-            'phylum_distribution': {},
-            'class_distribution': {},
-            'order_distribution': {},
-            'family_distribution': {},
-            'genus_distribution': {},
-            'species_distribution': {}
+            "total_robots": len(self.classified_robots),
+            "domain_distribution": Counter(robot.get('domain', 'Unknown') for robot in self.classified_robots),
+            "kingdom_distribution": Counter(robot.get('kingdom', 'Unknown') for robot in self.classified_robots),
+            "phylum_distribution": Counter(robot.get('phylum', 'Unknown') for robot in self.classified_robots),
+            "class_distribution": Counter(robot.get('class', 'Unknown') for robot in self.classified_robots),
+            "order_distribution": Counter(robot.get('order', 'Unknown') for robot in self.classified_robots),
+            "family_distribution": Counter(robot.get('family', 'Unknown') for robot in self.classified_robots),
+            "genus_distribution": Counter(robot.get('genus', 'Unknown') for robot in self.classified_robots),
+            "species_distribution": Counter()
         }
         
+        # Count species (can be multiple per robot)
         for robot in self.classified_robots:
-            classification = robot.get('classification', {})
-            
-            # Count classifications for each taxonomic level
-            for level in ['Domain', 'Kingdom', 'Phylum', 'Class', 'Order', 'Family', 'Genus', 'Species']:
-                level_distribution = summary[f'{level.lower()}_distribution']
-                for category, score in classification.get(level, {}).items():
-                    if score > 0.5:  # Only count confident classifications
-                        level_distribution[category] = level_distribution.get(category, 0) + 1
+            species_list = robot.get('species', [])
+            if isinstance(species_list, list):
+                for species in species_list:
+                    summary["species_distribution"][species] += 1
+            elif species_list:
+                summary["species_distribution"][species_list] += 1
         
         return summary
     
     def get_taxonomy_structure(self) -> Dict[str, Any]:
         """
-        Get the complete taxonomy structure
+        Get the complete taxonomy structure.
+        
+        Returns:
+            Dictionary containing the taxonomy structure
         """
-        return self.taxonomy.taxonomy
-
-if __name__ == "__main__":
-    # Load robot data
-    try:
-        with open('./data/robots_data.json', 'r') as f:
-            robots_data = json.load(f)
-    except FileNotFoundError:
-        print("No robot data found. Please run the scraper first.")
-        robots_data = []
-    
-    if robots_data:
-        classifier = RobotClassifier()
-        classified_robots = classifier.classify_robots(robots_data)
-        
-        # Perform clustering
-        clustering_info = classifier.cluster_robots()
-        
-        # Save results
-        classifier.save_classified_data()
-        
-        # Print summary
-        summary = classifier.get_taxonomy_summary()
-        print(f"Classified {summary['total_robots']} robots")
-        print("Domain distribution:", summary['domain_distribution'])
-        print("Kingdom distribution:", summary['kingdom_distribution'])
-        print("Phylum distribution:", summary['phylum_distribution'])
-        print("Class distribution:", summary['class_distribution'])
-        print("Order distribution:", summary['order_distribution'])
-        print("Family distribution:", summary['family_distribution'])
-        print("Genus distribution:", summary['genus_distribution'])
-        print("Species distribution:", summary['species_distribution'])
-        
-        # Print taxonomy structure
-        print("\nTaxonomy structure:")
-        taxonomy_structure = classifier.get_taxonomy_structure()
-        for level, categories in taxonomy_structure.items():
-            print(f"{level}: {list(categories.keys())}")
-    else:
-        print("No robots to classify.") 
+        return self.taxonomy.taxonomy 
