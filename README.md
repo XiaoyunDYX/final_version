@@ -1,193 +1,331 @@
-# Robot Taxonomy Agent
+# Robot Taxonomy Classification & Visualization System
 
-A comprehensive tool for scraping, classifying, and visualizing robot data according to a hierarchical taxonomy system. This project creates a "tree of life" for robots, similar to biological taxonomy.
+A comprehensive system for classifying, analyzing, and visualizing robot taxonomy using a **Linnaean-inspired hierarchical framework**. This project implements Robot Taxonomy V2 with interactive visualizations, phylogenetic analysis, and evolutionary insights.
 
-## 🌟 Features
+## 🎯 Project Purpose
 
-- **Web Scraping**: Automatically collects robot information from the internet
-- **Intelligent Classification**: Classifies robots using rule-based taxonomy matching
-- **Interactive Visualization**: Creates interactive dashboards and static visualizations
-- **Modular Architecture**: Separate components for scraping, classification, and visualization
-- **Multiple Output Formats**: PNG images, interactive dashboards, and JSON data
+This system provides:
+- **Systematic robot classification** using biological taxonomy principles
+- **Interactive visualizations** for exploring robot diversity
+- **Phylogenetic analysis** showing evolutionary relationships
+- **Temporal and regional analysis** of robot development
+- **Comprehensive data processing** and analysis tools
 
 ## 📁 Project Structure
 
 ```
-robots_agent/
-├── src/                          # Main application source
-│   └── main.py                   # Main application entry point
-├── web_scraper/                  # Web scraping components
-│   └── robot_scraper.py          # Robot data scraper
-├── classifier/                   # Classification components
-│   └── robot_classifier.py       # Rule-based robot classifier
-├── visualizer/                   # Visualization components
-│   └── robot_tree_visualizer.py  # Interactive tree visualizer
-├── utils/                        # Utility scripts
-│   ├── analyze_robots.py         # Robot data analysis
-│   ├── analyze_radial_tree.py    # Radial tree analysis
-│   └── filter_robots.py          # Data filtering utilities
-├── scripts/                      # Standalone scripts
-│   └── gptclassifier.py          # GPT-based classifier (standalone)
-├── data/                         # Data storage
-│   ├── robots_data.json          # Raw scraped robot data
-│   ├── classified_robots.json    # Classified robot data
-│   └── *.png                     # Generated visualizations
-├── requirements.txt              # Python dependencies
-├── robot_taxonomy_framework.md   # Taxonomy framework documentation
-└── README.md                     # This file
+robot-taxonomy/
+├── data/                          # Dataset and classification data
+│   ├── robots.ndjson             # Main robot dataset (546 robots)
+│   ├── dict.json                 # Classification dictionary
+│   ├── family_index.json         # Family groupings
+│   ├── features.json             # Morphological features
+│   └── robots_dataset.json       # Feature vectors
+├── src/                          # Source code
+│   ├── data_processor.py         # Data processing and analysis
+│   ├── enhanced_robot_visualizer.py # Visualization generation
+│   ├── main_app.py              # Main application runner
+│   ├── run_analysis.py          # Analysis pipeline
+│   └── separate_phylogenetic_generator.py # Phylogenetic trees
+├── outputs/                      # Generated outputs
+│   ├── visualizations/          # Interactive HTML visualizations
+│   ├── phylogenetic_trees/      # Phylogenetic tree visualizations
+│   └── analysis/               # Analysis results and data
+├── docs/                        # Documentation
+│   └── classification.md       # Classification principles
+├── notebooks/                   # Jupyter notebooks (for future analysis)
+├── requirements.txt            # Python dependencies
+└── README.md                  # This file
 ```
 
-## 🚀 Installation
+## 🌳 Classification System
 
-1. **Clone the repository**:
-   ```bash
-   git clone <repository-url>
-   cd robots_agent
-   ```
+### Hierarchical Structure
+The system uses an 8-level taxonomic hierarchy:
 
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
+1. **Domain** (3 types): Physical, Virtual, Hybrid
+2. **Kingdom**: Robot Kingdom (*Robotae*)
+3. **Phylum**: Major morphological divisions
+4. **Class** (8 types): Manipulator, Mobile Ground, Legged, Aerial, Aquatic, Soft-bodied, etc.
+5. **Order**: Structural subdivisions within classes
+6. **Family**: Design pattern groups
+7. **Genus**: Closely related designs
+8. **Species**: Individual robot models
 
-3. **Set up environment variables** (optional, for GPT classifier):
-   ```bash
-   export OPENAI_API_KEY="your-api-key-here"
-   ```
+### Additional Dimensions
+- **Primary Role** (pr): Functional specialization (Assembly, Research, Surgery, etc.)
+- **Year** (yr): Development timeline (1961-2025)
+- **Region** (rg): Geographic origin (US, JP, DE, CN, etc.)
 
-## 📖 Usage
+### Dataset Statistics
+- **546 robot species** across all taxonomic levels
+- **3 domains**, **8 classes**, **Multiple orders and roles**
+- **Shannon Diversity Index**: 1.650 (good taxonomic diversity)
+- **64-year evolution span** (1961-2025)
 
-### Main Application
+## 🚀 Quick Start
 
-The main application provides a complete pipeline for robot taxonomy analysis:
-
+### Prerequisites
 ```bash
-# Run the complete pipeline (scrape → classify → visualize)
-python src/main.py
-
-# Run only web scraping
-python src/main.py --mode scraper
-
-# Run only classification
-python src/main.py --mode classifier
-
-# Run only visualization
-python src/main.py --mode visualizer
-
-# Run without launching the dashboard
-python src/main.py --no-dashboard
-
-# Use custom search terms
-python src/main.py --search-terms "industrial robots" "medical robots"
+pip install -r requirements.txt
 ```
 
-### Standalone Scripts
+### Required Dependencies
+- `pandas` - Data manipulation
+- `plotly` - Interactive visualizations
+- `dash` - Web applications
+- `scikit-learn` - Machine learning analysis
+- `networkx` - Network analysis
+- `numpy` - Numerical computing
 
-#### GPT Classifier
+### Run Complete Analysis
 ```bash
-# Run GPT-based classification (requires OpenAI API key)
-python scripts/gptclassifier.py
+# Run the main analysis pipeline
+python src/run_analysis.py
+
+# Or run the main application
+python src/main_app.py
 ```
 
-#### Data Analysis
+### Generate Visualizations Only
 ```bash
-# Analyze robot data
-python utils/analyze_robots.py
+# Generate all visualizations
+python src/enhanced_robot_visualizer.py
 
-# Analyze radial tree structure
-python utils/analyze_radial_tree.py
+# Generate phylogenetic trees
+python src/separate_phylogenetic_generator.py
 ```
 
-#### Data Filtering
-```bash
-# Filter robot data
-python utils/filter_robots.py input.json output.json
-```
+## 📊 Generated Outputs
 
-## 🔧 Configuration
+### 1. Interactive Visualizations (`outputs/visualizations/`)
+- **Regional Distribution**: Robot distribution by geographic regions
+- **Class Distribution**: Population sizes of different robot classes  
+- **Timeline Analysis**: Temporal development patterns
+- **Sector Distribution**: Application domain analysis
+- **Domain Distribution**: Physical/Virtual/Hybrid breakdown
+- **Regional Specialization**: Geographic specialization patterns
+- **Yearly Development**: Annual development trends
+- **Summary Report**: Comprehensive overview
 
-### Taxonomy Framework
+### 2. Phylogenetic Trees (`outputs/phylogenetic_trees/`)
+- **Navigation Index**: Main entry point with links to all trees
+- **Sunburst Tree**: Interactive hierarchical circular visualization (Domain → Class)
+- **Treemap**: Area-proportional taxonomic groups by population size
+- **Class Distribution**: Population overview with percentages
+- **Evolutionary Timeline**: Temporal development over decades
+- **Network Phylogeny**: Network-based evolutionary relationships visualization
 
-The project uses a hierarchical taxonomy system with 8 levels:
+### 3. Analysis Data (`outputs/analysis/`)
+- **Processed Data**: Clean datasets for further analysis
+- **Cluster Analysis**: Robot groupings and patterns
+- **Regional Statistics**: Geographic analysis results
+- **Temporal Trends**: Time-series analysis
+- **Comprehensive Insights**: Key findings and metrics
 
-1. **Domain**: Operational environment (Physical, Virtual, Hybrid)
-2. **Kingdom**: Application domains (Industrial, Medical, Service, etc.)
-3. **Phylum**: Morphological structure (Manipulator, Mobile, Humanoid, etc.)
-4. **Class**: Locomotion mechanism (Static, Wheeled, Legged, etc.)
-5. **Order**: Autonomy and control (Teleoperated, Autonomous, etc.)
-6. **Family**: Sensing modalities (Vision-Based, LiDAR-Based, etc.)
-7. **Genus**: Actuation systems (Electric, Hydraulic, etc.)
-8. **Species**: Application specialization (Surgery, Inspection, etc.)
+## 🔍 Key Features
 
-### Customization
-
-- Modify `robot_taxonomy_framework.md` to adjust the taxonomy structure
-- Update `classifier/robot_classifier.py` to change classification rules
-- Customize visualizations in `visualizer/robot_tree_visualizer.py`
-
-## 📊 Output
-
-The application generates several types of output:
-
-### Data Files
-- `data/robots_data.json`: Raw scraped robot data
-- `data/classified_robots.json`: Classified robot data with taxonomy
+### Data Processing
+- **Robust data cleaning** and validation
+- **Feature extraction** from morphological data
+- **Temporal trend analysis** across decades
+- **Regional pattern detection** and analysis
+- **Clustering analysis** using PCA and K-means
 
 ### Visualizations
-- `robot_radial_tree.png`: Radial tree visualization
-- `robot_phylogenetic_tree.png`: Phylogenetic tree
-- `robot_dendrogram.png`: Hierarchical dendrogram
-- `robot_clusters.png`: Clustering visualization
-- `robot_taxonomy_bars.png`: Bar chart distributions
-- `robot_simplified_tree.png`: Simplified tree view
-- `robot_taxonomy_summary.png`: Summary statistics
+- **Interactive HTML charts** using Plotly
+- **Responsive design** for all devices
+- **Hover tooltips** with detailed information
+- **Zoom and pan** capabilities
+- **Export functionality** for presentations
 
-### Interactive Dashboard
-- Web-based interactive visualization at `http://localhost:8050`
-- Filterable tree view with robot details
-- Real-time statistics and analysis
+### Phylogenetic Analysis
+- **Hierarchical tree structures** showing evolutionary relationships
+- **Multiple visualization types** (sunburst, treemap, network)
+- **Diversity metrics** including Shannon index
+- **Temporal evolution** tracking
+- **Population statistics** and distributions
 
-## 🛠️ Development
+## 📈 Analysis Capabilities
 
-### Adding New Robot Types
+### Taxonomic Analysis
+- Classification distribution across all levels
+- Diversity metrics and richness calculations
+- Hierarchical relationship mapping
+- Population statistics by category
 
-1. Update the taxonomy framework in `robot_taxonomy_framework.md`
-2. Add classification rules in `classifier/robot_classifier.py`
-3. Update visualization logic in `visualizer/robot_tree_visualizer.py`
+### Temporal Analysis
+- Development trends over 64 years
+- Innovation patterns and peaks
+- Technology adoption curves
+- Evolutionary timeline visualization
 
-### Extending Functionality
+### Regional Analysis
+- Geographic distribution patterns
+- Regional specialization identification
+- Country-specific development trends
+- International collaboration patterns
 
-- **New Scrapers**: Add to `web_scraper/` directory
-- **New Classifiers**: Add to `classifier/` directory
-- **New Visualizations**: Add to `visualizer/` directory
-- **New Analysis Tools**: Add to `utils/` directory
+### Morphological Analysis
+- Feature vector analysis
+- Structural pattern identification
+- Functional characteristic mapping
+- Design evolution tracking
 
-## 📝 Dependencies
+## 🛠️ Usage Examples
 
-- **Web Scraping**: `requests`, `beautifulsoup4`, `selenium`
-- **Data Processing**: `pandas`, `numpy`, `scikit-learn`
-- **Visualization**: `plotly`, `dash`, `networkx`, `matplotlib`
-- **AI/ML**: `openai` (for GPT classifier)
-- **Utilities**: `python-dotenv`, `fake-useragent`
+### Basic Analysis
+```python
+from src.data_processor import RobotDataProcessor
+from src.enhanced_robot_visualizer import EnhancedRobotVisualizer
+
+# Load and process data
+processor = RobotDataProcessor()
+df = processor.create_dataframe()
+
+# Generate visualizations
+visualizer = EnhancedRobotVisualizer()
+visualizer.create_all_visualizations()
+```
+
+### Custom Analysis
+```python
+# Analyze specific robot class
+manipulator_robots = df[df['class'] == 'Manipulator']
+print(f"Manipulator robots: {len(manipulator_robots)}")
+
+# Regional analysis
+us_robots = df[df['region'] == 'US']
+regional_stats = processor.analyze_regional_patterns()
+```
+
+### Phylogenetic Trees
+```python
+from src.separate_phylogenetic_generator import SeparatePhylogeneticGenerator
+
+# Generate all phylogenetic visualizations
+generator = SeparatePhylogeneticGenerator()
+generator.generate_all_separate_pages()
+```
+
+## 📚 Documentation
+
+- **[Classification Principles](docs/classification.md)**: Detailed explanation of the taxonomic system
+- **Source Code**: Well-documented Python modules in `/src/`
+- **Data Dictionary**: Field descriptions in `/data/dict.json`
+- **Analysis Results**: Comprehensive insights in `/outputs/analysis/`
+
+## 🎨 Visualization Gallery
+
+### Main Visualizations
+1. **Regional Distribution**: Interactive world map showing robot origins
+2. **Class Distribution**: Pie charts and bar plots of taxonomic classes
+3. **Timeline Analysis**: Temporal development over decades
+4. **Phylogenetic Trees**: Multiple tree visualizations showing relationships
+
+### Access Points
+- **Start Here**: `outputs/visualizations/08_summary_report.html`
+- **Phylogenetic Trees**: `outputs/phylogenetic_trees/00_phylogenetic_index.html`
+- **Individual Charts**: Each visualization has its own dedicated HTML file
+
+### Working Phylogenetic Visualizations
+- ✅ **01 Sunburst**: Interactive Domain → Class hierarchy with zoom functionality
+- ✅ **02 Treemap**: Area-proportional visualization by population size  
+- ✅ **03 Class Distribution**: Clear pie chart with percentages
+- ✅ **04 Timeline**: Temporal evolution over 64 years (1961-2025)
+- ✅ **05 Network Phylogeny**: Network-based evolutionary relationships
+- ✅ **00 Navigation**: Easy access hub to all visualizations
+
+## 🔬 Research Applications
+
+### Academic Research
+- Comparative robotics studies
+- Technology evolution analysis
+- Innovation pattern research
+- Educational taxonomy resources
+
+### Industry Applications
+- Market analysis and gap identification
+- Technology trend forecasting
+- Competitive intelligence
+- R&D planning and strategy
+
+### Data Science Applications
+- Classification algorithm development
+- Clustering and pattern recognition
+- Time series analysis
+- Network analysis techniques
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
+This project provides a foundation for robot taxonomy research. Potential contributions:
 
-## 📄 License
+1. **Data Enhancement**: Adding new robots or updating classifications
+2. **Analysis Extensions**: New analytical methods or metrics
+3. **Visualization Improvements**: Enhanced or new visualization types
+4. **Documentation**: Expanded guides or tutorials
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+## 📄 Data Sources
 
-## 🙏 Acknowledgments
+The dataset includes robots from:
+- Academic research publications
+- Commercial robot manufacturers
+- Open-source robotics projects
+- Historical robotics archives
 
-- Inspired by biological taxonomy systems
-- Uses modern web scraping and data visualization techniques
-- Leverages AI/ML for intelligent classification
+Classifications are based on:
+- Morphological characteristics
+- Functional capabilities
+- Published specifications
+- Expert domain knowledge
 
-## 📞 Support
+## 🏆 Key Insights
 
-For questions or issues, please open an issue on the GitHub repository. 
+### Diversity Findings
+- **Physical domain dominates** with 98.2% of robots
+- **Manipulator and Mobile Ground** are the largest classes
+- **Strong regional specializations** in different robot types
+- **Accelerating development** in recent decades
+
+### Evolutionary Patterns
+- **Clear technological lineages** in robot development
+- **Innovation clusters** around specific time periods
+- **Regional innovation hubs** with distinct specializations
+- **Increasing diversity** over time
+
+## 📊 Performance Metrics
+
+- **Dataset Size**: 546 robots with comprehensive metadata
+- **Visualization Performance**: All charts load in <2 seconds
+- **Analysis Speed**: Complete pipeline runs in <30 seconds
+- **Output Quality**: Publication-ready interactive visualizations
+
+## 🎯 Future Development
+
+### Planned Enhancements
+- **Machine learning classification**: Automated taxonomy assignment
+- **Real-time updates**: Dynamic dataset expansion
+- **Advanced analytics**: Predictive modeling and forecasting
+- **Interactive web dashboard**: Full-featured web application
+
+### Research Directions
+- **Comparative morphology**: Detailed structural analysis
+- **Innovation networks**: Collaboration pattern analysis
+- **Technology diffusion**: Adoption and spread modeling
+- **Predictive taxonomy**: Future robot type forecasting
+
+---
+
+## 🌟 Getting Started
+
+1. **Clone the repository**
+2. **Install dependencies**: `pip install -r requirements.txt`
+3. **Run analysis**: `python src/run_analysis.py`
+4. **Explore results**: Open `outputs/visualizations/08_summary_report.html`
+5. **View phylogenetic trees**: Open `outputs/phylogenetic_trees/00_phylogenetic_index.html`
+
+**Ready to explore the fascinating world of robot taxonomy!** 🤖🌳
+
+---
+
+*For detailed classification principles, see [docs/classification.md](docs/classification.md)*

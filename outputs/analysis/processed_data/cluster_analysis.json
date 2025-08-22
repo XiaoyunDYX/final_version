@@ -1,0 +1,3902 @@
+{
+  "clusters": {
+    "cluster_0": {
+      "size": 72,
+      "dominant_class": "Aquatic",
+      "dominant_region": "Japan (Alt)",
+      "avg_year": 2012.7464788732395,
+      "robots": [
+        {
+          "id": 82,
+          "name": "Starship Technologies Delivery Robot",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2014.0
+        },
+        {
+          "id": 102,
+          "name": "Clearpath Robotics Jackal",
+          "class": "Aquatic",
+          "region_name": "Canada",
+          "year": 2014.0
+        },
+        {
+          "id": 103,
+          "name": "Clearpath Robotics Husky",
+          "class": "Aquatic",
+          "region_name": "Canada",
+          "year": 2010.0
+        },
+        {
+          "id": 104,
+          "name": "Frankenstein (MIT)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 1968.0
+        },
+        {
+          "id": 105,
+          "name": "Shakey the Robot (SRI)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 1966.0
+        },
+        {
+          "id": 107,
+          "name": "RoboCup Soccer Robots",
+          "class": "Aquatic",
+          "region_name": "India",
+          "year": 1997.0
+        },
+        {
+          "id": 108,
+          "name": "Mars Pathfinder (Sojourner)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 1997.0
+        },
+        {
+          "id": 109,
+          "name": "Mars Exploration Rovers (Spirit and Opportunity)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2004.0
+        },
+        {
+          "id": 110,
+          "name": "Mars Science Laboratory (Curiosity)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 111,
+          "name": "Mars 2020 (Perseverance)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 120,
+          "name": "Festo BionicFinWave",
+          "class": "Aquatic",
+          "region_name": "Germany",
+          "year": 2018.0
+        },
+        {
+          "id": 129,
+          "name": "Shakey the Robot",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 1966.0
+        },
+        {
+          "id": 133,
+          "name": "Spirit",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2004.0
+        },
+        {
+          "id": 134,
+          "name": "Opportunity",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2004.0
+        },
+        {
+          "id": 135,
+          "name": "Curiosity",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 136,
+          "name": "Perseverance",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 148,
+          "name": "Iron Ox Grover",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2018.0
+        },
+        {
+          "id": 198,
+          "name": "MOTOMAN-GP4",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 199,
+          "name": "MOTOMAN-GP7",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 200,
+          "name": "MOTOMAN-GP8",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 201,
+          "name": "MOTOMAN-GP12",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 202,
+          "name": "MOTOMAN-GP25",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 203,
+          "name": "MOTOMAN-GP25-12",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 204,
+          "name": "MOTOMAN-GP20HL",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 205,
+          "name": "MOTOMAN-GP35L",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 206,
+          "name": "MOTOMAN-GP50",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 207,
+          "name": "MOTOMAN-GP88",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 208,
+          "name": "MOTOMAN-GP110",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 209,
+          "name": "MOTOMAN-GP110B",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 210,
+          "name": "MOTOMAN-GP180",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 211,
+          "name": "MOTOMAN-GP180-120",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 212,
+          "name": "MOTOMAN-GP215",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 213,
+          "name": "MOTOMAN-GP225",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 214,
+          "name": "MOTOMAN-GP250",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 215,
+          "name": "MOTOMAN-GP280",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 216,
+          "name": "MOTOMAN-GP400",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 217,
+          "name": "MOTOMAN-GP600",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 218,
+          "name": "MOTOMAN-GP165R",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 219,
+          "name": "MOTOMAN-GP200R",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 220,
+          "name": "MOTOMAN-GP300R",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 221,
+          "name": "MOTOMAN-GP400R",
+          "class": "Aquatic",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 385,
+          "name": "AeroVironment RQ-14 Dragon Eye",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 400,
+          "name": "Sea Robin XFC",
+          "class": "Aquatic",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 410,
+          "name": "Wheelbarrow (robot)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 447,
+          "name": "Domo (robot)",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": null
+        },
+        {
+          "id": 472,
+          "name": "Xbot - Model M (Orin NX)",
+          "class": "Aquatic",
+          "region_name": "Unknown/International",
+          "year": 2018.0
+        },
+        {
+          "id": 473,
+          "name": "Lynxmotion - A4WD3 Rugged Wheeled Rover RC Kit",
+          "class": "Aquatic",
+          "region_name": "Canada",
+          "year": 2018.0
+        },
+        {
+          "id": 474,
+          "name": "Lynxmotion - A4WD3 Rugged Mecanum Rover Autonomous Kit",
+          "class": "Aquatic",
+          "region_name": "Canada",
+          "year": 2018.0
+        },
+        {
+          "id": 475,
+          "name": "Rosbot 2 - Orin Nano",
+          "class": "Aquatic",
+          "region_name": "Poland",
+          "year": 2018.0
+        },
+        {
+          "id": 479,
+          "name": "ADIR Power",
+          "class": "Aquatic",
+          "region_name": "Unknown/International",
+          "year": 2018.0
+        },
+        {
+          "id": 480,
+          "name": "Leo Rover v1.8 Developer Kit",
+          "class": "Aquatic",
+          "region_name": "Poland",
+          "year": 2018.0
+        },
+        {
+          "id": 481,
+          "name": "Leo Rover v1.8 (Assembled)",
+          "class": "Aquatic",
+          "region_name": "Poland",
+          "year": 2018.0
+        },
+        {
+          "id": 482,
+          "name": "Rosbot Plus AC - Orin Nano (Auto Charge)",
+          "class": "Aquatic",
+          "region_name": "Poland",
+          "year": 2018.0
+        },
+        {
+          "id": 484,
+          "name": "Rosbot Plus - Orin Nano",
+          "class": "Aquatic",
+          "region_name": "Poland",
+          "year": 2018.0
+        },
+        {
+          "id": 485,
+          "name": "Rosbot Pro - Orin Nano",
+          "class": "Aquatic",
+          "region_name": "Poland",
+          "year": 2018.0
+        },
+        {
+          "id": 486,
+          "name": "Rosbot Plus - Chassis",
+          "class": "Aquatic",
+          "region_name": "Poland",
+          "year": 2018.0
+        },
+        {
+          "id": 487,
+          "name": "MicroTraxx Inspection Robot",
+          "class": "Aquatic",
+          "region_name": "Unknown/International",
+          "year": 2018.0
+        },
+        {
+          "id": 488,
+          "name": "Robofleet - Orin Nano x5",
+          "class": "Aquatic",
+          "region_name": "Unknown/International",
+          "year": 2018.0
+        },
+        {
+          "id": 489,
+          "name": "Gazebo",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2002.0
+        },
+        {
+          "id": 490,
+          "name": "Webots",
+          "class": "Aquatic",
+          "region_name": "Switzerland",
+          "year": 1996.0
+        },
+        {
+          "id": 492,
+          "name": "MuJoCo",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 500,
+          "name": "Swarmanoid Hand-bot",
+          "class": "Aquatic",
+          "region_name": "Belgium",
+          "year": 2006.0
+        },
+        {
+          "id": 506,
+          "name": "Bayonet Amphibious Crawling Robot",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2022.0
+        },
+        {
+          "id": 511,
+          "name": "Harvard Robotic Fish Swarm",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 512,
+          "name": "ETH Zurich EVE Robot Fish",
+          "class": "Aquatic",
+          "region_name": "Switzerland",
+          "year": 2024.0
+        },
+        {
+          "id": 513,
+          "name": "Harvard RoboBee",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2013.0
+        },
+        {
+          "id": 514,
+          "name": "Crane Fly-Inspired Landing Robot",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2025.0
+        },
+        {
+          "id": 515,
+          "name": "Octopus Hierarchical Suction Robot",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2025.0
+        },
+        {
+          "id": 516,
+          "name": "Stingray-Inspired Amphibious Robot",
+          "class": "Aquatic",
+          "region_name": "India",
+          "year": 2025.0
+        },
+        {
+          "id": 520,
+          "name": "Lattice-Based Autonomous Structure Building Robot",
+          "class": "Aquatic",
+          "region_name": "United States",
+          "year": 2024.0
+        },
+        {
+          "id": 523,
+          "name": "Snake-Inspired Serpentine Robot",
+          "class": "Aquatic",
+          "region_name": "Japan",
+          "year": 2019.0
+        },
+        {
+          "id": 524,
+          "name": "Holonomic Platform Research Robot",
+          "class": "Aquatic",
+          "region_name": "Germany",
+          "year": 2021.0
+        }
+      ]
+    },
+    "cluster_1": {
+      "size": 177,
+      "dominant_class": "Mobile Ground",
+      "dominant_region": "Unknown/International",
+      "avg_year": 2013.425806451613,
+      "robots": [
+        {
+          "id": 39,
+          "name": "FANUC SR-3iA",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 40,
+          "name": "FANUC SR-6iA",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 41,
+          "name": "FANUC SR-12iA",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 42,
+          "name": "FANUC SR-20iA",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 70,
+          "name": "iRobot PackBot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2001.0
+        },
+        {
+          "id": 71,
+          "name": "Foster-Miller TALON",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2000.0
+        },
+        {
+          "id": 72,
+          "name": "Guardium",
+          "class": "Mobile Ground",
+          "region_name": "Israel",
+          "year": 2009.0
+        },
+        {
+          "id": 74,
+          "name": "Dragon Runner",
+          "class": "Mobile Ground",
+          "region_name": "United Kingdom",
+          "year": 2007.0
+        },
+        {
+          "id": 78,
+          "name": "iRobot Roomba",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2002.0
+        },
+        {
+          "id": 81,
+          "name": "Knightscope K5",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2013.0
+        },
+        {
+          "id": 83,
+          "name": "Moxi (Diligent Robotics)",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2018.0
+        },
+        {
+          "id": 93,
+          "name": "Omnicell XT",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": null
+        },
+        {
+          "id": 117,
+          "name": "International Space Station (ISS) Robotic Arm (Canadarm2)",
+          "class": "Mobile Ground",
+          "region_name": "Canada",
+          "year": 2001.0
+        },
+        {
+          "id": 119,
+          "name": "Festo BionicKangaroo",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": 2014.0
+        },
+        {
+          "id": 123,
+          "name": "RoboBee (Harvard)",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2013.0
+        },
+        {
+          "id": 128,
+          "name": "Unimate",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 1961.0
+        },
+        {
+          "id": 131,
+          "name": "Aibo",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": 1999.0
+        },
+        {
+          "id": 132,
+          "name": "Roomba",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2002.0
+        },
+        {
+          "id": 138,
+          "name": "Canadarm2",
+          "class": "Mobile Ground",
+          "region_name": "Canada",
+          "year": 2001.0
+        },
+        {
+          "id": 139,
+          "name": "FarmBot Genesis",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2016.0
+        },
+        {
+          "id": 140,
+          "name": "FarmDroid FD20",
+          "class": "Mobile Ground",
+          "region_name": "Denmark",
+          "year": 2019.0
+        },
+        {
+          "id": 142,
+          "name": "Naïo Technologies Dino",
+          "class": "Unknown",
+          "region_name": "France",
+          "year": 2018.0
+        },
+        {
+          "id": 143,
+          "name": "Naïo Technologies Ted",
+          "class": "Unknown",
+          "region_name": "France",
+          "year": 2017.0
+        },
+        {
+          "id": 144,
+          "name": "Carbon Robotics LaserWeeder",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 145,
+          "name": "Blue River Technology LettuceBot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 146,
+          "name": "Harvest CROO Robotics Strawberry Harvester",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2017.0
+        },
+        {
+          "id": 147,
+          "name": "Agrobot SW6010",
+          "class": "Mobile Ground",
+          "region_name": "Spain",
+          "year": 2015.0
+        },
+        {
+          "id": 152,
+          "name": "EcoRobotix Aigro",
+          "class": "Mobile Ground",
+          "region_name": "Switzerland",
+          "year": 2011.0
+        },
+        {
+          "id": 154,
+          "name": "Root AI Virgo",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2019.0
+        },
+        {
+          "id": 155,
+          "name": "Aigen Element",
+          "class": "Unknown",
+          "region_name": "United States",
+          "year": 2020.0
+        },
+        {
+          "id": 157,
+          "name": "Nexus Robotics Nexus",
+          "class": "Mobile Ground",
+          "region_name": "Canada",
+          "year": 2019.0
+        },
+        {
+          "id": 159,
+          "name": "Rabbit Tractors",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2020.0
+        },
+        {
+          "id": 160,
+          "name": "Harvest Automation HV-100",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 161,
+          "name": "Niqo Robotics (formerly FarmWise) Titan",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2020.0
+        },
+        {
+          "id": 196,
+          "name": "MOTOMAN-SG400",
+          "class": "Mobile Ground",
+          "region_name": "Japan (Alt)",
+          "year": 2000.0
+        },
+        {
+          "id": 197,
+          "name": "MOTOMAN-SG650",
+          "class": "Mobile Ground",
+          "region_name": "Japan (Alt)",
+          "year": 2000.0
+        },
+        {
+          "id": 264,
+          "name": "KUKA KR SCARA",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 265,
+          "name": "KUKA LBR iisy",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": 2018.0
+        },
+        {
+          "id": 268,
+          "name": "KUKA LBR iiwa",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": 2013.0
+        },
+        {
+          "id": 290,
+          "name": "Universal Robots UR3e",
+          "class": "Mobile Ground",
+          "region_name": "Denmark",
+          "year": 2012.0
+        },
+        {
+          "id": 291,
+          "name": "Universal Robots UR5e",
+          "class": "Mobile Ground",
+          "region_name": "Denmark",
+          "year": 2008.0
+        },
+        {
+          "id": 292,
+          "name": "Universal Robots UR10e",
+          "class": "Mobile Ground",
+          "region_name": "Denmark",
+          "year": 2012.0
+        },
+        {
+          "id": 293,
+          "name": "Universal Robots UR16e",
+          "class": "Mobile Ground",
+          "region_name": "Denmark",
+          "year": 2018.0
+        },
+        {
+          "id": 294,
+          "name": "Universal Robots UR20",
+          "class": "Mobile Ground",
+          "region_name": "Denmark",
+          "year": 2022.0
+        },
+        {
+          "id": 302,
+          "name": "Comau Racer-5-0.80 COBOT",
+          "class": "Mobile Ground",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 304,
+          "name": "Comau REBEL-S6-0.45",
+          "class": "Mobile Ground",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 305,
+          "name": "Comau REBEL-S6-0.60",
+          "class": "Mobile Ground",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 306,
+          "name": "Comau REBEL-S6-0.60C",
+          "class": "Mobile Ground",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 307,
+          "name": "Comau REBEL-S6-0.75",
+          "class": "Mobile Ground",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 308,
+          "name": "Comau REBEL-S6-0.75C",
+          "class": "Mobile Ground",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 337,
+          "name": "Agovor GOVOR",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 338,
+          "name": "Agrointelli Robotti",
+          "class": "Mobile Ground",
+          "region_name": "Denmark",
+          "year": 2020.0
+        },
+        {
+          "id": 339,
+          "name": "AgXeed AgBot 2.055W3",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": 2020.0
+        },
+        {
+          "id": 340,
+          "name": "AgXeed AgBot5 2.055W4",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": 2020.0
+        },
+        {
+          "id": 341,
+          "name": "AgXeed Agbot 5.115T2",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": 2020.0
+        },
+        {
+          "id": 342,
+          "name": "AIGRO UP",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 343,
+          "name": "Amos Power A3/A4",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 345,
+          "name": "Augean Robotics Burro",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2020.0
+        },
+        {
+          "id": 346,
+          "name": "AutoAgri ICS20",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 347,
+          "name": "Automato Robotics Sunjer A2",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 348,
+          "name": "Digital workbench Tipard 350",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 349,
+          "name": "Digital workbench Tipard 1800",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 350,
+          "name": "Directed Machines Land Care Robot",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 351,
+          "name": "DPH Industries The FarmHand Tractor",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 352,
+          "name": "EarthAutomations Dood",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 353,
+          "name": "Exobotic Technologies Land-A2",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 354,
+          "name": "Exxact Robotics Traxx",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 355,
+          "name": "Farmrobo iMog",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 356,
+          "name": "FieldRobotics HammerHead",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 357,
+          "name": "Hari Tech haRiBOT",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 358,
+          "name": "Korechi RoamIO-HCT",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 359,
+          "name": "Korechi RoamIO-HCW",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 360,
+          "name": "Korechi RoamIO-mini",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 361,
+          "name": "Lambers & Exobotic Technologies WTD4",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 362,
+          "name": "Naïo Jo",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 363,
+          "name": "Naïo Orio",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 364,
+          "name": "Naïo Oz",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 365,
+          "name": "Nature Robotics Lero.03",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 366,
+          "name": "PeK Automotive Slopehelper",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 367,
+          "name": "Pixelfarming Robot One",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 368,
+          "name": "Robotics Plus Prospr",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 369,
+          "name": "Sitia Trektor",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 370,
+          "name": "Siza Robotics TOOGO",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 372,
+          "name": "STEVmotion Vineatrac",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 373,
+          "name": "SwarmFarm SwarmBot",
+          "class": "Mobile Ground",
+          "region_name": "Australia",
+          "year": 2020.0
+        },
+        {
+          "id": 374,
+          "name": "Traktorarvid Drever 120",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 375,
+          "name": "VitiBot Bakus",
+          "class": "Mobile Ground",
+          "region_name": "France",
+          "year": 2020.0
+        },
+        {
+          "id": 376,
+          "name": "XMachines – X100 Ultra",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 377,
+          "name": "Zauberzeug Field Friend",
+          "class": "Unknown",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 378,
+          "name": "Military robot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 379,
+          "name": "Sentry gun",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 382,
+          "name": "Lethal autonomous weapon",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 384,
+          "name": "AAI RQ-7 Shadow",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 387,
+          "name": "Atobá XR",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 388,
+          "name": "Aurora Excalibur",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 389,
+          "name": "Autonomous Rotorcraft Sniper System",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 391,
+          "name": "GIDS Shahpar",
+          "class": "Mobile Ground",
+          "region_name": "Pakistan",
+          "year": 2010.0
+        },
+        {
+          "id": 392,
+          "name": "GIDS Shahpar-II",
+          "class": "Mobile Ground",
+          "region_name": "Pakistan",
+          "year": 2010.0
+        },
+        {
+          "id": 393,
+          "name": "GIDS Shahpar-III",
+          "class": "Mobile Ground",
+          "region_name": "Pakistan",
+          "year": 2010.0
+        },
+        {
+          "id": 394,
+          "name": "INTA SIVA",
+          "class": "Mobile Ground",
+          "region_name": "Spain",
+          "year": 2010.0
+        },
+        {
+          "id": 395,
+          "name": "Lockheed Martin Desert Hawk III",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 396,
+          "name": "Northrop Grumman MQ-8 Fire Scout",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 397,
+          "name": "Northrop Grumman MQ-8C Fire Scout",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 398,
+          "name": "General Atomics MQ-9 Reaper",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 399,
+          "name": "Qods Mohajer 10",
+          "class": "Mobile Ground",
+          "region_name": "Pakistan",
+          "year": 2010.0
+        },
+        {
+          "id": 402,
+          "name": "ST Aerospace Skyblade",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 403,
+          "name": "Sypaq Corvo Precision Payload Delivery System",
+          "class": "Mobile Ground",
+          "region_name": "Australia",
+          "year": 2010.0
+        },
+        {
+          "id": 405,
+          "name": "ANDROS",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 406,
+          "name": "Demining robot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 407,
+          "name": "DRDO Daksh",
+          "class": "Mobile Ground",
+          "region_name": "India",
+          "year": 2010.0
+        },
+        {
+          "id": 408,
+          "name": "MarkV-A1",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 409,
+          "name": "Panama remote controlled vehicle",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 411,
+          "name": "IRobot Negotiator",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 412,
+          "name": "R-Gator",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 413,
+          "name": "IRobot Ranger",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 414,
+          "name": "IRobot Transphibian",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 415,
+          "name": "IRobot Warrior",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 416,
+          "name": "PackBot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 418,
+          "name": "Unmanned ground combat vehicle",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 419,
+          "name": "Armored Combat Engineer Robot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 421,
+          "name": "Berserk (robot)",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 422,
+          "name": "Black Knight (vehicle)",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 423,
+          "name": "Crusher (robot)",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 424,
+          "name": "Energetically Autonomous Tactical Robot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 425,
+          "name": "Miloš (unmanned ground vehicle)",
+          "class": "Mobile Ground",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 426,
+          "name": "Mobile Land Mine",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 427,
+          "name": "Multifunctional utility/logistics and equipment vehicle",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 428,
+          "name": "Muntra",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 429,
+          "name": "Nazir rocket launcher (robot)",
+          "class": "Mobile Ground",
+          "region_name": "Iran",
+          "year": 2010.0
+        },
+        {
+          "id": 431,
+          "name": "Ripsaw (vehicle)",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 432,
+          "name": "Robattle",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 433,
+          "name": "SYRANO",
+          "class": "Mobile Ground",
+          "region_name": "France",
+          "year": 2010.0
+        },
+        {
+          "id": 434,
+          "name": "History of unmanned combat aerial vehicles",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 436,
+          "name": "Unmanned combat aerial vehicle",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 437,
+          "name": "Unmanned surveillance and reconnaissance aerial vehicle",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 440,
+          "name": "Milkor 380",
+          "class": "Mobile Ground",
+          "region_name": "South Africa",
+          "year": 2010.0
+        },
+        {
+          "id": 441,
+          "name": "Mirsad-1",
+          "class": "Mobile Ground",
+          "region_name": "Lebanon",
+          "year": 2010.0
+        },
+        {
+          "id": 442,
+          "name": "NCSIST Albatross",
+          "class": "Mobile Ground",
+          "region_name": "Taiwan",
+          "year": 2010.0
+        },
+        {
+          "id": 443,
+          "name": "Domestic robot",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 444,
+          "name": "FoldiMate",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 445,
+          "name": "Amazon Astro",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 446,
+          "name": "Automated pool cleaner",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 448,
+          "name": "EEVE",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 449,
+          "name": "Laundroid",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": null
+        },
+        {
+          "id": 450,
+          "name": "Laundry-folding machine",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 451,
+          "name": "Looj",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 453,
+          "name": "Moley Robotics",
+          "class": "Mobile Ground",
+          "region_name": "United Kingdom",
+          "year": null
+        },
+        {
+          "id": 455,
+          "name": "Roborior",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": null
+        },
+        {
+          "id": 456,
+          "name": "Scooba (brand)",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 457,
+          "name": "Toyota Partner Robot",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": null
+        },
+        {
+          "id": 458,
+          "name": "Wakamaru",
+          "class": "Mobile Ground",
+          "region_name": "Japan",
+          "year": 2003.0
+        },
+        {
+          "id": 459,
+          "name": "Robotic vacuum cleaner",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 460,
+          "name": "Dreame Technology",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": null
+        },
+        {
+          "id": 461,
+          "name": "Dustbot",
+          "class": "Mobile Ground",
+          "region_name": "Italy",
+          "year": null
+        },
+        {
+          "id": 462,
+          "name": "Ecovacs Robotics",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": null
+        },
+        {
+          "id": 463,
+          "name": "Electrolux Trilobite",
+          "class": "Mobile Ground",
+          "region_name": "Sweden",
+          "year": 2001.0
+        },
+        {
+          "id": 464,
+          "name": "Eufy",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": null
+        },
+        {
+          "id": 465,
+          "name": "Friendly Vac RV400",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 466,
+          "name": "Kärcher RC3000",
+          "class": "Mobile Ground",
+          "region_name": "Germany",
+          "year": null
+        },
+        {
+          "id": 467,
+          "name": "LG Roboking",
+          "class": "Mobile Ground",
+          "region_name": "South Korea",
+          "year": null
+        },
+        {
+          "id": 468,
+          "name": "Neato XV-11",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 469,
+          "name": "Roborock",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": null
+        },
+        {
+          "id": 478,
+          "name": "MARCo-Lite: Your Personal Mental Health Buddy!",
+          "class": "Mobile Ground",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 503,
+          "name": "GuardBot HARV (Highly Adaptive Robotic Vehicle)",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2015.0
+        },
+        {
+          "id": 522,
+          "name": "LTA Balloon-Based Surveillance Robot",
+          "class": "Mobile Ground",
+          "region_name": "United States",
+          "year": 2018.0
+        },
+        {
+          "id": 527,
+          "name": "SIASUN SR210A-210/2.65",
+          "class": "Unknown",
+          "region_name": "China",
+          "year": 2021.0
+        },
+        {
+          "id": 528,
+          "name": "SIASUN Mobile Robot AGV",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2018.0
+        },
+        {
+          "id": 529,
+          "name": "ROKAE xMate CR7",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2020.0
+        },
+        {
+          "id": 531,
+          "name": "ROKAE NB80 Industrial Robot",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2022.0
+        },
+        {
+          "id": 532,
+          "name": "DJI Mavic 3 Pro",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2023.0
+        },
+        {
+          "id": 538,
+          "name": "Chinese AI Military Swarm Robot",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2024.0
+        },
+        {
+          "id": 539,
+          "name": "MedBot AI Surgical Robot",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2025.0
+        },
+        {
+          "id": 540,
+          "name": "Chinese Remote Surgical Robot",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2024.0
+        },
+        {
+          "id": 542,
+          "name": "Pudu T600 Industrial Delivery Robot",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2025.0
+        },
+        {
+          "id": 543,
+          "name": "Pudu Service Delivery Robot",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2023.0
+        },
+        {
+          "id": 544,
+          "name": "Suzhou Botian Agricultural Robot",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2023.0
+        },
+        {
+          "id": 546,
+          "name": "Chinese Robotic Farm System",
+          "class": "Mobile Ground",
+          "region_name": "China",
+          "year": 2025.0
+        }
+      ]
+    },
+    "cluster_2": {
+      "size": 72,
+      "dominant_class": "Legged",
+      "dominant_region": "Japan (Alt)",
+      "avg_year": 2009.9166666666667,
+      "robots": [
+        {
+          "id": 19,
+          "name": "FANUC R-1000iA/80F",
+          "class": "Legged",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 20,
+          "name": "FANUC R-2000iC/165F",
+          "class": "Legged",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 49,
+          "name": "ABB IRB 6700",
+          "class": "Legged",
+          "region_name": "Sweden",
+          "year": 2013.0
+        },
+        {
+          "id": 68,
+          "name": "Boston Dynamics BigDog",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2005.0
+        },
+        {
+          "id": 69,
+          "name": "Boston Dynamics LS3",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 79,
+          "name": "SoftBank Robotics Pepper",
+          "class": "Legged",
+          "region_name": "Japan",
+          "year": 2014.0
+        },
+        {
+          "id": 80,
+          "name": "SoftBank Robotics Nao",
+          "class": "Legged",
+          "region_name": "France",
+          "year": 2008.0
+        },
+        {
+          "id": 84,
+          "name": "Sanbot Elf",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2016.0
+        },
+        {
+          "id": 85,
+          "name": "UBTECH Walker",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2018.0
+        },
+        {
+          "id": 86,
+          "name": "Temi",
+          "class": "Legged",
+          "region_name": "Israel",
+          "year": 2016.0
+        },
+        {
+          "id": 87,
+          "name": "Robotics REEM-C",
+          "class": "Legged",
+          "region_name": "Spain",
+          "year": 2010.0
+        },
+        {
+          "id": 98,
+          "name": "Boston Dynamics Atlas",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2013.0
+        },
+        {
+          "id": 99,
+          "name": "Boston Dynamics Spot",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2016.0
+        },
+        {
+          "id": 100,
+          "name": "SoftBank Robotics Romeo",
+          "class": "Legged",
+          "region_name": "France",
+          "year": 2009.0
+        },
+        {
+          "id": 101,
+          "name": "PAL Robotics TALOS",
+          "class": "Legged",
+          "region_name": "Spain",
+          "year": 2017.0
+        },
+        {
+          "id": 106,
+          "name": "ASIMO (Honda)",
+          "class": "Legged",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 124,
+          "name": "Spot (Boston Dynamics)",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2016.0
+        },
+        {
+          "id": 125,
+          "name": "Atlas (Boston Dynamics)",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2013.0
+        },
+        {
+          "id": 126,
+          "name": "Digit (Agility Robotics)",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2019.0
+        },
+        {
+          "id": 127,
+          "name": "Ameca (Engineered Arts)",
+          "class": "Legged",
+          "region_name": "United Kingdom",
+          "year": 2021.0
+        },
+        {
+          "id": 130,
+          "name": "ASIMO",
+          "class": "Legged",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 153,
+          "name": "Autonomous Tractor (John Deere)",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2022.0
+        },
+        {
+          "id": 158,
+          "name": "Abundant Robotics Apple Harvesting Robot",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2019.0
+        },
+        {
+          "id": 166,
+          "name": "ABB IRB 1200 Hygienic",
+          "class": "Legged",
+          "region_name": "Sweden",
+          "year": 2009.0
+        },
+        {
+          "id": 178,
+          "name": "ABB IRB 6650S",
+          "class": "Legged",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 179,
+          "name": "ABB IRB 6660",
+          "class": "Legged",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 229,
+          "name": "MOTOMAN-SP80",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 230,
+          "name": "MOTOMAN-SP100",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 231,
+          "name": "MOTOMAN-SP100B",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 232,
+          "name": "MOTOMAN-SP130",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 233,
+          "name": "MOTOMAN-SP165",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 234,
+          "name": "MOTOMAN-SP165-105",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 235,
+          "name": "MOTOMAN-SP210",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 236,
+          "name": "MOTOMAN-SP235",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 237,
+          "name": "MOTOMAN-SP110H",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 238,
+          "name": "MOTOMAN-SP180H",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 239,
+          "name": "MOTOMAN-SP180H-110",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 240,
+          "name": "MOTOMAN-SP225H",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 241,
+          "name": "MOTOMAN-SP225H-135",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 242,
+          "name": "MOTOMAN-SP150R",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 243,
+          "name": "MOTOMAN-SP185R",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 244,
+          "name": "MOTOMAN-MPX1150",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 245,
+          "name": "MOTOMAN-MPX1400",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 246,
+          "name": "MOTOMAN-MPX1950",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 247,
+          "name": "MOTOMAN-MPX2600",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 248,
+          "name": "MOTOMAN-MPXL2600",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 249,
+          "name": "MOTOMAN-MPX3500",
+          "class": "Legged",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 262,
+          "name": "KUKA KR DELTA in Hygienic Design",
+          "class": "Legged",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 276,
+          "name": "KUKA KR QUANTEC nano",
+          "class": "Legged",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 277,
+          "name": "KUKA KR QUANTEC",
+          "class": "Legged",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 278,
+          "name": "KUKA KR QUANTEC PA",
+          "class": "Legged",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 344,
+          "name": "Ant Robotics Valera",
+          "class": "Legged",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 381,
+          "name": "Legged Squad Support System",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 383,
+          "name": "LittleDog",
+          "class": "Legged",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 390,
+          "name": "BAE Systems Mantis",
+          "class": "Legged",
+          "region_name": "United Kingdom",
+          "year": 2010.0
+        },
+        {
+          "id": 401,
+          "name": "ST Aero FanTail",
+          "class": "Legged",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 420,
+          "name": "AvantGuard",
+          "class": "Legged",
+          "region_name": "Israel",
+          "year": 2010.0
+        },
+        {
+          "id": 430,
+          "name": "Phantom (unmanned ground vehicle)",
+          "class": "Legged",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 470,
+          "name": "Unitree Go2 AIR Robotic Dog",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2018.0
+        },
+        {
+          "id": 471,
+          "name": "Unitree Go2 PRO Robotic Dog",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2018.0
+        },
+        {
+          "id": 476,
+          "name": "Aldebaran Robotics NAO6 Humanoid Robot",
+          "class": "Legged",
+          "region_name": "France",
+          "year": 2018.0
+        },
+        {
+          "id": 493,
+          "name": "CoppeliaSim (V-REP)",
+          "class": "Legged",
+          "region_name": "Switzerland",
+          "year": 2011.0
+        },
+        {
+          "id": 495,
+          "name": "NVIDIA Isaac Sim",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 496,
+          "name": "AWS RoboMaker",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2018.0
+        },
+        {
+          "id": 497,
+          "name": "ABB RobotStudio",
+          "class": "Legged",
+          "region_name": "Sweden (Alt)",
+          "year": 1998.0
+        },
+        {
+          "id": 498,
+          "name": "NimbRo Avatar",
+          "class": "Legged",
+          "region_name": "Germany",
+          "year": 2022.0
+        },
+        {
+          "id": 501,
+          "name": "Swarmanoid Eye-bot",
+          "class": "Legged",
+          "region_name": "Belgium",
+          "year": 2006.0
+        },
+        {
+          "id": 504,
+          "name": "Pliant Energy Systems C-Ray AUV/ROV",
+          "class": "Legged",
+          "region_name": "United States",
+          "year": 2018.0
+        },
+        {
+          "id": 535,
+          "name": "UBTECH Walker S1",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2024.0
+        },
+        {
+          "id": 536,
+          "name": "UBTECH Walker C",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2024.0
+        },
+        {
+          "id": 537,
+          "name": "Unitree AI Inspection Robot",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2023.0
+        },
+        {
+          "id": 545,
+          "name": "Antobot AI Agricultural Robot",
+          "class": "Legged",
+          "region_name": "China",
+          "year": 2024.0
+        }
+      ]
+    },
+    "cluster_3": {
+      "size": 31,
+      "dominant_class": "Soft-bodied",
+      "dominant_region": "Germany",
+      "avg_year": 2012.2333333333333,
+      "robots": [
+        {
+          "id": 7,
+          "name": "FANUC LR Mate 200iD",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 1990.0
+        },
+        {
+          "id": 8,
+          "name": "FANUC LR Mate 200iD/4S",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 1990.0
+        },
+        {
+          "id": 9,
+          "name": "FANUC M-1iA/0.5AL",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 10,
+          "name": "FANUC M-1iA/0.5S",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 11,
+          "name": "FANUC M-2iA/3AL",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 12,
+          "name": "FANUC M-2iA/3S",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 13,
+          "name": "FANUC M-3iA/6A",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 14,
+          "name": "FANUC M-3iA/6S",
+          "class": "Soft-bodied",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 43,
+          "name": "ABB IRB 120",
+          "class": "Soft-bodied",
+          "region_name": "Sweden",
+          "year": 2009.0
+        },
+        {
+          "id": 54,
+          "name": "KUKA KR 3 D1200",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2012.0
+        },
+        {
+          "id": 55,
+          "name": "KUKA KR 3 D1200 HM",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2012.0
+        },
+        {
+          "id": 63,
+          "name": "KUKA KR 6 R700 Z200-2",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 64,
+          "name": "KUKA KR 6 R700 Z170 HO",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 121,
+          "name": "Octobot (Harvard)",
+          "class": "Soft-bodied",
+          "region_name": "United States",
+          "year": 2016.0
+        },
+        {
+          "id": 149,
+          "name": "Small Robot Company Tom",
+          "class": "Soft-bodied",
+          "region_name": "United Kingdom",
+          "year": 2019.0
+        },
+        {
+          "id": 150,
+          "name": "Small Robot Company Dick",
+          "class": "Soft-bodied",
+          "region_name": "United Kingdom",
+          "year": 2019.0
+        },
+        {
+          "id": 151,
+          "name": "Small Robot Company Harry",
+          "class": "Soft-bodied",
+          "region_name": "United Kingdom",
+          "year": 2019.0
+        },
+        {
+          "id": 162,
+          "name": "FarmRobo iMog",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2024.0
+        },
+        {
+          "id": 163,
+          "name": "ABB IRB 1010",
+          "class": "Soft-bodied",
+          "region_name": "Sweden",
+          "year": 2022.0
+        },
+        {
+          "id": 164,
+          "name": "ABB IRB 1090",
+          "class": "Soft-bodied",
+          "region_name": "Sweden",
+          "year": 2024.0
+        },
+        {
+          "id": 165,
+          "name": "ABB IRB 1100",
+          "class": "Soft-bodied",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 167,
+          "name": "ABB IRB 1200 Next Generation",
+          "class": "Soft-bodied",
+          "region_name": "Sweden",
+          "year": 2009.0
+        },
+        {
+          "id": 195,
+          "name": "MotoMINI",
+          "class": "Soft-bodied",
+          "region_name": "Japan (Alt)",
+          "year": null
+        },
+        {
+          "id": 266,
+          "name": "KUKA KR 4 AGILUS",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 267,
+          "name": "KUKA KR AGILUS",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 371,
+          "name": "Smart Machine Oxin",
+          "class": "Soft-bodied",
+          "region_name": "Unknown/International",
+          "year": 2020.0
+        },
+        {
+          "id": 380,
+          "name": "30mm DS30M Mark 2 Automated Small Calibre Gun",
+          "class": "Soft-bodied",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 417,
+          "name": "XM1216 small unmanned ground vehicle",
+          "class": "Soft-bodied",
+          "region_name": "United States",
+          "year": 2010.0
+        },
+        {
+          "id": 507,
+          "name": "Harvard Tentacle Bot",
+          "class": "Soft-bodied",
+          "region_name": "United States",
+          "year": 2020.0
+        },
+        {
+          "id": 508,
+          "name": "PneuNets Bending Actuator",
+          "class": "Soft-bodied",
+          "region_name": "United States",
+          "year": 2015.0
+        },
+        {
+          "id": 510,
+          "name": "SMA-Based Self-Healing Soft Actuator",
+          "class": "Soft-bodied",
+          "region_name": "Germany",
+          "year": 2023.0
+        }
+      ]
+    },
+    "cluster_4": {
+      "size": 165,
+      "dominant_class": "Manipulator",
+      "dominant_region": "Italy",
+      "avg_year": 2008.3151515151515,
+      "robots": [
+        {
+          "id": 1,
+          "name": "FANUC ARC Mate 50iD",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 2,
+          "name": "FANUC ARC Mate 50iD/7L",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 3,
+          "name": "FANUC CRX-5iA",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2015.0
+        },
+        {
+          "id": 4,
+          "name": "FANUC CRX-5iA Food Grade",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2015.0
+        },
+        {
+          "id": 5,
+          "name": "FANUC DR-3iB/8L",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 6,
+          "name": "FANUC DR-3iB/6 STAINLESS",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2009.0
+        },
+        {
+          "id": 15,
+          "name": "FANUC M-10iD/8L",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 16,
+          "name": "FANUC M-10iD/10L",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 17,
+          "name": "FANUC M-20iD/25",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 18,
+          "name": "FANUC M-20iD/35",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 21,
+          "name": "FANUC Paint Mate 200iA",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 22,
+          "name": "FANUC P-250iB/15",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 23,
+          "name": "FANUC F-200iB/25",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 24,
+          "name": "FANUC F-200iB/35",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 25,
+          "name": "FANUC M-410iB/140H",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 26,
+          "name": "FANUC M-410iB/300",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 27,
+          "name": "FANUC M-710iC/50",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 28,
+          "name": "FANUC M-710iC/70",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 29,
+          "name": "FANUC M-900iB/400L",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 30,
+          "name": "FANUC M-900iB/700",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2005.0
+        },
+        {
+          "id": 31,
+          "name": "FANUC M-2000iA/1200",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2007.0
+        },
+        {
+          "id": 32,
+          "name": "FANUC M-2000iA/2300",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2007.0
+        },
+        {
+          "id": 33,
+          "name": "FANUC CR-4iA",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2015.0
+        },
+        {
+          "id": 34,
+          "name": "FANUC CR-7iA",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2015.0
+        },
+        {
+          "id": 35,
+          "name": "FANUC CR-14iA/L",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2015.0
+        },
+        {
+          "id": 36,
+          "name": "FANUC CR-35iA",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2015.0
+        },
+        {
+          "id": 37,
+          "name": "FANUC LR-10iA/10",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 38,
+          "name": "FANUC LR-10iA/10L",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2000.0
+        },
+        {
+          "id": 44,
+          "name": "ABB IRB 140",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 1995.0
+        },
+        {
+          "id": 45,
+          "name": "ABB IRB 1410",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2000.0
+        },
+        {
+          "id": 46,
+          "name": "ABB IRB 1600",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 47,
+          "name": "ABB IRB 2600",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 48,
+          "name": "ABB IRB 4600",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 50,
+          "name": "ABB IRB 7600",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2001.0
+        },
+        {
+          "id": 51,
+          "name": "ABB YuMi",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2015.0
+        },
+        {
+          "id": 52,
+          "name": "ABB GoFa",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2021.0
+        },
+        {
+          "id": 53,
+          "name": "ABB SWIFTI",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2021.0
+        },
+        {
+          "id": 56,
+          "name": "KUKA LBR iisy 3 R760",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2018.0
+        },
+        {
+          "id": 57,
+          "name": "KUKA LBR iisy 6 R1300",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2018.0
+        },
+        {
+          "id": 58,
+          "name": "KUKA LBR iisy 8 R930",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2018.0
+        },
+        {
+          "id": 59,
+          "name": "KUKA LBR iisy 11 R1300",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2018.0
+        },
+        {
+          "id": 60,
+          "name": "KUKA LBR iisy 15 R930",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2018.0
+        },
+        {
+          "id": 61,
+          "name": "KUKA LBR iiwa 7 R800",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2013.0
+        },
+        {
+          "id": 62,
+          "name": "KUKA LBR iiwa 14 R820",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2013.0
+        },
+        {
+          "id": 65,
+          "name": "KUKA KR 12 R650 Z340 CR",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 66,
+          "name": "KUKA KR 12 R650 Z400",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 67,
+          "name": "KUKA KR 12 R750 Z340 CR",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 88,
+          "name": "Intuitive Surgical da Vinci",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 1999.0
+        },
+        {
+          "id": 89,
+          "name": "Stryker Mako",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 2006.0
+        },
+        {
+          "id": 90,
+          "name": "Medtronic Mazor X",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 2016.0
+        },
+        {
+          "id": 91,
+          "name": "Accuray CyberKnife",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 2001.0
+        },
+        {
+          "id": 92,
+          "name": "Zimmer Biomet ROSA",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 2019.0
+        },
+        {
+          "id": 94,
+          "name": "Aethon TUG",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 2004.0
+        },
+        {
+          "id": 95,
+          "name": "PARO",
+          "class": "Manipulator",
+          "region_name": "Japan",
+          "year": 2004.0
+        },
+        {
+          "id": 96,
+          "name": "Corindus CorPath GRX",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 97,
+          "name": "Asensus Surgical Senhance",
+          "class": "Manipulator",
+          "region_name": "United States",
+          "year": 2017.0
+        },
+        {
+          "id": 113,
+          "name": "Voyager 1",
+          "class": "Unknown",
+          "region_name": "United States",
+          "year": 1977.0
+        },
+        {
+          "id": 114,
+          "name": "Voyager 2",
+          "class": "Unknown",
+          "region_name": "United States",
+          "year": 1977.0
+        },
+        {
+          "id": 115,
+          "name": "Cassini-Huygens",
+          "class": "Unknown",
+          "region_name": "United States",
+          "year": 1997.0
+        },
+        {
+          "id": 116,
+          "name": "Hubble Space Telescope",
+          "class": "Unknown",
+          "region_name": "United States",
+          "year": 1990.0
+        },
+        {
+          "id": 141,
+          "name": "Naïo Technologies Oz",
+          "class": "Unknown",
+          "region_name": "France",
+          "year": 2011.0
+        },
+        {
+          "id": 168,
+          "name": "ABB IRB 1300",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 169,
+          "name": "ABB IRB 1520ID",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 170,
+          "name": "ABB IRB 1660ID",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 171,
+          "name": "ABB IRB 2400",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 1995.0
+        },
+        {
+          "id": 172,
+          "name": "ABB IRB 2600ID",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 173,
+          "name": "ABB IRB 4400",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 1995.0
+        },
+        {
+          "id": 174,
+          "name": "ABB IRB 460",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 175,
+          "name": "ABB IRB 5710",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 176,
+          "name": "ABB IRB 5720",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 177,
+          "name": "ABB IRB 660",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 180,
+          "name": "ABB IRB 6710",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 181,
+          "name": "ABB IRB 6720",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 182,
+          "name": "ABB IRB 6730",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 183,
+          "name": "ABB IRB 6740",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 184,
+          "name": "ABB IRB 6750S",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 185,
+          "name": "ABB IRB 6790",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 186,
+          "name": "ABB IRB 760",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2005.0
+        },
+        {
+          "id": 187,
+          "name": "ABB IRB 7710",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 188,
+          "name": "ABB IRB 7720",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2010.0
+        },
+        {
+          "id": 189,
+          "name": "ABB IRB 8700",
+          "class": "Manipulator",
+          "region_name": "Sweden",
+          "year": 2016.0
+        },
+        {
+          "id": 190,
+          "name": "MOTOMAN-HC10DTP",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 191,
+          "name": "MOTOMAN-HC10SDTP",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 192,
+          "name": "MOTOMAN-HC20DTP",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 193,
+          "name": "MOTOMAN-HC20SDTP",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 194,
+          "name": "MOTOMAN-HC30PL",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2015.0
+        },
+        {
+          "id": 222,
+          "name": "MOTOMAN-AR700",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 223,
+          "name": "MOTOMAN-AR900",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 224,
+          "name": "MOTOMAN-AR1440",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 225,
+          "name": "MOTOMAN-AR1440E",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 226,
+          "name": "MOTOMAN-AR1730",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 227,
+          "name": "MOTOMAN-AR2010",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2001.0
+        },
+        {
+          "id": 228,
+          "name": "MOTOMAN-GA50",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2000.0
+        },
+        {
+          "id": 250,
+          "name": "MOTOMAN-MHP45L",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 251,
+          "name": "MOTOMAN-MPO10",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 252,
+          "name": "MOTOMAN-MPO40",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 253,
+          "name": "MOTOMAN-MPP3H",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 254,
+          "name": "MOTOMAN-MPP3S",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 255,
+          "name": "MOTOMAN-MPK2F",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 256,
+          "name": "MOTOMAN-MPK2F-5",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2005.0
+        },
+        {
+          "id": 257,
+          "name": "MOTOMAN-PL80",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2010.0
+        },
+        {
+          "id": 258,
+          "name": "MOTOMAN-PL190",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2010.0
+        },
+        {
+          "id": 259,
+          "name": "MOTOMAN-PL320",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2010.0
+        },
+        {
+          "id": 260,
+          "name": "MOTOMAN-PL500",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2010.0
+        },
+        {
+          "id": 261,
+          "name": "MOTOMAN-PL800",
+          "class": "Manipulator",
+          "region_name": "Japan (Alt)",
+          "year": 2010.0
+        },
+        {
+          "id": 263,
+          "name": "KUKA KR DELTA",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 269,
+          "name": "KUKA KR CYBERTECH nano",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 270,
+          "name": "KUKA KR CYBERTECH nano ARC",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 271,
+          "name": "KUKA KR CYBERTECH",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 272,
+          "name": "KUKA KR CYBERTECH ARC",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 273,
+          "name": "KUKA KR IONTEC",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 274,
+          "name": "KUKA KR IONTEC ultra",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 275,
+          "name": "KUKA KR 40 PA",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 279,
+          "name": "KUKA KR 300-2 PA",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2012.0
+        },
+        {
+          "id": 280,
+          "name": "KUKA KR 360 FORTEC",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2012.0
+        },
+        {
+          "id": 281,
+          "name": "KUKA KR FORTEC",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 282,
+          "name": "KUKA KR FORTEC PA",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 283,
+          "name": "KUKA KR 470-2 PA",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 284,
+          "name": "KUKA KR 500 FORTEC",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 285,
+          "name": "KUKA KR 700 PA",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 286,
+          "name": "KUKA KR FORTEC ultra",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 287,
+          "name": "KUKA KR FORTEC ultra PA",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 288,
+          "name": "KUKA KR 1000 titan",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 289,
+          "name": "KUKA KR TITAN ultra",
+          "class": "Manipulator",
+          "region_name": "Germany",
+          "year": 2010.0
+        },
+        {
+          "id": 295,
+          "name": "Comau MyCo-3-0.59",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 296,
+          "name": "Comau MyCo-3.5-0.95",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 297,
+          "name": "Comau MyCo-5-0.80",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 298,
+          "name": "Comau MyCo-8-1.30",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 299,
+          "name": "Comau MyCo-10-1.00",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 300,
+          "name": "Comau MyCo-15-1.30",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 301,
+          "name": "Comau AURA-170-2.8",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 303,
+          "name": "Comau Racer-5 SE",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 309,
+          "name": "Comau RACER-3-0.63",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 310,
+          "name": "Comau RACER-5-0.63",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 311,
+          "name": "Comau RACER-5-0.80",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 312,
+          "name": "Comau RACER-7-1.4",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 313,
+          "name": "Comau S-13",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 314,
+          "name": "Comau S-18",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 315,
+          "name": "Comau NJ-16-3.1",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 316,
+          "name": "Comau NJ-40-2.5",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 317,
+          "name": "Comau NJ-60-2.2",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 318,
+          "name": "Comau PAL-180-3.1",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 319,
+          "name": "Comau PAL-260-3.1",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 320,
+          "name": "Comau PAL-470-3.1",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 321,
+          "name": "Comau NJ-100-3.2 PRESS",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 322,
+          "name": "Comau NJ-130-3.7 SH PRESS",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 323,
+          "name": "Comau NJ-110-3.0",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 324,
+          "name": "Comau NJ-130-2.0",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 325,
+          "name": "Comau NJ-130-2.6",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 326,
+          "name": "Comau NJ-165-3.0",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 327,
+          "name": "Comau NJ-165-3.4 SH",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 328,
+          "name": "Comau NJ-210-3.1 SH",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 329,
+          "name": "Comau NJ-220-2.7",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 330,
+          "name": "Comau NJ-290-3.0",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 331,
+          "name": "Comau NJ-370-2.7",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 332,
+          "name": "Comau NJ-370-3.0",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 333,
+          "name": "Comau NJ-420-3.0",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 334,
+          "name": "Comau NJ-450-2.7",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 335,
+          "name": "Comau NJ-500-2.7",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 336,
+          "name": "Comau NJ-650-2.7",
+          "class": "Manipulator",
+          "region_name": "Italy",
+          "year": 2010.0
+        },
+        {
+          "id": 525,
+          "name": "SIASUN SN4A-4/0.58",
+          "class": "Unknown",
+          "region_name": "China",
+          "year": 2020.0
+        },
+        {
+          "id": 526,
+          "name": "SIASUN SR25A-25/1.80",
+          "class": "Manipulator",
+          "region_name": "China",
+          "year": 2019.0
+        },
+        {
+          "id": 530,
+          "name": "ROKAE xMate CR12",
+          "class": "Manipulator",
+          "region_name": "China",
+          "year": 2021.0
+        },
+        {
+          "id": 534,
+          "name": "DJI Matrice 350 RTK",
+          "class": "Unknown",
+          "region_name": "China",
+          "year": 2023.0
+        },
+        {
+          "id": 541,
+          "name": "Geek+ X-Series Four-Way Shuttle",
+          "class": "Manipulator",
+          "region_name": "China",
+          "year": 2022.0
+        }
+      ]
+    },
+    "cluster_5": {
+      "size": 8,
+      "dominant_class": "Modular/Reconfigurable",
+      "dominant_region": "United States",
+      "avg_year": 2016.142857142857,
+      "robots": [
+        {
+          "id": 73,
+          "name": "MAARS (Modular Advanced Armed Robotic System)",
+          "class": "Modular/Reconfigurable",
+          "region_name": "United States",
+          "year": 2008.0
+        },
+        {
+          "id": 452,
+          "name": "Modulus robot",
+          "class": "Modular/Reconfigurable",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 494,
+          "name": "ARGoS",
+          "class": "Modular/Reconfigurable",
+          "region_name": "European Union",
+          "year": 2012.0
+        },
+        {
+          "id": 499,
+          "name": "Swarmanoid Foot-bot",
+          "class": "Modular/Reconfigurable",
+          "region_name": "Belgium",
+          "year": 2006.0
+        },
+        {
+          "id": 509,
+          "name": "Modular Cable-Driven Soft Robotic Arm",
+          "class": "Modular/Reconfigurable",
+          "region_name": "United States",
+          "year": 2024.0
+        },
+        {
+          "id": 517,
+          "name": "Self-Replicating Hierarchical Modular Robotic Swarm",
+          "class": "Modular/Reconfigurable",
+          "region_name": "United States",
+          "year": 2022.0
+        },
+        {
+          "id": 518,
+          "name": "FreeBots Spherical Swarm Robots",
+          "class": "Modular/Reconfigurable",
+          "region_name": "United States",
+          "year": 2020.0
+        },
+        {
+          "id": 519,
+          "name": "Normal-Alkane-like Reconfigurable Modular Robot (NAR)",
+          "class": "Modular/Reconfigurable",
+          "region_name": "China",
+          "year": 2021.0
+        }
+      ]
+    },
+    "cluster_6": {
+      "size": 19,
+      "dominant_class": "Aerial",
+      "dominant_region": "United States",
+      "avg_year": 2013.9444444444443,
+      "robots": [
+        {
+          "id": 75,
+          "name": "Safran Patroller",
+          "class": "Aerial",
+          "region_name": "France",
+          "year": 2014.0
+        },
+        {
+          "id": 76,
+          "name": "MQ-9 Reaper",
+          "class": "Aerial",
+          "region_name": "United States",
+          "year": 2007.0
+        },
+        {
+          "id": 77,
+          "name": "RQ-4 Global Hawk",
+          "class": "Aerial",
+          "region_name": "United States",
+          "year": 1998.0
+        },
+        {
+          "id": 112,
+          "name": "Ingenuity (Mars Helicopter)",
+          "class": "Aerial",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 118,
+          "name": "Festo BionicOpter",
+          "class": "Aerial",
+          "region_name": "Germany",
+          "year": 2013.0
+        },
+        {
+          "id": 122,
+          "name": "RoboClam (Northeastern University)",
+          "class": "Aerial",
+          "region_name": "United States",
+          "year": 2013.0
+        },
+        {
+          "id": 137,
+          "name": "Ingenuity",
+          "class": "Aerial",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 156,
+          "name": "Scythe Robotics RT1",
+          "class": "Aerial",
+          "region_name": "United States",
+          "year": 2021.0
+        },
+        {
+          "id": 386,
+          "name": "Airbus Helicopters VSR700",
+          "class": "Aerial",
+          "region_name": "European Union",
+          "year": 2010.0
+        },
+        {
+          "id": 404,
+          "name": "UAV FAP",
+          "class": "Aerial",
+          "region_name": "Peru",
+          "year": 2010.0
+        },
+        {
+          "id": 435,
+          "name": "Miniature UAV",
+          "class": "Aerial",
+          "region_name": "Unknown/International",
+          "year": 2010.0
+        },
+        {
+          "id": 438,
+          "name": "Meraj (UAV)",
+          "class": "Aerial",
+          "region_name": "Iran",
+          "year": 2010.0
+        },
+        {
+          "id": 439,
+          "name": "Meraj 113 (UAV)",
+          "class": "Aerial",
+          "region_name": "Iran",
+          "year": 2010.0
+        },
+        {
+          "id": 454,
+          "name": "Robomow",
+          "class": "Aerial",
+          "region_name": "Unknown/International",
+          "year": null
+        },
+        {
+          "id": 477,
+          "name": "Chasing Gladius MINI S Underwater Drone Standard 200m",
+          "class": "Aerial",
+          "region_name": "China",
+          "year": 2018.0
+        },
+        {
+          "id": 483,
+          "name": "Chasing Gladius MINI S Underwater Drone Standard 100m",
+          "class": "Aerial",
+          "region_name": "China",
+          "year": 2018.0
+        },
+        {
+          "id": 491,
+          "name": "RoboDK",
+          "class": "Aerial",
+          "region_name": "Canada",
+          "year": 2015.0
+        },
+        {
+          "id": 521,
+          "name": "VTOL Hybrid Research Platform",
+          "class": "Aerial",
+          "region_name": "United States",
+          "year": 2020.0
+        },
+        {
+          "id": 533,
+          "name": "DJI T40 Agricultural Drone",
+          "class": "Aerial",
+          "region_name": "China",
+          "year": 2022.0
+        }
+      ]
+    },
+    "cluster_7": {
+      "size": 2,
+      "dominant_class": "Amphibious",
+      "dominant_region": "United States",
+      "avg_year": 2016.0,
+      "robots": [
+        {
+          "id": 502,
+          "name": "GuardBot Spherical Surveillance Robot",
+          "class": "Amphibious",
+          "region_name": "United States",
+          "year": 2012.0
+        },
+        {
+          "id": 505,
+          "name": "SimVentions MALLARD",
+          "class": "Amphibious",
+          "region_name": "United States",
+          "year": 2020.0
+        }
+      ]
+    }
+  },
+  "explained_variance": [
+    0.12186513971539106,
+    0.09304044109193124,
+    0.08107704021666041,
+    0.07699597621075965,
+    0.0704573702385741,
+    0.06874398292340725,
+    0.06705350012599205,
+    0.04770687480400847,
+    0.04384603512887006,
+    0.037736486368683604
+  ]
+}

@@ -1,0 +1,546 @@
+{"id": 1, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC ARC Mate 50iD", "url": "https://www.fanucamerica.com/products/robots/arc-welding-robots/arc-mate-50id", "tags": {"sector": [3]}}
+{"id": 2, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC ARC Mate 50iD/7L", "url": "https://www.fanucamerica.com/products/robots/arc-welding-robots/arc-mate-50id-7l", "tags": {"sector": [3]}}
+{"id": 3, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2015, "rg": "JP", "n": "FANUC CRX-5iA", "url": "https://www.fanucamerica.com/products/robots/collaborative-robots/crx-5ia", "tags": {"sector": [3]}}
+{"id": 4, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2015, "rg": "JP", "n": "FANUC CRX-5iA Food Grade", "url": "https://www.fanucamerica.com/products/robots/collaborative-robots/crx-5ia-food-grade", "tags": {"sector": [3]}}
+{"id": 5, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC DR-3iB/8L", "url": "https://www.fanucamerica.com/products/robots/delta-robots/dr-3ib-8l", "tags": {"sector": [3]}}
+{"id": 6, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC DR-3iB/6 STAINLESS", "url": "https://www.fanucamerica.com/products/robots/delta-robots/dr-3ib-6-stainless", "tags": {"sector": [3]}}
+{"id": 7, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 1990, "rg": "JP", "n": "FANUC LR Mate 200iD", "url": "https://www.fanucamerica.com/products/robots/small-robots/lr-mate-200id", "tags": {"sector": [3]}}
+{"id": 8, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 1990, "rg": "JP", "n": "FANUC LR Mate 200iD/4S", "url": "https://www.fanucamerica.com/products/robots/small-robots/lr-mate-200id-4s", "tags": {"sector": [3]}}
+{"id": 9, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC M-1iA/0.5AL", "url": "https://www.fanucamerica.com/products/robots/small-robots/m-1ia-0-5al", "tags": {"sector": [3]}}
+{"id": 10, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC M-1iA/0.5S", "url": "https://www.fanucamerica.com/products/robots/small-robots/m-1ia-0-5s", "tags": {"sector": [3]}}
+{"id": 11, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC M-2iA/3AL", "url": "https://www.fanucamerica.com/products/robots/small-robots/m-2ia-3al", "tags": {"sector": [3]}}
+{"id": 12, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC M-2iA/3S", "url": "https://www.fanucamerica.com/products/robots/small-robots/m-2ia-3s", "tags": {"sector": [3]}}
+{"id": 13, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC M-3iA/6A", "url": "https://www.fanucamerica.com/products/robots/small-robots/m-3ia-6a", "tags": {"sector": [3]}}
+{"id": 14, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "JP", "n": "FANUC M-3iA/6S", "url": "https://www.fanucamerica.com/products/robots/small-robots/m-3ia-6s", "tags": {"sector": [3]}}
+{"id": 15, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC M-10iD/8L", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-10id-8l", "tags": {"sector": [3]}}
+{"id": 16, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC M-10iD/10L", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-10id-10l", "tags": {"sector": [3]}}
+{"id": 17, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC M-20iD/25", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-20id-25", "tags": {"sector": [3]}}
+{"id": 18, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC M-20iD/35", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-20id-35", "tags": {"sector": [3]}}
+{"id": 19, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2005, "rg": "JP", "n": "FANUC R-1000iA/80F", "url": "https://www.fanucamerica.com/products/robots/spot-welding-robots/r-1000ia-80f", "tags": {"sector": [3]}}
+{"id": 20, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2005, "rg": "JP", "n": "FANUC R-2000iC/165F", "url": "https://www.fanucamerica.com/products/robots/spot-welding-robots/r-2000ic-165f", "tags": {"sector": [3]}}
+{"id": 21, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2000, "rg": "JP", "n": "FANUC Paint Mate 200iA", "url": "https://www.fanucamerica.com/products/robots/paint-robots/paint-mate-200ia", "tags": {"sector": [3]}}
+{"id": 22, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2000, "rg": "JP", "n": "FANUC P-250iB/15", "url": "https://www.fanucamerica.com/products/robots/paint-robots/p-250ib-15", "tags": {"sector": [3]}}
+{"id": 23, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2000, "rg": "JP", "n": "FANUC F-200iB/25", "url": "https://www.fanucamerica.com/products/robots/foundry-robots/f-200ib-25", "tags": {"sector": [3]}}
+{"id": 24, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2000, "rg": "JP", "n": "FANUC F-200iB/35", "url": "https://www.fanucamerica.com/products/robots/foundry-robots/f-200ib-35", "tags": {"sector": [3]}}
+{"id": 25, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2005, "rg": "JP", "n": "FANUC M-410iB/140H", "url": "https://www.fanucamerica.com/products/robots/palletizing-robots/m-410ib-140h", "tags": {"sector": [3]}}
+{"id": 26, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2005, "rg": "JP", "n": "FANUC M-410iB/300", "url": "https://www.fanucamerica.com/products/robots/palletizing-robots/m-410ib-300", "tags": {"sector": [3]}}
+{"id": 27, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "JP", "n": "FANUC M-710iC/50", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-710ic-50", "tags": {"sector": [3]}}
+{"id": 28, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "JP", "n": "FANUC M-710iC/70", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-710ic-70", "tags": {"sector": [3]}}
+{"id": 29, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "JP", "n": "FANUC M-900iB/400L", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-900ib-400l", "tags": {"sector": [3]}}
+{"id": 30, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "JP", "n": "FANUC M-900iB/700", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/m-900ib-700", "tags": {"sector": [3]}}
+{"id": 31, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2007, "rg": "JP", "n": "FANUC M-2000iA/1200", "url": "https://www.fanucamerica.com/products/robots/heavy-payload-robots/m-2000ia-1200", "tags": {"sector": [3]}}
+{"id": 32, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2007, "rg": "JP", "n": "FANUC M-2000iA/2300", "url": "https://www.fanucamerica.com/products/robots/heavy-payload-robots/m-2000ia-2300", "tags": {"sector": [3]}}
+{"id": 33, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2015, "rg": "JP", "n": "FANUC CR-4iA", "url": "https://www.fanucamerica.com/products/robots/collaborative-robots/cr-4ia", "tags": {"sector": [3]}}
+{"id": 34, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2015, "rg": "JP", "n": "FANUC CR-7iA", "url": "https://www.fanucamerica.com/products/robots/collaborative-robots/cr-7ia", "tags": {"sector": [3]}}
+{"id": 35, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2015, "rg": "JP", "n": "FANUC CR-14iA/L", "url": "https://www.fanucamerica.com/products/robots/collaborative-robots/cr-14ia-l", "tags": {"sector": [3]}}
+{"id": 36, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2015, "rg": "JP", "n": "FANUC CR-35iA", "url": "https://www.fanucamerica.com/products/robots/collaborative-robots/cr-35ia", "tags": {"sector": [3]}}
+{"id": 37, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC LR-10iA/10", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/lr-10ia-10", "tags": {"sector": [3]}}
+{"id": 38, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC LR-10iA/10L", "url": "https://www.fanucamerica.com/products/robots/material-handling-robots/lr-10ia-10l", "tags": {"sector": [3]}}
+{"id": 39, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC SR-3iA", "url": "https://www.fanucamerica.com/products/robots/scara-robots/sr-3ia", "tags": {"sector": [3]}}
+{"id": 40, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC SR-6iA", "url": "https://www.fanucamerica.com/products/robots/scara-robots/sr-6ia", "tags": {"sector": [3]}}
+{"id": 41, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC SR-12iA", "url": "https://www.fanucamerica.com/products/robots/scara-robots/sr-12ia", "tags": {"sector": [3]}}
+{"id": 42, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2000, "rg": "JP", "n": "FANUC SR-20iA", "url": "https://www.fanucamerica.com/products/robots/scara-robots/sr-20ia", "tags": {"sector": [3]}}
+{"id": 43, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "SE", "n": "ABB IRB 120", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-120", "tags": {"sector": [3]}}
+{"id": 44, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 1995, "rg": "SE", "n": "ABB IRB 140", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-140", "tags": {"sector": [3]}}
+{"id": 45, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2000, "rg": "SE", "n": "ABB IRB 1410", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1410", "tags": {"sector": [3]}}
+{"id": 46, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 1600", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1600", "tags": {"sector": [3]}}
+{"id": 47, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 2600", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-2600", "tags": {"sector": [3]}}
+{"id": 48, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 4600", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-4600", "tags": {"sector": [3]}}
+{"id": 49, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2013, "rg": "SE", "n": "ABB IRB 6700", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6700", "tags": {"sector": [3]}}
+{"id": 50, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2001, "rg": "SE", "n": "ABB IRB 7600", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-7600", "tags": {"sector": [3]}}
+{"id": 51, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2015, "rg": "SE", "n": "ABB YuMi", "url": "https://new.abb.com/products/robotics/robots/collaborative-robots/yumi", "tags": {"sector": [3]}}
+{"id": 52, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2021, "rg": "SE", "n": "ABB GoFa", "url": "https://new.abb.com/products/robotics/robots/collaborative-robots/gofa", "tags": {"sector": [3]}}
+{"id": 53, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2021, "rg": "SE", "n": "ABB SWIFTI", "url": "https://new.abb.com/products/robotics/robots/collaborative-robots/swifti", "tags": {"sector": [3]}}
+{"id": 54, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2012, "rg": "DE", "n": "KUKA KR 3 D1200", "url": "https://my.kuka.com/s/product/kr-3-d1200/0ZG1i000000XZs0GAG", "tags": {"sector": [3]}}
+{"id": 55, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2012, "rg": "DE", "n": "KUKA KR 3 D1200 HM", "url": "https://my.kuka.com/s/product/kr-3-d1200-hm/0ZG1i000000XZs1GAG", "tags": {"sector": [3]}}
+{"id": 56, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2018, "rg": "DE", "n": "KUKA LBR iisy 3 R760", "url": "https://my.kuka.com/s/product/lbr-iisy-3-r760/0ZG1i000000XZs2GAG", "tags": {"sector": [3]}}
+{"id": 57, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2018, "rg": "DE", "n": "KUKA LBR iisy 6 R1300", "url": "https://my.kuka.com/s/product/lbr-iisy-6-r1300/0ZG1i000000XZs3GAG", "tags": {"sector": [3]}}
+{"id": 58, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2018, "rg": "DE", "n": "KUKA LBR iisy 8 R930", "url": "https://my.kuka.com/s/product/lbr-iisy-8-r930/0ZG1i000000XZs4GAG", "tags": {"sector": [3]}}
+{"id": 59, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2018, "rg": "DE", "n": "KUKA LBR iisy 11 R1300", "url": "https://my.kuka.com/s/product/lbr-iisy-11-r1300/0ZG1i000000XZs5GAG", "tags": {"sector": [3]}}
+{"id": 60, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2018, "rg": "DE", "n": "KUKA LBR iisy 15 R930", "url": "https://my.kuka.com/s/product/lbr-iisy-15-r930/0ZG1i000000XZs6GAG", "tags": {"sector": [3]}}
+{"id": 61, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2013, "rg": "DE", "n": "KUKA LBR iiwa 7 R800", "url": "https://my.kuka.com/s/product/lbr-iiwa-7-r800/0ZG1i000000XZs7GAG", "tags": {"sector": [3]}}
+{"id": 62, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2013, "rg": "DE", "n": "KUKA LBR iiwa 14 R820", "url": "https://my.kuka.com/s/product/lbr-iiwa-14-r820/0ZG1i000000XZs8GAG", "tags": {"sector": [3]}}
+{"id": 63, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 6 R700 Z200-2", "url": "https://my.kuka.com/s/product/kr-6-r700-z200-2/0ZG1i000000XZs9GAG", "tags": {"sector": [3]}}
+{"id": 64, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 6 R700 Z170 HO", "url": "https://my.kuka.com/s/product/kr-6-r700-z170-ho/0ZG1i000000XZsAGAG", "tags": {"sector": [3]}}
+{"id": 65, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 12 R650 Z340 CR", "url": "https://my.kuka.com/s/product/kr-12-r650-z340-cr/0ZG1i000000XZsBGAG", "tags": {"sector": [3]}}
+{"id": 66, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 12 R650 Z400", "url": "https://my.kuka.com/s/product/kr-12-r650-z400/0ZG1i000000XZsCGAG", "tags": {"sector": [3]}}
+{"id": 67, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 12 R750 Z340 CR", "url": "https://my.kuka.com/s/product/kr-12-r750-z340-cr/0ZG1i000000XZsDGAG", "tags": {"sector": [3]}}
+{"id": 68, "d": 0, "c": 2, "o": 1, "pr": 15, "yr": 2005, "rg": "US", "n": "Boston Dynamics BigDog", "url": "https://www.bostondynamics.com/bigdog", "tags": {"sector": [6]}}
+{"id": 69, "d": 0, "c": 2, "o": 1, "pr": 15, "yr": 2012, "rg": "US", "n": "Boston Dynamics LS3", "url": "https://www.bostondynamics.com/ls3", "tags": {"sector": [6]}}
+{"id": 70, "d": 0, "c": 1, "o": 0, "pr": 6, "yr": 2001, "rg": "US", "n": "iRobot PackBot", "url": "https://www.irobot.com/about-irobot/history", "tags": {"sector": [6]}}
+{"id": 71, "d": 0, "c": 1, "o": 1, "pr": 6, "yr": 2000, "rg": "US", "n": "Foster-Miller TALON", "url": "https://en.wikipedia.org/wiki/Foster-Miller_TALON", "tags": {"sector": [6]}}
+{"id": 72, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2009, "rg": "IL", "n": "Guardium", "url": "https://en.wikipedia.org/wiki/Guardium", "tags": {"sector": [6]}}
+{"id": 73, "d": 0, "c": 6, "o": 0, "pr": 15, "yr": 2008, "rg": "US", "n": "MAARS (Modular Advanced Armed Robotic System)", "url": "https://en.wikipedia.org/wiki/MAARS", "tags": {"sector": [6]}}
+{"id": 74, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2007, "rg": "UK", "n": "Dragon Runner", "url": "https://en.wikipedia.org/wiki/Dragon_Runner", "tags": {"sector": [6]}}
+{"id": 75, "d": 0, "c": 3, "o": 0, "pr": 15, "yr": 2014, "rg": "FR", "n": "Safran Patroller", "url": "https://en.wikipedia.org/wiki/Safran_Patroller", "tags": {"sector": [6]}}
+{"id": 76, "d": 0, "c": 3, "o": 1, "pr": 15, "yr": 2007, "rg": "US", "n": "MQ-9 Reaper", "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper", "tags": {"sector": [6]}}
+{"id": 77, "d": 0, "c": 3, "o": 1, "pr": 15, "yr": 1998, "rg": "US", "n": "RQ-4 Global Hawk", "url": "https://en.wikipedia.org/wiki/RQ-4_Global_Hawk", "tags": {"sector": [6]}}
+{"id": 78, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2002, "rg": "US", "n": "iRobot Roomba", "url": "https://www.irobot.com/roomba", "tags": {"sector": [11]}}
+{"id": 79, "d": 0, "c": 2, "o": 0, "pr": 11, "yr": 2014, "rg": "JP", "n": "SoftBank Robotics Pepper", "url": "https://www.softbankrobotics.com/emea/en/pepper", "tags": {"sector": [11]}}
+{"id": 80, "d": 0, "c": 2, "o": 0, "pr": 11, "yr": 2008, "rg": "FR", "n": "SoftBank Robotics Nao", "url": "https://www.softbankrobotics.com/emea/en/nao", "tags": {"sector": [11]}}
+{"id": 81, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2013, "rg": "US", "n": "Knightscope K5", "url": "https://www.knightscope.com/k5", "tags": {"sector": [11]}}
+{"id": 82, "d": 0, "c": 4, "o": 0, "pr": 7, "yr": 2014, "rg": "US", "n": "Starship Technologies Delivery Robot", "url": "https://www.starship.xyz/", "tags": {"sector": [11]}}
+{"id": 83, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2018, "rg": "US", "n": "Moxi (Diligent Robotics)", "url": "https://www.diligentrobots.com/moxi", "tags": {"sector": [11]}}
+{"id": 84, "d": 0, "c": 2, "o": 0, "pr": 7, "yr": 2016, "rg": "CN", "n": "Sanbot Elf", "url": "https://www.qihan.cn/en/products/sanbot-elf/", "tags": {"sector": [11]}}
+{"id": 85, "d": 0, "c": 2, "o": 0, "pr": 7, "yr": 2018, "rg": "CN", "n": "UBTECH Walker", "url": "https://www.ubtrobot.com/pages/walker", "tags": {"sector": [11]}}
+{"id": 86, "d": 0, "c": 2, "o": 2, "pr": 11, "yr": 2016, "rg": "IL", "n": "Temi", "url": "https://www.robotemi.com/", "tags": {"sector": [11]}}
+{"id": 87, "d": 0, "c": 2, "o": 0, "pr": 7, "yr": 2010, "rg": "ES", "n": "Robotics REEM-C", "url": "https://pal-robotics.com/robots/reem-c/", "tags": {"sector": [11]}}
+{"id": 88, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 1999, "rg": "US", "n": "Intuitive Surgical da Vinci", "url": "https://www.intuitive.com/en-us/products-and-services/da-vinci", "tags": {"sector": [5]}}
+{"id": 89, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2006, "rg": "US", "n": "Stryker Mako", "url": "https://www.stryker.com/us/en/p/mako-smartrobotics.html", "tags": {"sector": [5]}}
+{"id": 90, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2016, "rg": "US", "n": "Medtronic Mazor X", "url": "https://www.medtronic.com/us-en/healthcare-professionals/products/neurological/mazor-x-stealth-edition.html", "tags": {"sector": [5]}}
+{"id": 91, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2001, "rg": "US", "n": "Accuray CyberKnife", "url": "https://www.accuray.com/solutions/cyberknife-system", "tags": {"sector": [5]}}
+{"id": 92, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2019, "rg": "US", "n": "Zimmer Biomet ROSA", "url": "https://www.zimmerbiomet.com/en/products-and-solutions/robotics/rosa-knee-system.html", "tags": {"sector": [5]}}
+{"id": 93, "d": 0, "c": 1, "o": 4, "pr": 8, "yr": null, "rg": "US", "n": "Omnicell XT", "url": "https://www.omnicell.com/products/medication-management/automated-dispensing-systems/omnicell-xt-automated-dispensing-cabinets", "tags": {"sector": [5]}}
+{"id": 94, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2004, "rg": "US", "n": "Aethon TUG", "url": "https://aethon.com/hospital-robots-healthcare/", "tags": {"sector": [5]}}
+{"id": 95, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2004, "rg": "JP", "n": "PARO", "url": "https://www.parorobots.com/", "tags": {"sector": [5]}}
+{"id": 96, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2012, "rg": "US", "n": "Corindus CorPath GRX", "url": "https://www.siemens-healthineers.com/interventional-radiology/corindus-corpath-grx", "tags": {"sector": [5]}}
+{"id": 97, "d": 0, "c": 0, "o": 0, "pr": 8, "yr": 2017, "rg": "US", "n": "Asensus Surgical Senhance", "url": "https://www.asensus.com/senhance-surgical-system/", "tags": {"sector": [5]}}
+{"id": 98, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2013, "rg": "US", "n": "Boston Dynamics Atlas", "url": "https://www.bostondynamics.com/atlas", "tags": {"sector": [7]}}
+{"id": 99, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2016, "rg": "US", "n": "Boston Dynamics Spot", "url": "https://www.bostondynamics.com/spot", "tags": {"sector": [7]}}
+{"id": 100, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2009, "rg": "FR", "n": "SoftBank Robotics Romeo", "url": "https://www.softbankrobotics.com/emea/en/romeo", "tags": {"sector": [7]}}
+{"id": 101, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2017, "rg": "ES", "n": "PAL Robotics TALOS", "url": "https://pal-robotics.com/robots/talos/", "tags": {"sector": [7]}}
+{"id": 102, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2014, "rg": "CA", "n": "Clearpath Robotics Jackal", "url": "https://clearpathrobotics.com/jackal/", "tags": {"sector": [7]}}
+{"id": 103, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2010, "rg": "CA", "n": "Clearpath Robotics Husky", "url": "https://clearpathrobotics.com/husky/", "tags": {"sector": [7]}}
+{"id": 104, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 1968, "rg": "US", "n": "Frankenstein (MIT)", "url": "https://en.wikipedia.org/wiki/Shakey_the_Robot", "tags": {"sector": [7]}}
+{"id": 105, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 1966, "rg": "US", "n": "Shakey the Robot (SRI)", "url": "https://en.wikipedia.org/wiki/Shakey_the_Robot", "tags": {"sector": [7]}}
+{"id": 106, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2000, "rg": "JP", "n": "ASIMO (Honda)", "url": "https://asimo.honda.com/", "tags": {"sector": [7]}}
+{"id": 107, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 1997, "rg": "IN", "n": "RoboCup Soccer Robots", "url": "https://www.robocup.org/", "tags": {"sector": [7]}}
+{"id": 108, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 1997, "rg": "US", "n": "Mars Pathfinder (Sojourner)", "url": "https://mars.nasa.gov/programmissions/missions/past/pathfinder/", "tags": {"sector": [14]}}
+{"id": 109, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 2004, "rg": "US", "n": "Mars Exploration Rovers (Spirit and Opportunity)", "url": "https://mars.nasa.gov/mer/", "tags": {"sector": [14]}}
+{"id": 110, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 2012, "rg": "US", "n": "Mars Science Laboratory (Curiosity)", "url": "https://mars.nasa.gov/msl/", "tags": {"sector": [14]}}
+{"id": 111, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 2021, "rg": "US", "n": "Mars 2020 (Perseverance)", "url": "https://mars.nasa.gov/mars2020/", "tags": {"sector": [14]}}
+{"id": 112, "d": 0, "c": 3, "o": 0, "pr": 4, "yr": 2021, "rg": "US", "n": "Ingenuity (Mars Helicopter)", "url": "https://mars.nasa.gov/technology/helicopter/", "tags": {"sector": [14]}}
+{"id": 113, "d": 0, "c": -1, "o": -1, "pr": 4, "yr": 1977, "rg": "US", "n": "Voyager 1", "url": "https://voyager.jpl.nasa.gov/", "tags": {"sector": [14]}}
+{"id": 114, "d": 0, "c": -1, "o": -1, "pr": 4, "yr": 1977, "rg": "US", "n": "Voyager 2", "url": "https://voyager.jpl.nasa.gov/", "tags": {"sector": [14]}}
+{"id": 115, "d": 0, "c": -1, "o": -1, "pr": 4, "yr": 1997, "rg": "US", "n": "Cassini-Huygens", "url": "https://solarsystem.nasa.gov/missions/cassini-huygens/in-depth/", "tags": {"sector": [14]}}
+{"id": 116, "d": 0, "c": -1, "o": -1, "pr": 4, "yr": 1990, "rg": "US", "n": "Hubble Space Telescope", "url": "https://www.nasa.gov/mission_pages/hubble/main/index.html", "tags": {"sector": [14]}}
+{"id": 117, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2001, "rg": "CA", "n": "International Space Station (ISS) Robotic Arm (Canadarm2)", "url": "https://www.asc-csa.gc.ca/eng/iss/canadarm2/default.asp", "tags": {"sector": [14]}}
+{"id": 118, "d": 0, "c": 3, "o": 0, "pr": 16, "yr": 2013, "rg": "DE", "n": "Festo BionicOpter", "url": "https://www.festo.com/cms/en-us/9702.htm", "tags": {"sector": [1]}}
+{"id": 119, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2014, "rg": "DE", "n": "Festo BionicKangaroo", "url": "https://www.festo.com/cms/en-us/9703.htm", "tags": {"sector": [1]}}
+{"id": 120, "d": 0, "c": 4, "o": 3, "pr": 16, "yr": 2018, "rg": "DE", "n": "Festo BionicFinWave", "url": "https://www.festo.com/cms/en-us/9704.htm", "tags": {"sector": [1]}}
+{"id": 121, "d": 0, "c": 7, "o": 0, "pr": 16, "yr": 2016, "rg": "US", "n": "Octobot (Harvard)", "url": "https://wyss.harvard.edu/news/the-octobot-a-soft-autonomous-robot/", "tags": {"sector": [1]}}
+{"id": 122, "d": 0, "c": 3, "o": 1, "pr": 16, "yr": 2013, "rg": "US", "n": "RoboClam (Northeastern University)", "url": "https://www.northeastern.edu/news/2013/08/roboclam/", "tags": {"sector": [1]}}
+{"id": 123, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2013, "rg": "US", "n": "RoboBee (Harvard)", "url": "https://robobee.seas.harvard.edu/", "tags": {"sector": [1]}}
+{"id": 124, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2016, "rg": "US", "n": "Spot (Boston Dynamics)", "url": "https://www.bostondynamics.com/spot", "tags": {"sector": [1]}}
+{"id": 125, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2013, "rg": "US", "n": "Atlas (Boston Dynamics)", "url": "https://www.bostondynamics.com/atlas", "tags": {"sector": [1]}}
+{"id": 126, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2019, "rg": "US", "n": "Digit (Agility Robotics)", "url": "https://www.agilityrobotics.com/digit", "tags": {"sector": [1]}}
+{"id": 127, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2021, "rg": "UK", "n": "Ameca (Engineered Arts)", "url": "https://www.engineeredarts.co.uk/robot/ameca/", "tags": {"sector": [1]}}
+{"id": 128, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 1961, "rg": "US", "n": "Unimate", "url": "https://www.asme.org/topics-resources/content/5-most-influential-robots-in-history", "tags": {"sector": [3]}}
+{"id": 129, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 1966, "rg": "US", "n": "Shakey the Robot", "url": "https://en.wikipedia.org/wiki/Shakey_the_Robot", "tags": {"sector": [7]}}
+{"id": 130, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2000, "rg": "JP", "n": "ASIMO", "url": "https://asimo.honda.com/", "tags": {"sector": [7]}}
+{"id": 131, "d": 0, "c": 1, "o": 0, "pr": 11, "yr": 1999, "rg": "JP", "n": "Aibo", "url": "https://en.wikipedia.org/wiki/AIBO", "tags": {"sector": [11]}}
+{"id": 132, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2002, "rg": "US", "n": "Roomba", "url": "https://www.irobot.com/roomba", "tags": {"sector": [11]}}
+{"id": 133, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 2004, "rg": "US", "n": "Spirit", "url": "https://mars.nasa.gov/mer/overview/spirit/", "tags": {"sector": [14]}}
+{"id": 134, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 2004, "rg": "US", "n": "Opportunity", "url": "https://mars.nasa.gov/mer/overview/opportunity/", "tags": {"sector": [14]}}
+{"id": 135, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 2012, "rg": "US", "n": "Curiosity", "url": "https://mars.nasa.gov/msl/", "tags": {"sector": [14]}}
+{"id": 136, "d": 0, "c": 4, "o": 0, "pr": 4, "yr": 2021, "rg": "US", "n": "Perseverance", "url": "https://mars.nasa.gov/mars2020/", "tags": {"sector": [14]}}
+{"id": 137, "d": 0, "c": 3, "o": 0, "pr": 4, "yr": 2021, "rg": "US", "n": "Ingenuity", "url": "https://mars.nasa.gov/technology/helicopter/", "tags": {"sector": [14]}}
+{"id": 138, "d": 0, "c": 1, "o": 0, "pr": 4, "yr": 2001, "rg": "CA", "n": "Canadarm2", "url": "https://www.asc-csa.gc.ca/eng/iss/canadarm2/default.asp", "tags": {"sector": [14]}}
+{"id": 139, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2016, "rg": "US", "n": "FarmBot Genesis", "url": "https://farm.bot/", "tags": {"sector": [0]}}
+{"id": 140, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2019, "rg": "DK", "n": "FarmDroid FD20", "url": "https://farmdroid.com/", "tags": {"sector": [0]}}
+{"id": 141, "d": 0, "c": -1, "o": -1, "pr": 7, "yr": 2011, "rg": "FR", "n": "Naïo Technologies Oz", "url": "https://www.naio-technologies.com/en/agricultural-robots/oz/", "tags": {"sector": [0]}}
+{"id": 142, "d": 0, "c": -1, "o": -1, "pr": 7, "yr": 2018, "rg": "FR", "n": "Naïo Technologies Dino", "url": "https://www.naio-technologies.com/en/agricultural-robots/dino/", "tags": {"sector": [0]}}
+{"id": 143, "d": 0, "c": -1, "o": -1, "pr": 7, "yr": 2017, "rg": "FR", "n": "Naïo Technologies Ted", "url": "https://www.naio-technologies.com/en/agricultural-robots/ted/", "tags": {"sector": [0]}}
+{"id": 144, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2021, "rg": "US", "n": "Carbon Robotics LaserWeeder", "url": "https://carbonrobotics.com/laserweeder/", "tags": {"sector": [0]}}
+{"id": 145, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2012, "rg": "US", "n": "Blue River Technology LettuceBot", "url": "https://www.deere.com/en/our-company/news-and-media/news-releases/2017/ag-tech/john-deere-acquires-blue-river-technology/", "tags": {"sector": [0]}}
+{"id": 146, "d": 0, "c": 1, "o": 0, "pr": 12, "yr": 2017, "rg": "US", "n": "Harvest CROO Robotics Strawberry Harvester", "url": "https://harvestcroorobotics.com/", "tags": {"sector": [0]}}
+{"id": 147, "d": 0, "c": 1, "o": 0, "pr": 12, "yr": 2015, "rg": "ES", "n": "Agrobot SW6010", "url": "https://agrobot.com/en/sw6010/", "tags": {"sector": [0]}}
+{"id": 148, "d": 0, "c": 4, "o": 0, "pr": 12, "yr": 2018, "rg": "US", "n": "Iron Ox Grover", "url": "https://ironox.com/", "tags": {"sector": [0]}}
+{"id": 149, "d": 0, "c": 7, "o": 2, "pr": 2, "yr": 2019, "rg": "UK", "n": "Small Robot Company Tom", "url": "https://www.smallrobotcompany.com/our-robots/tom/", "tags": {"sector": [0]}}
+{"id": 150, "d": 0, "c": 7, "o": 2, "pr": 16, "yr": 2019, "rg": "UK", "n": "Small Robot Company Dick", "url": "https://www.smallrobotcompany.com/our-robots/dick/", "tags": {"sector": [0]}}
+{"id": 151, "d": 0, "c": 7, "o": 2, "pr": 7, "yr": 2019, "rg": "UK", "n": "Small Robot Company Harry", "url": "https://www.smallrobotcompany.com/our-robots/harry/", "tags": {"sector": [0]}}
+{"id": 152, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2011, "rg": "CH", "n": "EcoRobotix Aigro", "url": "https://www.ecorobotix.com/en/aigro/", "tags": {"sector": [0]}}
+{"id": 153, "d": 0, "c": 2, "o": 2, "pr": 16, "yr": 2022, "rg": "US", "n": "Autonomous Tractor (John Deere)", "url": "https://www.deere.com/en/our-company/news-and-media/news-releases/2022/ag-tech/john-deere-unveils-fully-autonomous-tractor/", "tags": {"sector": [0]}}
+{"id": 154, "d": 0, "c": 1, "o": 0, "pr": 12, "yr": 2019, "rg": "US", "n": "Root AI Virgo", "url": "https://www.root-ai.com/", "tags": {"sector": [0]}}
+{"id": 155, "d": 0, "c": -1, "o": -1, "pr": 7, "yr": 2020, "rg": "US", "n": "Aigen Element", "url": "https://aigen.com/products/element", "tags": {"sector": [0]}}
+{"id": 156, "d": 0, "c": 3, "o": 1, "pr": 7, "yr": 2021, "rg": "US", "n": "Scythe Robotics RT1", "url": "https://www.scytherobotics.com/rt1", "tags": {"sector": [0]}}
+{"id": 157, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2019, "rg": "CA", "n": "Nexus Robotics Nexus", "url": "https://nexusrobotics.ca/", "tags": {"sector": [0]}}
+{"id": 158, "d": 0, "c": 2, "o": 2, "pr": 12, "yr": 2019, "rg": "US", "n": "Abundant Robotics Apple Harvesting Robot", "url": "https://www.abundantrobotics.com/", "tags": {"sector": [0]}}
+{"id": 159, "d": 0, "c": 1, "o": 0, "pr": 12, "yr": 2020, "rg": "US", "n": "Rabbit Tractors", "url": "https://rabbittractors.com/", "tags": {"sector": [0]}}
+{"id": 160, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2012, "rg": "US", "n": "Harvest Automation HV-100", "url": "https://www.harvestai.com/", "tags": {"sector": [0]}}
+{"id": 161, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2020, "rg": "US", "n": "Niqo Robotics (formerly FarmWise) Titan", "url": "https://niqorobotics.com/", "tags": {"sector": [0]}}
+{"id": 162, "d": 0, "c": 7, "o": 2, "pr": 12, "yr": 2024, "rg": "DE", "n": "FarmRobo iMog", "url": "https://www.farmrobo.de/en/products/imog/", "tags": {"sector": [0]}}
+{"id": 163, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2022, "rg": "SE", "n": "ABB IRB 1010", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1010", "tags": {"sector": [3]}}
+{"id": 164, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2024, "rg": "SE", "n": "ABB IRB 1090", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1090", "tags": {"sector": [3]}}
+{"id": 165, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2010, "rg": "SE", "n": "ABB IRB 1100", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1100", "tags": {"sector": [3]}}
+{"id": 166, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2009, "rg": "SE", "n": "ABB IRB 1200 Hygienic", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1200-hygienic", "tags": {"sector": [3]}}
+{"id": 167, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2009, "rg": "SE", "n": "ABB IRB 1200 Next Generation", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1200-next-generation", "tags": {"sector": [3]}}
+{"id": 168, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "SE", "n": "ABB IRB 1300", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1300", "tags": {"sector": [3]}}
+{"id": 169, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 1520ID", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1520id", "tags": {"sector": [3]}}
+{"id": 170, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 1660ID", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-1660id", "tags": {"sector": [3]}}
+{"id": 171, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 1995, "rg": "SE", "n": "ABB IRB 2400", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-2400", "tags": {"sector": [3]}}
+{"id": 172, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 2600ID", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-2600id", "tags": {"sector": [3]}}
+{"id": 173, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 1995, "rg": "SE", "n": "ABB IRB 4400", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-4400", "tags": {"sector": [3]}}
+{"id": 174, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "SE", "n": "ABB IRB 460", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-460", "tags": {"sector": [3]}}
+{"id": 175, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "SE", "n": "ABB IRB 5710", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-5710", "tags": {"sector": [3]}}
+{"id": 176, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "SE", "n": "ABB IRB 5720", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-5720", "tags": {"sector": [3]}}
+{"id": 177, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2005, "rg": "SE", "n": "ABB IRB 660", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-660", "tags": {"sector": [3]}}
+{"id": 178, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 6650S", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6650s", "tags": {"sector": [3]}}
+{"id": 179, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2005, "rg": "SE", "n": "ABB IRB 6660", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6660", "tags": {"sector": [3]}}
+{"id": 180, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 6710", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6710", "tags": {"sector": [3]}}
+{"id": 181, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 6720", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6720", "tags": {"sector": [3]}}
+{"id": 182, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 6730", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6730", "tags": {"sector": [3]}}
+{"id": 183, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 6740", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6740", "tags": {"sector": [3]}}
+{"id": 184, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 6750S", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6750s", "tags": {"sector": [3]}}
+{"id": 185, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 6790", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-6790", "tags": {"sector": [3]}}
+{"id": 186, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2005, "rg": "SE", "n": "ABB IRB 760", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-760", "tags": {"sector": [3]}}
+{"id": 187, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 7710", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-7710", "tags": {"sector": [3]}}
+{"id": 188, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "SE", "n": "ABB IRB 7720", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-7720", "tags": {"sector": [3]}}
+{"id": 189, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2016, "rg": "SE", "n": "ABB IRB 8700", "url": "https://new.abb.com/products/robotics/robots/industrial-robots/irb-8700", "tags": {"sector": [3]}}
+{"id": 190, "d": 0, "c": 0, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-HC10DTP", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [2]}}
+{"id": 191, "d": 0, "c": 0, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-HC10SDTP", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [2]}}
+{"id": 192, "d": 0, "c": 0, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-HC20DTP", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [2]}}
+{"id": 193, "d": 0, "c": 0, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-HC20SDTP", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [2]}}
+{"id": 194, "d": 0, "c": 0, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-HC30PL", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [2]}}
+{"id": 195, "d": 0, "c": 7, "o": 2, "pr": 1, "yr": null, "rg": "JA", "n": "MotoMINI", "url": "Unknown", "tags": {"sector": [13]}}
+{"id": 196, "d": 0, "c": 1, "o": 0, "pr": 1, "yr": 2000, "rg": "JA", "n": "MOTOMAN-SG400", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [10]}}
+{"id": 197, "d": 0, "c": 1, "o": 0, "pr": 1, "yr": 2000, "rg": "JA", "n": "MOTOMAN-SG650", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [10]}}
+{"id": 198, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP4", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 199, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP7", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 200, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP8", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 201, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP12", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 202, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP25", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 203, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP25-12", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 204, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP20HL", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 205, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP35L", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 206, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP50", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 207, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP88", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 208, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP110", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 209, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP110B", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 210, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP180", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 211, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP180-120", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 212, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP215", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 213, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP225", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 214, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP250", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 215, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP280", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 216, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP400", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 217, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP600", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 218, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP165R", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 219, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP200R", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 220, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP300R", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 221, "d": 0, "c": 4, "o": 0, "pr": 3, "yr": 2015, "rg": "JA", "n": "MOTOMAN-GP400R", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 222, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-AR700", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 223, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-AR900", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 224, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-AR1440", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 225, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-AR1440E", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 226, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-AR1730", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 227, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-AR2010", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 228, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2000, "rg": "JA", "n": "MOTOMAN-GA50", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 229, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP80", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 230, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP100", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 231, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP100B", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 232, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP130", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 233, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP165", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 234, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP165-105", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 235, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP210", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 236, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP235", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 237, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP110H", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 238, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP180H", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 239, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP180H-110", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 240, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP225H", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 241, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP225H-135", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 242, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP150R", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 243, "d": 0, "c": 2, "o": 1, "pr": 0, "yr": 2001, "rg": "JA", "n": "MOTOMAN-SP185R", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 244, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPX1150", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 245, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPX1400", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 246, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPX1950", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 247, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPX2600", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 248, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPXL2600", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 249, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPX3500", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 250, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MHP45L", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 251, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPO10", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 252, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPO40", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 253, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPP3H", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 254, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPP3S", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 255, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPK2F", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 256, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2005, "rg": "JA", "n": "MOTOMAN-MPK2F-5", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 257, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "JA", "n": "MOTOMAN-PL80", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 258, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "JA", "n": "MOTOMAN-PL190", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 259, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "JA", "n": "MOTOMAN-PL320", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 260, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "JA", "n": "MOTOMAN-PL500", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 261, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "JA", "n": "MOTOMAN-PL800", "url": "https://www.motoman.com/en-us/products/robots", "tags": {"sector": [3]}}
+{"id": 262, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2010, "rg": "DE", "n": "KUKA KR DELTA in Hygienic Design", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-delta-hygienic-design", "tags": {"sector": [3]}}
+{"id": 263, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR DELTA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-delta", "tags": {"sector": [3]}}
+{"id": 264, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR SCARA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-scara", "tags": {"sector": [3]}}
+{"id": 265, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2018, "rg": "DE", "n": "KUKA LBR iisy", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iisy", "tags": {"sector": [2]}}
+{"id": 266, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 4 AGILUS", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-4-agilus", "tags": {"sector": [3]}}
+{"id": 267, "d": 0, "c": 7, "o": 2, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR AGILUS", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-agilus", "tags": {"sector": [3]}}
+{"id": 268, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2013, "rg": "DE", "n": "KUKA LBR iiwa", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/lbr-iiwa", "tags": {"sector": [2]}}
+{"id": 269, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR CYBERTECH nano", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-cybertech-nano", "tags": {"sector": [3]}}
+{"id": 270, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR CYBERTECH nano ARC", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-cybertech-nano-arc", "tags": {"sector": [3]}}
+{"id": 271, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR CYBERTECH", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-cybertech", "tags": {"sector": [3]}}
+{"id": 272, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR CYBERTECH ARC", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-cybertech-arc", "tags": {"sector": [3]}}
+{"id": 273, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR IONTEC", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-iontec", "tags": {"sector": [3]}}
+{"id": 274, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR IONTEC ultra", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-iontec-ultra", "tags": {"sector": [3]}}
+{"id": 275, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "DE", "n": "KUKA KR 40 PA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-40-pa", "tags": {"sector": [3]}}
+{"id": 276, "d": 0, "c": 2, "o": 2, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR QUANTEC nano", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-quantec-nano", "tags": {"sector": [3]}}
+{"id": 277, "d": 0, "c": 2, "o": 2, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR QUANTEC", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-quantec", "tags": {"sector": [3]}}
+{"id": 278, "d": 0, "c": 2, "o": 2, "pr": 3, "yr": 2010, "rg": "DE", "n": "KUKA KR QUANTEC PA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-quantec-pa", "tags": {"sector": [3]}}
+{"id": 279, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2012, "rg": "DE", "n": "KUKA KR 300-2 PA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-300-2-pa", "tags": {"sector": [3]}}
+{"id": 280, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2012, "rg": "DE", "n": "KUKA KR 360 FORTEC", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-360-fortec", "tags": {"sector": [3]}}
+{"id": 281, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR FORTEC", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-fortec", "tags": {"sector": [3]}}
+{"id": 282, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "DE", "n": "KUKA KR FORTEC PA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-fortec-pa", "tags": {"sector": [3]}}
+{"id": 283, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "DE", "n": "KUKA KR 470-2 PA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-470-2-pa", "tags": {"sector": [3]}}
+{"id": 284, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 500 FORTEC", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-500-fortec", "tags": {"sector": [3]}}
+{"id": 285, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "DE", "n": "KUKA KR 700 PA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-700-pa", "tags": {"sector": [3]}}
+{"id": 286, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR FORTEC ultra", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-fortec-ultra", "tags": {"sector": [3]}}
+{"id": 287, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "DE", "n": "KUKA KR FORTEC ultra PA", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-fortec-ultra-pa", "tags": {"sector": [3]}}
+{"id": 288, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR 1000 titan", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-1000-titan", "tags": {"sector": [3]}}
+{"id": 289, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "DE", "n": "KUKA KR TITAN ultra", "url": "https://www.kuka.com/en-us/products/robotics-systems/industrial-robots/kr-titan-ultra", "tags": {"sector": [3]}}
+{"id": 290, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2012, "rg": "DK", "n": "Universal Robots UR3e", "url": "https://www.universal-robots.com/products/ur3e/", "tags": {"sector": [2]}}
+{"id": 291, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2008, "rg": "DK", "n": "Universal Robots UR5e", "url": "https://www.universal-robots.com/products/ur5e/", "tags": {"sector": [2]}}
+{"id": 292, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2012, "rg": "DK", "n": "Universal Robots UR10e", "url": "https://www.universal-robots.com/products/ur10e/", "tags": {"sector": [2]}}
+{"id": 293, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2018, "rg": "DK", "n": "Universal Robots UR16e", "url": "https://www.universal-robots.com/products/ur16e/", "tags": {"sector": [2]}}
+{"id": 294, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2022, "rg": "DK", "n": "Universal Robots UR20", "url": "https://www.universal-robots.com/products/ur20/", "tags": {"sector": [2]}}
+{"id": 295, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau MyCo-3-0.59", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 296, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau MyCo-3.5-0.95", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 297, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau MyCo-5-0.80", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 298, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau MyCo-8-1.30", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 299, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau MyCo-10-1.00", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 300, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau MyCo-15-1.30", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 301, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau AURA-170-2.8", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 302, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau Racer-5-0.80 COBOT", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 303, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau Racer-5 SE", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [2]}}
+{"id": 304, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau REBEL-S6-0.45", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 305, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau REBEL-S6-0.60", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 306, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau REBEL-S6-0.60C", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 307, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau REBEL-S6-0.75", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 308, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2010, "rg": "IT", "n": "Comau REBEL-S6-0.75C", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 309, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau RACER-3-0.63", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 310, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau RACER-5-0.63", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 311, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau RACER-5-0.80", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 312, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau RACER-7-1.4", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 313, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau S-13", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 314, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau S-18", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 315, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-16-3.1", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 316, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-40-2.5", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 317, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-60-2.2", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 318, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "IT", "n": "Comau PAL-180-3.1", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 319, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "IT", "n": "Comau PAL-260-3.1", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 320, "d": 0, "c": 0, "o": 0, "pr": 3, "yr": 2010, "rg": "IT", "n": "Comau PAL-470-3.1", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 321, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-100-3.2 PRESS", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 322, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-130-3.7 SH PRESS", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 323, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-110-3.0", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 324, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-130-2.0", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 325, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-130-2.6", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 326, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-165-3.0", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 327, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-165-3.4 SH", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 328, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-210-3.1 SH", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 329, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-220-2.7", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 330, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-290-3.0", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 331, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-370-2.7", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 332, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-370-3.0", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 333, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-420-3.0", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 334, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-450-2.7", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 335, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-500-2.7", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 336, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2010, "rg": "IT", "n": "Comau NJ-650-2.7", "url": "https://www.comau.com/en/competencies/robotics", "tags": {"sector": [3]}}
+{"id": 337, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Agovor GOVOR", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 338, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "DK", "n": "Agrointelli Robotti", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 339, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "DE", "n": "AgXeed AgBot 2.055W3", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 340, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "DE", "n": "AgXeed AgBot5 2.055W4", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 341, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "DE", "n": "AgXeed Agbot 5.115T2", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 342, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "AIGRO UP", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 343, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Amos Power A3/A4", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 344, "d": 0, "c": 2, "o": 2, "pr": 16, "yr": 2020, "rg": "UN", "n": "Ant Robotics Valera", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 345, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "US", "n": "Augean Robotics Burro", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 346, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "AutoAgri ICS20", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 347, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Automato Robotics Sunjer A2", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 348, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Digital workbench Tipard 350", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 349, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Digital workbench Tipard 1800", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 350, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Directed Machines Land Care Robot", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 351, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "DPH Industries The FarmHand Tractor", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 352, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "EarthAutomations Dood", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 353, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Exobotic Technologies Land-A2", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 354, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Exxact Robotics Traxx", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 355, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Farmrobo iMog", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 356, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "FieldRobotics HammerHead", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 357, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Hari Tech haRiBOT", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 358, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Korechi RoamIO-HCT", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 359, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Korechi RoamIO-HCW", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 360, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Korechi RoamIO-mini", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 361, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Lambers & Exobotic Technologies WTD4", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 362, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Naïo Jo", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 363, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Naïo Orio", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 364, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Naïo Oz", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 365, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Nature Robotics Lero.03", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 366, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "PeK Automotive Slopehelper", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 367, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Pixelfarming Robot One", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 368, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Robotics Plus Prospr", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 369, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Sitia Trektor", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 370, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "UN", "n": "Siza Robotics TOOGO", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 371, "d": 0, "c": 7, "o": 2, "pr": 16, "yr": 2020, "rg": "UN", "n": "Smart Machine Oxin", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 372, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "STEVmotion Vineatrac", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 373, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "AU", "n": "SwarmFarm SwarmBot", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 374, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Traktorarvid Drever 120", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 375, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2020, "rg": "FR", "n": "VitiBot Bakus", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 376, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "XMachines – X100 Ultra", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 377, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2020, "rg": "UN", "n": "Zauberzeug Field Friend", "url": "Unknown", "tags": {"sector": [0]}}
+{"id": 378, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Military robot", "url": "https://en.wikipedia.org/wiki/Military_robot", "tags": {"sector": [6]}}
+{"id": 379, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Sentry gun", "url": "https://en.wikipedia.org/wiki/Sentry_gun", "tags": {"sector": [6]}}
+{"id": 380, "d": 0, "c": 7, "o": 2, "pr": 15, "yr": 2010, "rg": "UN", "n": "30mm DS30M Mark 2 Automated Small Calibre Gun", "url": "https://en.wikipedia.org/wiki/30mm_DS30M_Mark_2_Automated_Small_Calibre_Gun", "tags": {"sector": [6]}}
+{"id": 381, "d": 0, "c": 2, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Legged Squad Support System", "url": "https://en.wikipedia.org/wiki/Legged_Squad_Support_System", "tags": {"sector": [6]}}
+{"id": 382, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Lethal autonomous weapon", "url": "https://en.wikipedia.org/wiki/Lethal_autonomous_weapon", "tags": {"sector": [6]}}
+{"id": 383, "d": 0, "c": 2, "o": 1, "pr": 15, "yr": 2010, "rg": "UN", "n": "LittleDog", "url": "https://en.wikipedia.org/wiki/LittleDog", "tags": {"sector": [6]}}
+{"id": 384, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "AAI RQ-7 Shadow", "url": "https://en.wikipedia.org/wiki/AAI_RQ-7_Shadow", "tags": {"sector": [6]}}
+{"id": 385, "d": 0, "c": 4, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "AeroVironment RQ-14 Dragon Eye", "url": "https://en.wikipedia.org/wiki/AeroVironment_RQ-14_Dragon_Eye", "tags": {"sector": [6]}}
+{"id": 386, "d": 0, "c": 3, "o": 0, "pr": 15, "yr": 2010, "rg": "EU", "n": "Airbus Helicopters VSR700", "url": "https://en.wikipedia.org/wiki/Airbus_Helicopters_VSR700", "tags": {"sector": [6]}}
+{"id": 387, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "UN", "n": "Atobá XR", "url": "https://en.wikipedia.org/wiki/Atob%C3%A1_XR", "tags": {"sector": [6]}}
+{"id": 388, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Aurora Excalibur", "url": "https://en.wikipedia.org/wiki/Aurora_Excalibur", "tags": {"sector": [6]}}
+{"id": 389, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Autonomous Rotorcraft Sniper System", "url": "https://en.wikipedia.org/wiki/Autonomous_Rotorcraft_Sniper_System", "tags": {"sector": [6]}}
+{"id": 390, "d": 0, "c": 2, "o": 2, "pr": 15, "yr": 2010, "rg": "UK", "n": "BAE Systems Mantis", "url": "https://en.wikipedia.org/wiki/BAE_Systems_Mantis", "tags": {"sector": [6]}}
+{"id": 391, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "PA", "n": "GIDS Shahpar", "url": "https://en.wikipedia.org/wiki/GIDS_Shahpar", "tags": {"sector": [6]}}
+{"id": 392, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "PA", "n": "GIDS Shahpar-II", "url": "https://en.wikipedia.org/wiki/GIDS_Shahpar-II", "tags": {"sector": [6]}}
+{"id": 393, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "PA", "n": "GIDS Shahpar-III", "url": "https://en.wikipedia.org/wiki/GIDS_Shahpar-III", "tags": {"sector": [6]}}
+{"id": 394, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "ES", "n": "INTA SIVA", "url": "https://en.wikipedia.org/wiki/INTA_SIVA", "tags": {"sector": [6]}}
+{"id": 395, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Lockheed Martin Desert Hawk III", "url": "https://en.wikipedia.org/wiki/Lockheed_Martin_Desert_Hawk_III", "tags": {"sector": [6]}}
+{"id": 396, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Northrop Grumman MQ-8 Fire Scout", "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_MQ-8_Fire_Scout", "tags": {"sector": [6]}}
+{"id": 397, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "Northrop Grumman MQ-8C Fire Scout", "url": "https://en.wikipedia.org/wiki/Northrop_Grumman_MQ-8C_Fire_Scout", "tags": {"sector": [6]}}
+{"id": 398, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "US", "n": "General Atomics MQ-9 Reaper", "url": "https://en.wikipedia.org/wiki/General_Atomics_MQ-9_Reaper", "tags": {"sector": [6]}}
+{"id": 399, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "PA", "n": "Qods Mohajer 10", "url": "https://en.wikipedia.org/wiki/Qods_Mohajer_10", "tags": {"sector": [6]}}
+{"id": 400, "d": 0, "c": 4, "o": 0, "pr": 15, "yr": 2010, "rg": "UN", "n": "Sea Robin XFC", "url": "https://en.wikipedia.org/wiki/Sea_Robin_XFC", "tags": {"sector": [6]}}
+{"id": 401, "d": 0, "c": 2, "o": 2, "pr": 15, "yr": 2010, "rg": "UN", "n": "ST Aero FanTail", "url": "https://en.wikipedia.org/wiki/ST_Aero_FanTail", "tags": {"sector": [6]}}
+{"id": 402, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "UN", "n": "ST Aerospace Skyblade", "url": "https://en.wikipedia.org/wiki/ST_Aerospace_Skyblade", "tags": {"sector": [6]}}
+{"id": 403, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "AU", "n": "Sypaq Corvo Precision Payload Delivery System", "url": "https://en.wikipedia.org/wiki/Sypaq_Corvo_Precision_Payload_Delivery_System", "tags": {"sector": [6]}}
+{"id": 404, "d": 0, "c": 3, "o": 0, "pr": 15, "yr": 2010, "rg": "PE", "n": "UAV FAP", "url": "https://en.wikipedia.org/wiki/UAV_FAP", "tags": {"sector": [6]}}
+{"id": 405, "d": 0, "c": 1, "o": 1, "pr": 6, "yr": 2010, "rg": "US", "n": "ANDROS", "url": "https://en.wikipedia.org/wiki/ANDROS", "tags": {"sector": [6]}}
+{"id": 406, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Demining robot", "url": "https://en.wikipedia.org/wiki/Demining_robot", "tags": {"sector": [6]}}
+{"id": 407, "d": 0, "c": 1, "o": 1, "pr": 6, "yr": 2010, "rg": "IN", "n": "DRDO Daksh", "url": "https://en.wikipedia.org/wiki/DRDO_Daksh", "tags": {"sector": [6]}}
+{"id": 408, "d": 0, "c": 1, "o": 1, "pr": 6, "yr": 2010, "rg": "US", "n": "MarkV-A1", "url": "https://en.wikipedia.org/wiki/MarkV-A1", "tags": {"sector": [6]}}
+{"id": 409, "d": 0, "c": 1, "o": 0, "pr": 6, "yr": 2010, "rg": "US", "n": "Panama remote controlled vehicle", "url": "https://en.wikipedia.org/wiki/Panama_remote_controlled_vehicle", "tags": {"sector": [6]}}
+{"id": 410, "d": 0, "c": 4, "o": 3, "pr": 6, "yr": 2010, "rg": "US", "n": "Wheelbarrow (robot)", "url": "https://en.wikipedia.org/wiki/Wheelbarrow_(robot)", "tags": {"sector": [6]}}
+{"id": 411, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "IRobot Negotiator", "url": "https://en.wikipedia.org/wiki/IRobot_Negotiator", "tags": {"sector": [6]}}
+{"id": 412, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "R-Gator", "url": "https://en.wikipedia.org/wiki/R-Gator", "tags": {"sector": [6]}}
+{"id": 413, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "IRobot Ranger", "url": "https://en.wikipedia.org/wiki/IRobot_Ranger", "tags": {"sector": [6]}}
+{"id": 414, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "IRobot Transphibian", "url": "https://en.wikipedia.org/wiki/IRobot_Transphibian", "tags": {"sector": [6]}}
+{"id": 415, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "IRobot Warrior", "url": "https://en.wikipedia.org/wiki/IRobot_Warrior", "tags": {"sector": [6]}}
+{"id": 416, "d": 0, "c": 1, "o": 0, "pr": 6, "yr": 2010, "rg": "US", "n": "PackBot", "url": "https://en.wikipedia.org/wiki/PackBot", "tags": {"sector": [6]}}
+{"id": 417, "d": 0, "c": 7, "o": 2, "pr": 15, "yr": 2010, "rg": "US", "n": "XM1216 small unmanned ground vehicle", "url": "https://en.wikipedia.org/wiki/XM1216_small_unmanned_ground_vehicle", "tags": {"sector": [6]}}
+{"id": 418, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Unmanned ground combat vehicle", "url": "https://en.wikipedia.org/wiki/Unmanned_ground_combat_vehicle", "tags": {"sector": [6]}}
+{"id": 419, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Armored Combat Engineer Robot", "url": "https://en.wikipedia.org/wiki/Armored_Combat_Engineer_Robot", "tags": {"sector": [6]}}
+{"id": 420, "d": 0, "c": 2, "o": 2, "pr": 15, "yr": 2010, "rg": "IL", "n": "AvantGuard", "url": "https://en.wikipedia.org/wiki/AvantGuard", "tags": {"sector": [6]}}
+{"id": 421, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Berserk (robot)", "url": "https://en.wikipedia.org/wiki/Berserk_(robot)", "tags": {"sector": [6]}}
+{"id": 422, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Black Knight (vehicle)", "url": "https://en.wikipedia.org/wiki/Black_Knight_(vehicle)", "tags": {"sector": [6]}}
+{"id": 423, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Crusher (robot)", "url": "https://en.wikipedia.org/wiki/Crusher_(robot)", "tags": {"sector": [6]}}
+{"id": 424, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "US", "n": "Energetically Autonomous Tactical Robot", "url": "https://en.wikipedia.org/wiki/Energetically_Autonomous_Tactical_Robot", "tags": {"sector": [6]}}
+{"id": 425, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "SE", "n": "Miloš (unmanned ground vehicle)", "url": "https://en.wikipedia.org/wiki/Milo%C5%A1_(unmanned_ground_vehicle)", "tags": {"sector": [6]}}
+{"id": 426, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "UN", "n": "Mobile Land Mine", "url": "https://en.wikipedia.org/wiki/Mobile_Land_Mine", "tags": {"sector": [6]}}
+{"id": 427, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "UN", "n": "Multifunctional utility/logistics and equipment vehicle", "url": "https://en.wikipedia.org/wiki/Multifunctional_utility/logistics_and_equipment_vehicle", "tags": {"sector": [6]}}
+{"id": 428, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "UN", "n": "Muntra", "url": "https://en.wikipedia.org/wiki/Muntra", "tags": {"sector": [6]}}
+{"id": 429, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "IR", "n": "Nazir rocket launcher (robot)", "url": "https://en.wikipedia.org/wiki/Nazir_rocket_launcher_(robot)", "tags": {"sector": [6]}}
+{"id": 430, "d": 0, "c": 2, "o": 2, "pr": 15, "yr": 2010, "rg": "UN", "n": "Phantom (unmanned ground vehicle)", "url": "https://en.wikipedia.org/wiki/Phantom_(unmanned_ground_vehicle)", "tags": {"sector": [6]}}
+{"id": 431, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "UN", "n": "Ripsaw (vehicle)", "url": "https://en.wikipedia.org/wiki/Ripsaw_(vehicle)", "tags": {"sector": [6]}}
+{"id": 432, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "UN", "n": "Robattle", "url": "https://en.wikipedia.org/wiki/Robattle", "tags": {"sector": [6]}}
+{"id": 433, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "FR", "n": "SYRANO", "url": "https://en.wikipedia.org/wiki/SYRANO", "tags": {"sector": [6]}}
+{"id": 434, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "UN", "n": "History of unmanned combat aerial vehicles", "url": "https://en.wikipedia.org/wiki/History_of_unmanned_combat_aerial_vehicles", "tags": {"sector": [6]}}
+{"id": 435, "d": 0, "c": 3, "o": 0, "pr": 15, "yr": 2010, "rg": "UN", "n": "Miniature UAV", "url": "https://en.wikipedia.org/wiki/Miniature_UAV", "tags": {"sector": [6]}}
+{"id": 436, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "UN", "n": "Unmanned combat aerial vehicle", "url": "https://en.wikipedia.org/wiki/Unmanned_combat_aerial_vehicle", "tags": {"sector": [6]}}
+{"id": 437, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2010, "rg": "UN", "n": "Unmanned surveillance and reconnaissance aerial vehicle", "url": "https://en.wikipedia.org/wiki/Unmanned_surveillance_and_reconnaissance_aerial_vehicle", "tags": {"sector": [6]}}
+{"id": 438, "d": 0, "c": 3, "o": 0, "pr": 15, "yr": 2010, "rg": "IR", "n": "Meraj (UAV)", "url": "https://en.wikipedia.org/wiki/Meraj_(UAV)", "tags": {"sector": [6]}}
+{"id": 439, "d": 0, "c": 3, "o": 0, "pr": 15, "yr": 2010, "rg": "IR", "n": "Meraj 113 (UAV)", "url": "https://en.wikipedia.org/wiki/Meraj_113_(UAV)", "tags": {"sector": [6]}}
+{"id": 440, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "ZA", "n": "Milkor 380", "url": "https://en.wikipedia.org/wiki/Milkor_380", "tags": {"sector": [6]}}
+{"id": 441, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "LE", "n": "Mirsad-1", "url": "https://en.wikipedia.org/wiki/Mirsad-1", "tags": {"sector": [6]}}
+{"id": 442, "d": 0, "c": 1, "o": 1, "pr": 15, "yr": 2010, "rg": "TW", "n": "NCSIST Albatross", "url": "https://en.wikipedia.org/wiki/NCSIST_Albatross", "tags": {"sector": [6]}}
+{"id": 443, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Domestic robot", "url": "https://en.wikipedia.org/wiki/Domestic_robot", "tags": {"sector": [11]}}
+{"id": 444, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "FoldiMate", "url": "https://en.wikipedia.org/wiki/FoldiMate", "tags": {"sector": [11]}}
+{"id": 445, "d": 0, "c": 1, "o": 0, "pr": 11, "yr": 2021, "rg": "US", "n": "Amazon Astro", "url": "https://en.wikipedia.org/wiki/Amazon_Astro", "tags": {"sector": [11]}}
+{"id": 446, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Automated pool cleaner", "url": "https://en.wikipedia.org/wiki/Automated_pool_cleaner", "tags": {"sector": [11]}}
+{"id": 447, "d": 0, "c": 4, "o": 0, "pr": 7, "yr": null, "rg": "US", "n": "Domo (robot)", "url": "https://en.wikipedia.org/wiki/Domo_(robot)", "tags": {"sector": [11]}}
+{"id": 448, "d": 0, "c": 1, "o": 0, "pr": 11, "yr": null, "rg": "UN", "n": "EEVE", "url": "https://en.wikipedia.org/wiki/EEVE", "tags": {"sector": [11]}}
+{"id": 449, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "JP", "n": "Laundroid", "url": "https://en.wikipedia.org/wiki/Laundroid", "tags": {"sector": [11]}}
+{"id": 450, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Laundry-folding machine", "url": "https://en.wikipedia.org/wiki/Laundry-folding_machine", "tags": {"sector": [11]}}
+{"id": 451, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Looj", "url": "https://en.wikipedia.org/wiki/Looj", "tags": {"sector": [11]}}
+{"id": 452, "d": 0, "c": 6, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Modulus robot", "url": "https://en.wikipedia.org/wiki/Modulus_robot", "tags": {"sector": [11]}}
+{"id": 453, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UK", "n": "Moley Robotics", "url": "https://en.wikipedia.org/wiki/Moley_Robotics", "tags": {"sector": [11]}}
+{"id": 454, "d": 0, "c": 3, "o": 1, "pr": 7, "yr": null, "rg": "UN", "n": "Robomow", "url": "https://en.wikipedia.org/wiki/Robomow", "tags": {"sector": [11]}}
+{"id": 455, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "JP", "n": "Roborior", "url": "https://en.wikipedia.org/wiki/Roborior", "tags": {"sector": [11]}}
+{"id": 456, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Scooba (brand)", "url": "https://en.wikipedia.org/wiki/Scooba_(brand)", "tags": {"sector": [11]}}
+{"id": 457, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "JP", "n": "Toyota Partner Robot", "url": "https://en.wikipedia.org/wiki/Toyota_Partner_Robot", "tags": {"sector": [11]}}
+{"id": 458, "d": 0, "c": 1, "o": 0, "pr": 11, "yr": 2003, "rg": "JP", "n": "Wakamaru", "url": "https://en.wikipedia.org/wiki/Wakamaru", "tags": {"sector": [11]}}
+{"id": 459, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Robotic vacuum cleaner", "url": "https://en.wikipedia.org/wiki/Robotic_vacuum_cleaner", "tags": {"sector": [11]}}
+{"id": 460, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "CN", "n": "Dreame Technology", "url": "https://en.wikipedia.org/wiki/Dreame_Technology", "tags": {"sector": [11]}}
+{"id": 461, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "IT", "n": "Dustbot", "url": "https://en.wikipedia.org/wiki/Dustbot", "tags": {"sector": [11]}}
+{"id": 462, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "CN", "n": "Ecovacs Robotics", "url": "https://en.wikipedia.org/wiki/Ecovacs_Robotics", "tags": {"sector": [11]}}
+{"id": 463, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2001, "rg": "SE", "n": "Electrolux Trilobite", "url": "https://en.wikipedia.org/wiki/Electrolux_Trilobite", "tags": {"sector": [11]}}
+{"id": 464, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "CN", "n": "Eufy", "url": "https://en.wikipedia.org/wiki/Eufy", "tags": {"sector": [11]}}
+{"id": 465, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "UN", "n": "Friendly Vac RV400", "url": "https://en.wikipedia.org/wiki/Friendly_Vac_RV400", "tags": {"sector": [11]}}
+{"id": 466, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "DE", "n": "Kärcher RC3000", "url": "https://en.wikipedia.org/wiki/K%C3%A4rcher_RC3000", "tags": {"sector": [11]}}
+{"id": 467, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "KR", "n": "LG Roboking", "url": "https://en.wikipedia.org/wiki/LG_Roboking", "tags": {"sector": [11]}}
+{"id": 468, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2010, "rg": "US", "n": "Neato XV-11", "url": "https://en.wikipedia.org/wiki/Neato_XV-11", "tags": {"sector": [11]}}
+{"id": 469, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": null, "rg": "CN", "n": "Roborock", "url": "https://en.wikipedia.org/wiki/Roborock", "tags": {"sector": [11]}}
+{"id": 470, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2018, "rg": "CN", "n": "Unitree Go2 AIR Robotic Dog", "url": "https://www.robotshop.com/products/unitree-go2-air-robotic-dog", "tags": {"sector": [7]}}
+{"id": 471, "d": 0, "c": 2, "o": 1, "pr": 16, "yr": 2018, "rg": "CN", "n": "Unitree Go2 PRO Robotic Dog", "url": "https://www.robotshop.com/products/unitree-go2-pro-robotic-dog", "tags": {"sector": [7]}}
+{"id": 472, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "UN", "n": "Xbot - Model M (Orin NX)", "url": "https://www.robotshop.com/products/xbot-model-m-orin-nx", "tags": {"sector": [7]}}
+{"id": 473, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "CA", "n": "Lynxmotion - A4WD3 Rugged Wheeled Rover RC Kit", "url": "https://www.robotshop.com/products/lynxmotion-a4wd3-rugged-wheeled-rover-rc-kit", "tags": {"sector": [7]}}
+{"id": 474, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "CA", "n": "Lynxmotion - A4WD3 Rugged Mecanum Rover Autonomous Kit", "url": "https://www.robotshop.com/products/lynxmotion-a4wd3-rugged-mecanum-rover-autonomous-kit", "tags": {"sector": [7]}}
+{"id": 475, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "PL", "n": "Rosbot 2 - Orin Nano", "url": "https://www.robotshop.com/products/rosbot-2-orin-nano", "tags": {"sector": [7]}}
+{"id": 476, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2018, "rg": "FR", "n": "Aldebaran Robotics NAO6 Humanoid Robot", "url": "https://www.robotshop.com/products/aldebaran-robotics-nao6-humanoid-robot", "tags": {"sector": [7]}}
+{"id": 477, "d": 0, "c": 3, "o": 0, "pr": 16, "yr": 2018, "rg": "CN", "n": "Chasing Gladius MINI S Underwater Drone Standard 200m", "url": "https://www.robotshop.com/products/chasing-gladius-mini-s-underwater-drone-standard-200m", "tags": {"sector": [7]}}
+{"id": 478, "d": 0, "c": 1, "o": 0, "pr": 11, "yr": null, "rg": "UN", "n": "MARCo-Lite: Your Personal Mental Health Buddy!", "url": "https://www.robotshop.com/products/marco-lite-your-personal-mental-health-buddy", "tags": {"sector": [11]}}
+{"id": 479, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "UN", "n": "ADIR Power", "url": "https://www.robotshop.com/products/adir-power", "tags": {"sector": [7]}}
+{"id": 480, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "PL", "n": "Leo Rover v1.8 Developer Kit", "url": "https://www.robotshop.com/products/leo-rover-v1-8-developer-kit", "tags": {"sector": [7]}}
+{"id": 481, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "PL", "n": "Leo Rover v1.8 (Assembled)", "url": "https://www.robotshop.com/products/leo-rover-v1-8-assembled", "tags": {"sector": [7]}}
+{"id": 482, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "PL", "n": "Rosbot Plus AC - Orin Nano (Auto Charge)", "url": "https://www.robotshop.com/products/rosbot-plus-ac-orin-nano-auto-charge", "tags": {"sector": [7]}}
+{"id": 483, "d": 0, "c": 3, "o": 0, "pr": 16, "yr": 2018, "rg": "CN", "n": "Chasing Gladius MINI S Underwater Drone Standard 100m", "url": "https://www.robotshop.com/products/chasing-gladius-mini-s-underwater-drone-standard-100m", "tags": {"sector": [7]}}
+{"id": 484, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "PL", "n": "Rosbot Plus - Orin Nano", "url": "https://www.robotshop.com/products/rosbot-plus-orin-nano", "tags": {"sector": [7]}}
+{"id": 485, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "PL", "n": "Rosbot Pro - Orin Nano", "url": "https://www.robotshop.com/products/rosbot-pro-orin-nano", "tags": {"sector": [7]}}
+{"id": 486, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "PL", "n": "Rosbot Plus - Chassis", "url": "https://www.robotshop.com/products/rosbot-plus-chassis", "tags": {"sector": [7]}}
+{"id": 487, "d": 0, "c": 4, "o": 0, "pr": 1, "yr": 2018, "rg": "UN", "n": "MicroTraxx Inspection Robot", "url": "https://www.robotshop.com/products/microtraxx-inspection-robot", "tags": {"sector": [7]}}
+{"id": 488, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2018, "rg": "UN", "n": "Robofleet - Orin Nano x5", "url": "https://www.robotshop.com/products/robofleet-orin-nano-x5", "tags": {"sector": [7]}}
+{"id": 489, "d": 1, "c": 4, "o": 0, "pr": 4, "yr": 2002, "rg": "US", "n": "Gazebo", "url": "https://gazebosim.org", "tags": {"sector": [8]}}
+{"id": 490, "d": 1, "c": 4, "o": 0, "pr": 4, "yr": 1996, "rg": "CH", "n": "Webots", "url": "https://cyberbotics.com", "tags": {"sector": [8]}}
+{"id": 491, "d": 1, "c": 3, "o": 1, "pr": 16, "yr": 2015, "rg": "CA", "n": "RoboDK", "url": "https://robodk.com", "tags": {"sector": [4]}}
+{"id": 492, "d": 1, "c": 4, "o": 3, "pr": 4, "yr": 2012, "rg": "US", "n": "MuJoCo", "url": "https://mujoco.org", "tags": {"sector": [8]}}
+{"id": 493, "d": 1, "c": 2, "o": 1, "pr": 4, "yr": 2011, "rg": "CH", "n": "CoppeliaSim (V-REP)", "url": "https://www.coppeliarobotics.com", "tags": {"sector": [8]}}
+{"id": 494, "d": 1, "c": 6, "o": 0, "pr": 4, "yr": 2012, "rg": "EU", "n": "ARGoS", "url": "https://www.argos-sim.info", "tags": {"sector": [8]}}
+{"id": 495, "d": 1, "c": 2, "o": 1, "pr": 4, "yr": 2021, "rg": "US", "n": "NVIDIA Isaac Sim", "url": "https://developer.nvidia.com/isaac-sim", "tags": {"sector": [8]}}
+{"id": 496, "d": 1, "c": 2, "o": 1, "pr": 7, "yr": 2018, "rg": "US", "n": "AWS RoboMaker", "url": "https://aws.amazon.com/robomaker", "tags": {"sector": [8]}}
+{"id": 497, "d": 2, "c": 2, "o": 1, "pr": 16, "yr": 1998, "rg": "SW", "n": "ABB RobotStudio", "url": "https://new.abb.com/products/robotics/software/robotstudio", "tags": {"sector": [4]}}
+{"id": 498, "d": 2, "c": 2, "o": 0, "pr": 7, "yr": 2022, "rg": "DE", "n": "NimbRo Avatar", "url": "https://nimbro.net", "tags": {"sector": [12]}}
+{"id": 499, "d": 0, "c": 6, "o": 0, "pr": 16, "yr": 2006, "rg": "BE", "n": "Swarmanoid Foot-bot", "url": "https://www.swarmanoid.org/swarmanoid_hardware.php.html", "tags": {"sector": [9]}}
+{"id": 500, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2006, "rg": "BE", "n": "Swarmanoid Hand-bot", "url": "https://www.swarmanoid.org/swarmanoid_hardware.php.html", "tags": {"sector": [9]}}
+{"id": 501, "d": 0, "c": 2, "o": 1, "pr": 5, "yr": 2006, "rg": "BE", "n": "Swarmanoid Eye-bot", "url": "https://www.swarmanoid.org/swarmanoid_hardware.php.html", "tags": {"sector": [9]}}
+{"id": 502, "d": 0, "c": 5, "o": 0, "pr": 7, "yr": 2012, "rg": "US", "n": "GuardBot Spherical Surveillance Robot", "url": "https://guardbot.org/", "tags": {"sector": [11]}}
+{"id": 503, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2015, "rg": "US", "n": "GuardBot HARV (Highly Adaptive Robotic Vehicle)", "url": "https://guardbot.org/", "tags": {"sector": [6]}}
+{"id": 504, "d": 0, "c": 2, "o": 2, "pr": 16, "yr": 2018, "rg": "US", "n": "Pliant Energy Systems C-Ray AUV/ROV", "url": "https://www.pliantenergy.com/robotics", "tags": {"sector": [7]}}
+{"id": 505, "d": 0, "c": 5, "o": 0, "pr": 15, "yr": 2020, "rg": "US", "n": "SimVentions MALLARD", "url": "https://www.simventions.com/mallard/", "tags": {"sector": [6]}}
+{"id": 506, "d": 0, "c": 4, "o": 3, "pr": 15, "yr": 2022, "rg": "US", "n": "Bayonet Amphibious Crawling Robot", "url": "https://www.unmannedsystemstechnology.com/2022/06/new-developer-of-amphibious-crawling-robots/", "tags": {"sector": [6]}}
+{"id": 507, "d": 0, "c": 7, "o": 0, "pr": 16, "yr": 2020, "rg": "US", "n": "Harvard Tentacle Bot", "url": "https://seas.harvard.edu/news/2020/02/tentacle-bot", "tags": {"sector": [7]}}
+{"id": 508, "d": 0, "c": 7, "o": 0, "pr": 16, "yr": 2015, "rg": "US", "n": "PneuNets Bending Actuator", "url": "https://softroboticstoolkit.com/book/pneunets-bending-actuator", "tags": {"sector": [7]}}
+{"id": 509, "d": 0, "c": 6, "o": 0, "pr": 16, "yr": 2024, "rg": "US", "n": "Modular Cable-Driven Soft Robotic Arm", "url": "https://www.youtube.com/watch?v=I-e1PxHwG1Y", "tags": {"sector": [7]}}
+{"id": 510, "d": 0, "c": 7, "o": 2, "pr": 16, "yr": 2023, "rg": "DE", "n": "SMA-Based Self-Healing Soft Actuator", "url": "https://www.nature.com/articles/s41598-023-35943-6", "tags": {"sector": [7]}}
+{"id": 511, "d": 0, "c": 4, "o": 3, "pr": 16, "yr": 2021, "rg": "US", "n": "Harvard Robotic Fish Swarm", "url": "https://seas.harvard.edu/news/2021/01/robotic-swarm-swims-school-fish", "tags": {"sector": [7]}}
+{"id": 512, "d": 0, "c": 4, "o": 3, "pr": 4, "yr": 2024, "rg": "CH", "n": "ETH Zurich EVE Robot Fish", "url": "https://www.cnn.com/2024/08/11/science/video/eve-robot-fish-eth-zurich-tech-for-good-hnk-spc-intl", "tags": {"sector": [7]}}
+{"id": 513, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2013, "rg": "US", "n": "Harvard RoboBee", "url": "https://wyss.harvard.edu/technology/robobees-autonomous-flying-microrobots/", "tags": {"sector": [7]}}
+{"id": 514, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2025, "rg": "US", "n": "Crane Fly-Inspired Landing Robot", "url": "https://www.science.org/doi/10.1126/scirobotics.adq3059", "tags": {"sector": [7]}}
+{"id": 515, "d": 0, "c": 4, "o": 3, "pr": 16, "yr": 2025, "rg": "US", "n": "Octopus Hierarchical Suction Robot", "url": "https://www.science.org/doi/10.1126/scirobotics.adr4264", "tags": {"sector": [7]}}
+{"id": 516, "d": 0, "c": 4, "o": 3, "pr": 16, "yr": 2025, "rg": "IN", "n": "Stingray-Inspired Amphibious Robot", "url": "https://www.sciencedirect.com/science/article/abs/pii/S002980182500695X", "tags": {"sector": [7]}}
+{"id": 517, "d": 0, "c": 6, "o": 0, "pr": 0, "yr": 2022, "rg": "US", "n": "Self-Replicating Hierarchical Modular Robotic Swarm", "url": "https://www.nature.com/articles/s44172-022-00034-3", "tags": {"sector": [7]}}
+{"id": 518, "d": 0, "c": 6, "o": 0, "pr": 0, "yr": 2020, "rg": "US", "n": "FreeBots Spherical Swarm Robots", "url": "https://spectrum.ieee.org/freebots-spheres-swarm-robots", "tags": {"sector": [7]}}
+{"id": 519, "d": 0, "c": 6, "o": 0, "pr": 16, "yr": 2021, "rg": "CN", "n": "Normal-Alkane-like Reconfigurable Modular Robot (NAR)", "url": "https://link.springer.com/article/10.1007/s11431-020-1816-0", "tags": {"sector": [7]}}
+{"id": 520, "d": 0, "c": 4, "o": 0, "pr": 13, "yr": 2024, "rg": "US", "n": "Lattice-Based Autonomous Structure Building Robot", "url": "https://www.youtube.com/watch?v=nqkKtJniUFs", "tags": {"sector": [7]}}
+{"id": 521, "d": 0, "c": 3, "o": 2, "pr": 16, "yr": 2020, "rg": "US", "n": "VTOL Hybrid Research Platform", "url": "https://www.example.com/vtol-research", "tags": {"sector": [7]}}
+{"id": 522, "d": 0, "c": 1, "o": 3, "pr": 15, "yr": 2018, "rg": "US", "n": "LTA Balloon-Based Surveillance Robot", "url": "https://www.example.com/lta-surveillance", "tags": {"sector": [6]}}
+{"id": 523, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2019, "rg": "JP", "n": "Snake-Inspired Serpentine Robot", "url": "https://www.example.com/snake-robot", "tags": {"sector": [7]}}
+{"id": 524, "d": 0, "c": 4, "o": 0, "pr": 16, "yr": 2021, "rg": "DE", "n": "Holonomic Platform Research Robot", "url": "https://www.example.com/holonomic-platform", "tags": {"sector": [7]}}
+{"id": 525, "d": 0, "c": -1, "o": -1, "pr": 0, "yr": 2020, "rg": "CN", "n": "SIASUN SN4A-4/0.58", "url": "https://en.siasun.com/industrial-robot.html", "tags": {"sector": [3]}}
+{"id": 526, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2019, "rg": "CN", "n": "SIASUN SR25A-25/1.80", "url": "https://en.siasun.com/industrial-robot.html", "tags": {"sector": [3]}}
+{"id": 527, "d": 0, "c": -1, "o": -1, "pr": 16, "yr": 2021, "rg": "CN", "n": "SIASUN SR210A-210/2.65", "url": "https://en.siasun.com/industrial-robot.html", "tags": {"sector": [3]}}
+{"id": 528, "d": 0, "c": 1, "o": 0, "pr": 3, "yr": 2018, "rg": "CN", "n": "SIASUN Mobile Robot AGV", "url": "https://en.siasun.com/", "tags": {"sector": [3]}}
+{"id": 529, "d": 0, "c": 1, "o": 0, "pr": 0, "yr": 2020, "rg": "CN", "n": "ROKAE xMate CR7", "url": "https://www.rokae.com/en/product.html", "tags": {"sector": [2]}}
+{"id": 530, "d": 0, "c": 0, "o": 0, "pr": 0, "yr": 2021, "rg": "CN", "n": "ROKAE xMate CR12", "url": "https://www.rokae.com/en/product.html", "tags": {"sector": [2]}}
+{"id": 531, "d": 0, "c": 1, "o": 0, "pr": 16, "yr": 2022, "rg": "CN", "n": "ROKAE NB80 Industrial Robot", "url": "https://www.rokae.com/en/", "tags": {"sector": [3]}}
+{"id": 532, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2023, "rg": "CN", "n": "DJI Mavic 3 Pro", "url": "https://www.dji.com/mavic-3-pro", "tags": {"sector": [11]}}
+{"id": 533, "d": 0, "c": 3, "o": 0, "pr": 12, "yr": 2022, "rg": "CN", "n": "DJI T40 Agricultural Drone", "url": "https://www.dji.com/t40", "tags": {"sector": [0]}}
+{"id": 534, "d": 0, "c": -1, "o": -1, "pr": 1, "yr": 2023, "rg": "CN", "n": "DJI Matrice 350 RTK", "url": "https://www.dji.com/matrice-350-rtk", "tags": {"sector": [3]}}
+{"id": 535, "d": 0, "c": 2, "o": 0, "pr": 16, "yr": 2024, "rg": "CN", "n": "UBTECH Walker S1", "url": "https://www.ubtrobot.com/walker-s1", "tags": {"sector": [3]}}
+{"id": 536, "d": 0, "c": 2, "o": 1, "pr": 7, "yr": 2024, "rg": "CN", "n": "UBTECH Walker C", "url": "https://www.ubtrobot.com/walker-c", "tags": {"sector": [11]}}
+{"id": 537, "d": 0, "c": 2, "o": 1, "pr": 15, "yr": 2023, "rg": "CN", "n": "Unitree AI Inspection Robot", "url": "https://www.unitree.com/", "tags": {"sector": [6]}}
+{"id": 538, "d": 0, "c": 1, "o": 0, "pr": 15, "yr": 2024, "rg": "CN", "n": "Chinese AI Military Swarm Robot", "url": "https://www.example.com/chinese-military-ai", "tags": {"sector": [6]}}
+{"id": 539, "d": 0, "c": 1, "o": 0, "pr": 8, "yr": 2025, "rg": "CN", "n": "MedBot AI Surgical Robot", "url": "http://www.medbotsurgical.com/en/", "tags": {"sector": [5]}}
+{"id": 540, "d": 0, "c": 1, "o": 0, "pr": 8, "yr": 2024, "rg": "CN", "n": "Chinese Remote Surgical Robot", "url": "http://www.medbotsurgical.com/en/", "tags": {"sector": [5]}}
+{"id": 541, "d": 0, "c": 0, "o": 0, "pr": 16, "yr": 2022, "rg": "CN", "n": "Geek+ X-Series Four-Way Shuttle", "url": "https://www.geekplus.com/en/", "tags": {"sector": [3]}}
+{"id": 542, "d": 0, "c": 1, "o": 0, "pr": 3, "yr": 2025, "rg": "CN", "n": "Pudu T600 Industrial Delivery Robot", "url": "https://www.pudurobotics.com/", "tags": {"sector": [3]}}
+{"id": 543, "d": 0, "c": 1, "o": 0, "pr": 7, "yr": 2023, "rg": "CN", "n": "Pudu Service Delivery Robot", "url": "https://www.pudurobotics.com/", "tags": {"sector": [11]}}
+{"id": 544, "d": 0, "c": 1, "o": 0, "pr": 12, "yr": 2023, "rg": "CN", "n": "Suzhou Botian Agricultural Robot", "url": "https://szbotian.com/en/", "tags": {"sector": [0]}}
+{"id": 545, "d": 0, "c": 2, "o": 2, "pr": 12, "yr": 2024, "rg": "CN", "n": "Antobot AI Agricultural Robot", "url": "https://www.antobot.ai/", "tags": {"sector": [0]}}
+{"id": 546, "d": 0, "c": 1, "o": 0, "pr": 12, "yr": 2025, "rg": "CN", "n": "Chinese Robotic Farm System", "url": "https://www.example.com/chinese-robotic-farm", "tags": {"sector": [0]}}

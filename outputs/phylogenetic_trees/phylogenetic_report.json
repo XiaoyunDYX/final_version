@@ -1,0 +1,32 @@
+{
+  "total_robots": 546,
+  "taxonomy_levels": {
+    "domains": 3,
+    "classes": 8,
+    "orders": 5,
+    "primary_roles": 14
+  },
+  "diversity_metrics": {
+    "shannon_diversity": 1.6495168279504928,
+    "dominant_class": [
+      "Manipulator",
+      158
+    ],
+    "class_distribution": {
+      "Manipulator": 158,
+      "Mobile Ground": 154,
+      "Legged": 72,
+      "Aquatic": 72,
+      "Soft-bodied": 31,
+      "Aerial": 19,
+      "Modular/Reconfigurable": 8,
+      "Amphibious": 2
+    }
+  },
+  "evolutionary_insights": [
+    "Robot development spans 64 years (1961-2025)",
+    "Average development year: 2011",
+    "Most active decade: 2010s",
+    "Taxonomic diversity index: 1.650"
+  ]
+}
