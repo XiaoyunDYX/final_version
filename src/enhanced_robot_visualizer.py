@@ -151,7 +151,7 @@ class EnhancedRobotVisualizer:
                     x=cls_data['year'], 
                     y=cls_data['count'],
                     mode='lines+markers',
-                    name=cls,
+                    name=str(cls),
                     line=dict(color=self.color_schemes['class'][i % len(self.color_schemes['class'])]),
                     stackgroup='one'
                 ),
@@ -168,7 +168,7 @@ class EnhancedRobotVisualizer:
                     x=region_data['year'], 
                     y=region_data['count'],
                     mode='lines+markers',
-                    name=region,
+                    name=str(region),
                     line=dict(color=self.color_schemes['region'][i % len(self.color_schemes['region'])]),
                     showlegend=False
                 ),
@@ -184,7 +184,7 @@ class EnhancedRobotVisualizer:
                     x=sector_data['year'], 
                     y=sector_data['count'],
                     mode='lines+markers',
-                    name=sector,
+                    name=str(sector),
                     line=dict(color=self.color_schemes['sector'][i % len(self.color_schemes['sector'])]),
                     showlegend=False
                 ),
@@ -535,42 +535,217 @@ class EnhancedRobotVisualizer:
         
         return app
 
-    def save_static_visualizations(self, output_dir="visualizations/"):
-        """Save static visualization charts"""
+    def save_static_visualizations(self, output_dir="outputs/figures/"):
+        """Save static visualization charts as PNG images only"""
         import os
         os.makedirs(output_dir, exist_ok=True)
         
-        # Create and save various charts
-        print("Generating visualization charts...")
+        # Create and save various charts as PNG only
+        print("Generating PNG visualization charts...")
         
-        # Timeline chart
-        fig_timeline = self.create_timeline_visualization()
-        fig_timeline.write_html(f"{output_dir}robot_timeline.html")
-        fig_timeline.write_image(f"{output_dir}robot_timeline.png", width=1600, height=1200)
+        try:
+            # Timeline chart
+            print("Creating timeline visualization...")
+            fig_timeline = self.create_timeline_visualization()
+            fig_timeline.update_layout(
+                title="Robot Technology Development Timeline Analysis",
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_timeline.write_image(f"{output_dir}03_timeline.png", 
+                                   width=1600, height=1200, scale=2, 
+                                   engine="kaleido")
+            print("✅ Timeline visualization saved")
+            
+            # Regional distribution charts
+            print("Creating regional distribution visualizations...")
+            fig_map, fig_bar = self.create_regional_distribution()
+            
+            # World map
+            fig_map.update_layout(
+                title="Global Robot Technology Distribution Map",
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_map.write_image(f"{output_dir}01_regional_map.png", 
+                              width=1600, height=1000, scale=2,
+                              engine="kaleido")
+            
+            # Regional bar chart
+            fig_bar.update_layout(
+                title="Robot Distribution by Major Regions",
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_bar.write_image(f"{output_dir}02_regional_distribution.png", 
+                              width=1600, height=800, scale=2,
+                              engine="kaleido")
+            print("✅ Regional distribution visualizations saved")
+            
+            # Taxonomy sunburst chart
+            print("Creating taxonomy sunburst visualization...")
+            fig_sunburst = self.create_taxonomy_sunburst()
+            fig_sunburst.update_layout(
+                title="Robot Taxonomy Sunburst Chart",
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_sunburst.write_image(f"{output_dir}04_taxonomy_sunburst.png", 
+                                   width=1200, height=1200, scale=2,
+                                   engine="kaleido")
+            print("✅ Taxonomy sunburst visualization saved")
+            
+            # Network graph
+            print("Creating network graph visualization...")
+            fig_network = self.create_network_graph()
+            fig_network.update_layout(
+                title="Robot Classification Network Graph",
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_network.write_image(f"{output_dir}05_network_graph.png", 
+                                  width=1600, height=1200, scale=2,
+                                  engine="kaleido")
+            print("✅ Network graph visualization saved")
+            
+            # Feature analysis chart
+            print("Creating feature analysis visualization...")
+            fig_features = self.create_feature_analysis()
+            fig_features.update_layout(
+                title="Robot Morphological Feature Distribution (Top 20)",
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_features.write_image(f"{output_dir}06_feature_analysis.png", 
+                                   width=1600, height=1000, scale=2,
+                                   engine="kaleido")
+            print("✅ Feature analysis visualization saved")
+            
+        except Exception as e:
+            print(f"Error creating PNG visualizations with Plotly: {e}")
+            print("Attempting fallback to Matplotlib...")
+            self._create_matplotlib_fallbacks(output_dir)
         
-        # Regional distribution charts
-        fig_map, fig_bar = self.create_regional_distribution()
-        fig_map.write_html(f"{output_dir}robot_world_map.html")
-        fig_map.write_image(f"{output_dir}robot_world_map.png", width=1200, height=800)
-        fig_bar.write_html(f"{output_dir}robot_regional_distribution.html")
-        fig_bar.write_image(f"{output_dir}robot_regional_distribution.png", width=1200, height=600)
+        print(f"All visualization charts saved as PNG to {output_dir} directory")
+
+    def _create_matplotlib_fallbacks(self, output_dir):
+        """Create matplotlib fallback visualizations"""
+        import matplotlib.pyplot as plt
+        import matplotlib.patches as patches
+        from collections import Counter
         
-        # Taxonomy sunburst chart
-        fig_sunburst = self.create_taxonomy_sunburst()
-        fig_sunburst.write_html(f"{output_dir}robot_taxonomy_sunburst.html")
-        fig_sunburst.write_image(f"{output_dir}robot_taxonomy_sunburst.png", width=800, height=800)
+        print("Creating matplotlib fallback visualizations...")
         
-        # Network graph
-        fig_network = self.create_network_graph()
-        fig_network.write_html(f"{output_dir}robot_network.html")
-        fig_network.write_image(f"{output_dir}robot_network.png", width=1200, height=900)
+        # Set style
+        plt.style.use('default')
         
-        # Feature analysis chart
-        fig_features = self.create_feature_analysis()
-        fig_features.write_html(f"{output_dir}robot_features.html")
-        fig_features.write_image(f"{output_dir}robot_features.png", width=1000, height=600)
-        
-        print(f"All visualization charts saved to {output_dir} directory")
+        try:
+            # 1. Regional distribution bar chart
+            region_counts = Counter()
+            for robot in self.robots_data:
+                region = self.region_mapping.get(robot['rg'], robot['rg'])
+                region_counts[region] += 1
+            
+            top_regions = dict(region_counts.most_common(15))
+            
+            plt.figure(figsize=(16, 10))
+            bars = plt.bar(range(len(top_regions)), list(top_regions.values()))
+            plt.title('Robot Distribution by Major Regions', fontsize=20, fontweight='bold', pad=20)
+            plt.xlabel('Region', fontsize=14)
+            plt.ylabel('Number of Robots', fontsize=14)
+            plt.xticks(range(len(top_regions)), list(top_regions.keys()), rotation=45, ha='right')
+            
+            # Color bars
+            colors = plt.cm.viridis(np.linspace(0, 1, len(bars)))
+            for bar, color in zip(bars, colors):
+                bar.set_color(color)
+            
+            plt.tight_layout()
+            plt.savefig(f"{output_dir}02_regional_distribution.png", dpi=300, bbox_inches='tight', 
+                       facecolor='white', edgecolor='none')
+            plt.close()
+            print("✅ Regional distribution fallback saved")
+            
+            # 2. Class distribution pie chart
+            class_counts = Counter()
+            for robot in self.robots_data:
+                if robot['c'] < len(self.dict_data['class']):
+                    class_counts[self.dict_data['class'][robot['c']]] += 1
+            
+            plt.figure(figsize=(12, 12))
+            plt.pie(list(class_counts.values()), labels=list(class_counts.keys()), 
+                   autopct='%1.1f%%', startangle=90)
+            plt.title('Robot Class Distribution', fontsize=20, fontweight='bold', pad=20)
+            plt.axis('equal')
+            plt.tight_layout()
+            plt.savefig(f"{output_dir}04_taxonomy_sunburst.png", dpi=300, bbox_inches='tight',
+                       facecolor='white', edgecolor='none')
+            plt.close()
+            print("✅ Class distribution fallback saved")
+            
+            # 3. Timeline analysis
+            timeline_data = []
+            for robot in self.robots_data:
+                if robot.get('yr') and robot.get('yr') > 0:
+                    timeline_data.append({
+                        'year': robot['yr'],
+                        'class': self.dict_data['class'][robot['c']] if robot['c'] < len(self.dict_data['class']) else 'Unknown'
+                    })
+            
+            if timeline_data:
+                df_timeline = pd.DataFrame(timeline_data)
+                year_counts = df_timeline.groupby('year').size()
+                
+                plt.figure(figsize=(16, 8))
+                plt.plot(year_counts.index, year_counts.values, marker='o', linewidth=2, markersize=6)
+                plt.title('Robot Development Timeline', fontsize=20, fontweight='bold', pad=20)
+                plt.xlabel('Year', fontsize=14)
+                plt.ylabel('Number of Robots Developed', fontsize=14)
+                plt.grid(True, alpha=0.3)
+                plt.tight_layout()
+                plt.savefig(f"{output_dir}03_timeline.png", dpi=300, bbox_inches='tight',
+                           facecolor='white', edgecolor='none')
+                plt.close()
+                print("✅ Timeline fallback saved")
+            
+            # 4. Feature analysis (if available)
+            if self.id_to_features and self.vocab:
+                feature_stats = Counter()
+                for robot_id, features in self.id_to_features.items():
+                    feat_indices = features.get('feat', [])
+                    for idx in feat_indices:
+                        if idx < len(self.vocab):
+                            feature_stats[self.vocab[idx]] += 1
+                
+                top_features = dict(feature_stats.most_common(20))
+                
+                plt.figure(figsize=(16, 10))
+                bars = plt.barh(range(len(top_features)), list(top_features.values()))
+                plt.title('Robot Morphological Feature Distribution (Top 20)', 
+                         fontsize=20, fontweight='bold', pad=20)
+                plt.xlabel('Number of Robots', fontsize=14)
+                plt.ylabel('Morphological Features', fontsize=14)
+                plt.yticks(range(len(top_features)), list(top_features.keys()))
+                
+                # Color bars
+                colors = plt.cm.plasma(np.linspace(0, 1, len(bars)))
+                for bar, color in zip(bars, colors):
+                    bar.set_color(color)
+                
+                plt.tight_layout()
+                plt.savefig(f"{output_dir}06_feature_analysis.png", dpi=300, bbox_inches='tight',
+                           facecolor='white', edgecolor='none')
+                plt.close()
+                print("✅ Feature analysis fallback saved")
+            
+        except Exception as e:
+            print(f"Error in matplotlib fallback: {e}")
 
 
 def main():

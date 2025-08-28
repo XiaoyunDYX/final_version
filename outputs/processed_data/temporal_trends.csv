@@ -1,0 +1,37 @@
+year,count,domain,class,region_name,growth_rate,cumulative
+1961.0,1,Physical,['Mobile Ground'],['United States'],,1
+1966.0,2,Physical,['Aquatic'],['United States'],100.0,3
+1968.0,1,Physical,['Aquatic'],['United States'],-50.0,4
+1977.0,2,Physical,['Unknown'],['United States'],100.0,6
+1990.0,3,Physical,"['Soft-bodied', 'Unknown']","['Japan', 'United States']",50.0,9
+1995.0,3,Physical,['Manipulator'],['Sweden'],0.0,12
+1996.0,1,Virtual,['Aquatic'],['Switzerland'],-66.66666666666667,13
+1997.0,3,Physical,"['Aquatic', 'Unknown']","['India', 'United States']",200.0,16
+1998.0,2,Hybrid,"['Aerial', 'Legged']","['United States', 'Sweden (Alt)']",-33.333333333333336,18
+1999.0,2,Physical,"['Manipulator', 'Mobile Ground']","['United States', 'Japan']",0.0,20
+2000.0,23,Physical,"['Manipulator', 'Mobile Ground', 'Legged']","['Japan', 'Sweden', 'United States', 'Japan (Alt)']",1050.0,43
+2001.0,27,Physical,"['Manipulator', 'Mobile Ground', 'Legged']","['Sweden', 'United States', 'Canada', 'Japan (Alt)']",17.391304347826097,70
+2002.0,3,Physical,"['Mobile Ground', 'Aquatic']",['United States'],-88.88888888888889,73
+2003.0,1,Physical,['Mobile Ground'],['Japan'],-66.66666666666667,74
+2004.0,5,Physical,"['Manipulator', 'Aquatic']","['United States', 'Japan']",400.0,79
+2005.0,32,Physical,"['Legged', 'Manipulator']","['Japan', 'Sweden', 'United States', 'Japan (Alt)']",540.0,111
+2006.0,4,Physical,"['Manipulator', 'Modular/Reconfigurable', 'Aquatic', 'Legged']","['United States', 'Belgium']",-87.5,115
+2007.0,4,Physical,"['Manipulator', 'Mobile Ground', 'Aerial']","['Japan', 'United Kingdom', 'United States']",0.0,119
+2008.0,3,Physical,"['Modular/Reconfigurable', 'Legged', 'Mobile Ground']","['United States', 'France', 'Denmark']",-25.0,122
+2009.0,13,Physical,"['Manipulator', 'Soft-bodied', 'Mobile Ground', 'Legged']","['Japan', 'Sweden', 'Israel', 'France']",333.3333333333333,135
+2010.0,157,Physical,"['Soft-bodied', 'Manipulator', 'Legged', 'Aquatic', 'Mobile Ground', 'Aerial']","['Germany', 'Spain', 'Canada', 'Sweden', 'Japan (Alt)', 'Italy', 'United States', 'Unknown/International', 'European Union', 'United Kingdom', 'Pakistan', 'Australia', 'Peru', 'India', 'Israel', 'Iran', 'France', 'South Africa', 'Lebanon', 'Taiwan']",1107.6923076923076,292
+2011.0,3,Physical,"['Unknown', 'Mobile Ground', 'Legged']","['France', 'Switzerland']",-98.08917197452229,295
+2012.0,15,Physical,"['Soft-bodied', 'Legged', 'Manipulator', 'Aquatic', 'Mobile Ground', 'Modular/Reconfigurable', 'Amphibious']","['Germany', 'United States', 'Denmark', 'European Union']",400.0,310
+2013.0,11,Physical,"['Legged', 'Manipulator', 'Mobile Ground', 'Aerial', 'Aquatic']","['Sweden', 'Germany', 'United States']",-26.66666666666667,321
+2014.0,5,Physical,"['Aerial', 'Legged', 'Aquatic', 'Mobile Ground']","['France', 'Japan', 'United States', 'Canada', 'Germany']",-54.54545454545454,326
+2015.0,40,Physical,"['Manipulator', 'Mobile Ground', 'Aquatic', 'Aerial', 'Soft-bodied']","['Japan', 'Sweden', 'Spain', 'Japan (Alt)', 'Canada', 'United States']",700.0,366
+2016.0,8,Physical,"['Legged', 'Manipulator', 'Soft-bodied', 'Mobile Ground']","['China', 'Israel', 'United States', 'Sweden']",-80.0,374
+2017.0,4,Physical,"['Manipulator', 'Legged', 'Unknown', 'Mobile Ground']","['United States', 'Spain', 'France']",-50.0,378
+2018.0,34,Physical,"['Manipulator', 'Mobile Ground', 'Legged', 'Aquatic', 'Unknown', 'Aerial']","['Germany', 'United States', 'China', 'France', 'Denmark', 'Unknown/International', 'Canada', 'Poland']",750.0,412
+2019.0,11,Physical,"['Manipulator', 'Legged', 'Mobile Ground', 'Soft-bodied', 'Aquatic']","['United States', 'Denmark', 'United Kingdom', 'Canada', 'Japan', 'China']",-67.64705882352942,423
+2020.0,50,Physical,"['Unknown', 'Mobile Ground', 'Legged', 'Soft-bodied', 'Amphibious', 'Modular/Reconfigurable', 'Aerial']","['United States', 'Unknown/International', 'Denmark', 'Germany', 'Australia', 'France', 'China']",354.54545454545456,473
+2021.0,16,Physical,"['Manipulator', 'Aquatic', 'Aerial', 'Legged', 'Mobile Ground', 'Modular/Reconfigurable', 'Unknown']","['Sweden', 'United States', 'United Kingdom', 'China', 'Germany']",-68.0,489
+2022.0,9,Physical,"['Legged', 'Soft-bodied', 'Mobile Ground', 'Aquatic', 'Modular/Reconfigurable', 'Aerial', 'Manipulator']","['United States', 'Sweden', 'Denmark', 'Germany', 'China']",-43.75,498
+2023.0,6,Physical,"['Soft-bodied', 'Mobile Ground', 'Unknown', 'Legged']","['Germany', 'China']",-33.333333333333336,504
+2024.0,10,Physical,"['Soft-bodied', 'Modular/Reconfigurable', 'Aquatic', 'Legged', 'Mobile Ground']","['Germany', 'Sweden', 'United States', 'Switzerland', 'China']",66.66666666666667,514
+2025.0,6,Physical,"['Aquatic', 'Mobile Ground']","['United States', 'India', 'China']",-40.0,520

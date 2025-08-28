@@ -318,80 +318,197 @@ class RobotDataProcessor:
         
         return insights
 
-    def create_advanced_visualizations(self):
-        """创建高级可视化图表"""
+    def create_advanced_visualizations(self, output_dir="outputs/figures/"):
+        """Create advanced visualizations and save as PNG images"""
+        import os
+        os.makedirs(output_dir, exist_ok=True)
+        
         visualizations = {}
         
-        # 1. 时间序列热图
-        valid_data = self.df[self.df['year'] > 0]
-        heatmap_data = valid_data.groupby(['year', 'class']).size().reset_index(name='count')
-        heatmap_pivot = heatmap_data.pivot(index='class', columns='year', values='count').fillna(0)
-        
-        fig_heatmap = px.imshow(
-            heatmap_pivot.values,
-            x=heatmap_pivot.columns,
-            y=heatmap_pivot.index,
-            aspect='auto',
-            title='机器人类别-年份热图',
-            labels={'x': '年份', 'y': '机器人类别', 'color': '数量'}
-        )
-        visualizations['temporal_heatmap'] = fig_heatmap
-        
-        # 2. 地区-类别和弦图数据
-        region_class_data = self.df.groupby(['region_name', 'class']).size().reset_index(name='count')
-        top_regions = self.df['region_name'].value_counts().head(10).index
-        top_classes = self.df['class'].value_counts().head(8).index
-        
-        chord_data = region_class_data[
-            (region_class_data['region_name'].isin(top_regions)) &
-            (region_class_data['class'].isin(top_classes))
-        ]
-        visualizations['chord_data'] = chord_data
-        
-        # 3. 聚类可视化
-        cluster_results = self.perform_clustering_analysis()
-        
-        # 创建PCA散点图
-        pca_df = pd.DataFrame(
-            cluster_results['feature_matrix_pca'][:, :2],
-            columns=['PC1', 'PC2']
-        )
-        pca_df['cluster'] = cluster_results['cluster_labels']
-        pca_df['class'] = self.df['class'].values
-        pca_df['region'] = self.df['region_name'].values
-        pca_df['name'] = self.df['name'].values
-        
-        fig_pca = px.scatter(
-            pca_df, x='PC1', y='PC2', color='cluster',
-            hover_data=['class', 'region', 'name'],
-            title='机器人聚类分析 (PCA可视化)',
-            labels={'cluster': '聚类'}
-        )
-        visualizations['pca_clusters'] = fig_pca
-        
-        # 4. 3D散点图
-        if cluster_results['feature_matrix_pca'].shape[1] >= 3:
-            pca_3d_df = pd.DataFrame(
-                cluster_results['feature_matrix_pca'][:, :3],
-                columns=['PC1', 'PC2', 'PC3']
-            )
-            pca_3d_df['class'] = self.df['class'].values
-            pca_3d_df['year'] = self.df['year'].fillna(2000).values  # Replace NaN with 2000
-            pca_3d_df['name'] = self.df['name'].values
+        try:
+            # 1. Temporal heatmap
+            valid_data = self.df[self.df['year'] > 0]
+            heatmap_data = valid_data.groupby(['year', 'class']).size().reset_index(name='count')
+            heatmap_pivot = heatmap_data.pivot(index='class', columns='year', values='count').fillna(0)
             
-            fig_3d = px.scatter_3d(
-                pca_3d_df, x='PC1', y='PC2', z='PC3',
-                color='class', size='year',
-                hover_data=['name'],
-                title='机器人3D特征空间分布'
+            fig_heatmap = px.imshow(
+                heatmap_pivot.values,
+                x=heatmap_pivot.columns,
+                y=heatmap_pivot.index,
+                aspect='auto',
+                title='Robot Class-Year Temporal Heatmap',
+                labels={'x': 'Year', 'y': 'Robot Class', 'color': 'Count'}
             )
-            visualizations['3d_scatter'] = fig_3d
-        
-        # 5. 桑基图数据
-        sankey_data = self.df[['domain', 'class', 'sector']].value_counts().reset_index(name='count')
-        visualizations['sankey_data'] = sankey_data
+            fig_heatmap.update_layout(
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_heatmap.write_image(f"{output_dir}12_temporal_heatmap.png", 
+                                  width=1600, height=1200, scale=2, engine="kaleido")
+            visualizations['temporal_heatmap'] = f"{output_dir}12_temporal_heatmap.png"
+            print("✅ Temporal heatmap saved")
+            
+            # 2. Clustering visualization
+            cluster_results = self.perform_clustering_analysis()
+            
+            # Create PCA scatter plot
+            pca_df = pd.DataFrame(
+                cluster_results['feature_matrix_pca'][:, :2],
+                columns=['PC1', 'PC2']
+            )
+            pca_df['cluster'] = cluster_results['cluster_labels']
+            pca_df['class'] = self.df['class'].values
+            pca_df['region'] = self.df['region_name'].values
+            pca_df['name'] = self.df['name'].values
+            
+            fig_pca = px.scatter(
+                pca_df, x='PC1', y='PC2', color='cluster',
+                hover_data=['class', 'region', 'name'],
+                title='Robot Clustering Analysis (PCA Visualization)',
+                labels={'cluster': 'Cluster'}
+            )
+            fig_pca.update_layout(
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_pca.write_image(f"{output_dir}13_pca_clusters.png", 
+                              width=1600, height=1200, scale=2, engine="kaleido")
+            visualizations['pca_clusters'] = f"{output_dir}13_pca_clusters.png"
+            print("✅ PCA clustering visualization saved")
+            
+            # 3. 3D scatter plot
+            if cluster_results['feature_matrix_pca'].shape[1] >= 3:
+                pca_3d_df = pd.DataFrame(
+                    cluster_results['feature_matrix_pca'][:, :3],
+                    columns=['PC1', 'PC2', 'PC3']
+                )
+                pca_3d_df['class'] = self.df['class'].values
+                pca_3d_df['year'] = self.df['year'].fillna(2000).values
+                pca_3d_df['name'] = self.df['name'].values
+                
+                fig_3d = px.scatter_3d(
+                    pca_3d_df, x='PC1', y='PC2', z='PC3',
+                    color='class', size='year',
+                    hover_data=['name'],
+                    title='Robot 3D Feature Space Distribution'
+                )
+                fig_3d.update_layout(
+                    font=dict(size=14),
+                    paper_bgcolor='white',
+                    plot_bgcolor='white'
+                )
+                fig_3d.write_image(f"{output_dir}14_3d_scatter.png", 
+                                 width=1600, height=1200, scale=2, engine="kaleido")
+                visualizations['3d_scatter'] = f"{output_dir}14_3d_scatter.png"
+                print("✅ 3D scatter plot saved")
+            
+            # 4. Sankey diagram alternative - stacked bar chart
+            sankey_data = self.df[['domain', 'class', 'sector']].value_counts().reset_index(name='count')
+            top_data = sankey_data.head(20)  # Top 20 combinations
+            
+            fig_sankey = px.bar(
+                top_data, x='count', y='domain', color='class',
+                title='Robot Domain-Class Distribution (Top 20 Combinations)',
+                labels={'count': 'Number of Robots', 'domain': 'Domain'}
+            )
+            fig_sankey.update_layout(
+                font=dict(size=14),
+                paper_bgcolor='white',
+                plot_bgcolor='white'
+            )
+            fig_sankey.write_image(f"{output_dir}15_domain_class_distribution.png", 
+                                 width=1600, height=1000, scale=2, engine="kaleido")
+            visualizations['sankey_alternative'] = f"{output_dir}15_domain_class_distribution.png"
+            print("✅ Domain-class distribution saved")
+            
+        except Exception as e:
+            print(f"Error creating advanced visualizations with Plotly: {e}")
+            print("Attempting fallback to Matplotlib...")
+            self._create_advanced_matplotlib_fallbacks(output_dir)
+            visualizations = {
+                'temporal_heatmap': f"{output_dir}12_temporal_heatmap.png",
+                'pca_clusters': f"{output_dir}13_pca_clusters.png",
+                'domain_class_distribution': f"{output_dir}15_domain_class_distribution.png"
+            }
         
         return visualizations
+
+    def _create_advanced_matplotlib_fallbacks(self, output_dir):
+        """Create matplotlib fallback visualizations for advanced analysis"""
+        import matplotlib.pyplot as plt
+        
+        try:
+            # 1. Temporal heatmap
+            valid_data = self.df[self.df['year'] > 0]
+            heatmap_data = valid_data.groupby(['year', 'class']).size().reset_index(name='count')
+            heatmap_pivot = heatmap_data.pivot(index='class', columns='year', values='count').fillna(0)
+            
+            plt.figure(figsize=(16, 10))
+            plt.imshow(heatmap_pivot.values, cmap='viridis', aspect='auto')
+            plt.colorbar(label='Count')
+            plt.title('Robot Class-Year Temporal Heatmap', fontsize=20, fontweight='bold', pad=20)
+            plt.xlabel('Year', fontsize=14)
+            plt.ylabel('Robot Class', fontsize=14)
+            
+            # Set ticks
+            plt.xticks(range(len(heatmap_pivot.columns)), heatmap_pivot.columns, rotation=45)
+            plt.yticks(range(len(heatmap_pivot.index)), heatmap_pivot.index)
+            plt.tight_layout()
+            plt.savefig(f"{output_dir}12_temporal_heatmap.png", dpi=300, bbox_inches='tight',
+                       facecolor='white', edgecolor='none')
+            plt.close()
+            print("✅ Temporal heatmap fallback saved")
+            
+            # 2. PCA clustering visualization
+            cluster_results = self.perform_clustering_analysis()
+            pca_data = cluster_results['feature_matrix_pca'][:, :2]
+            clusters = cluster_results['cluster_labels']
+            
+            plt.figure(figsize=(16, 12))
+            scatter = plt.scatter(pca_data[:, 0], pca_data[:, 1], c=clusters, 
+                                cmap='tab10', alpha=0.7, s=60)
+            plt.colorbar(scatter, label='Cluster')
+            plt.title('Robot Clustering Analysis (PCA Visualization)', 
+                     fontsize=20, fontweight='bold', pad=20)
+            plt.xlabel('First Principal Component', fontsize=14)
+            plt.ylabel('Second Principal Component', fontsize=14)
+            plt.grid(True, alpha=0.3)
+            plt.tight_layout()
+            plt.savefig(f"{output_dir}13_pca_clusters.png", dpi=300, bbox_inches='tight',
+                       facecolor='white', edgecolor='none')
+            plt.close()
+            print("✅ PCA clustering fallback saved")
+            
+            # 3. Domain-class distribution
+            domain_class_data = self.df.groupby(['domain', 'class']).size().reset_index(name='count')
+            top_data = domain_class_data.nlargest(15, 'count')
+            
+            plt.figure(figsize=(16, 10))
+            bars = plt.barh(range(len(top_data)), top_data['count'])
+            plt.title('Robot Domain-Class Distribution (Top 15)', 
+                     fontsize=20, fontweight='bold', pad=20)
+            plt.xlabel('Number of Robots', fontsize=14)
+            plt.ylabel('Domain-Class Combinations', fontsize=14)
+            
+            # Create labels
+            labels = [f"{row['domain']} - {row['class']}" for _, row in top_data.iterrows()]
+            plt.yticks(range(len(top_data)), labels)
+            
+            # Color bars
+            colors = plt.cm.viridis(np.linspace(0, 1, len(bars)))
+            for bar, color in zip(bars, colors):
+                bar.set_color(color)
+            
+            plt.tight_layout()
+            plt.savefig(f"{output_dir}15_domain_class_distribution.png", dpi=300, bbox_inches='tight',
+                       facecolor='white', edgecolor='none')
+            plt.close()
+            print("✅ Domain-class distribution fallback saved")
+            
+        except Exception as e:
+            print(f"Error in advanced matplotlib fallback: {e}")
 
     def export_processed_data(self, output_path="processed_data/"):
         """导出处理后的数据"""

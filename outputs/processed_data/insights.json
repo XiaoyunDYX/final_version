@@ -1,0 +1,35 @@
+{
+  "basic_stats": {
+    "total_robots": 546,
+    "total_regions": 28,
+    "total_classes": 9,
+    "total_sectors": 15,
+    "year_range": [
+      1961,
+      2025
+    ]
+  },
+  "trends": {
+    "peak_year": 2010,
+    "peak_count": 157,
+    "recent_growth": -23.683333333333334,
+    "total_growth": 500.0
+  },
+  "regional": {
+    "top_regions": {
+      "United States": 115,
+      "Japan (Alt)": 72,
+      "Unknown/International": 66,
+      "Germany": 53,
+      "Japan": 52
+    },
+    "most_diverse_region": "United States",
+    "most_specialized_region": "Denmark"
+  },
+  "classification": {
+    "dominant_class": "Manipulator",
+    "dominant_class_count": 158,
+    "class_diversity": 9,
+    "rare_classes": []
+  }
+}

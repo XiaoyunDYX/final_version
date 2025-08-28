@@ -113,18 +113,14 @@ class SeparatePhylogeneticGenerator:
             plot_bgcolor='white'
         )
         
-        # Use direct write_html for reliability
-        fig.write_html(
-            f"{output_dir}01_sunburst_phylogenetic.html",
-            include_plotlyjs='cdn',
-            config={
-                'displayModeBar': True,
-                'displaylogo': False,
-                'modeBarButtonsToRemove': ['pan2d', 'lasso2d']
-            }
-        )
-        
-        print(f"   ✅ Created: {output_dir}01_sunburst_phylogenetic.html")
+        # Save as PNG instead of HTML
+        try:
+            fig.write_image(f"{output_dir}07_sunburst_phylogenetic.png", 
+                          width=1200, height=1200, scale=2, engine="kaleido")
+            print(f"   ✅ Created: {output_dir}07_sunburst_phylogenetic.png")
+        except Exception as e:
+            print(f"   ⚠️ Kaleido error, using matplotlib fallback: {e}")
+            self._create_sunburst_matplotlib_fallback(output_dir)
         return True
     
     def create_treemap_page(self, output_dir):
@@ -193,9 +189,14 @@ class SeparatePhylogeneticGenerator:
             margin=dict(t=80, b=40, l=40, r=40)
         )
         
-        # Save as standalone HTML
-        fig.write_html(f"{output_dir}02_treemap_phylogenetic.html")
-        print(f"   ✅ Created: {output_dir}02_treemap_phylogenetic.html")
+        # Save as PNG instead of HTML
+        try:
+            fig.write_image(f"{output_dir}08_treemap_phylogenetic.png", 
+                          width=1600, height=1000, scale=2, engine="kaleido")
+            print(f"   ✅ Created: {output_dir}08_treemap_phylogenetic.png")
+        except Exception as e:
+            print(f"   ⚠️ Kaleido error, using matplotlib fallback: {e}")
+            self._create_treemap_matplotlib_fallback(output_dir)
         
         return True
     
@@ -351,9 +352,14 @@ class SeparatePhylogeneticGenerator:
             plot_bgcolor='white'
         )
         
-        # Save as standalone HTML
-        fig.write_html(f"{output_dir}05_network_phylogenetic.html")
-        print(f"   ✅ Created: {output_dir}05_network_phylogenetic.html")
+        # Save as PNG instead of HTML
+        try:
+            fig.write_image(f"{output_dir}09_network_phylogenetic.png", 
+                          width=1600, height=1200, scale=2, engine="kaleido")
+            print(f"   ✅ Created: {output_dir}09_network_phylogenetic.png")
+        except Exception as e:
+            print(f"   ⚠️ Kaleido error, using matplotlib fallback: {e}")
+            self._create_network_matplotlib_fallback(output_dir)
         
         return True
     
@@ -386,9 +392,14 @@ class SeparatePhylogeneticGenerator:
             margin=dict(t=80, b=40, l=40, r=40)
         )
         
-        # Save as standalone HTML
-        fig.write_html(f"{output_dir}03_class_distribution.html")
-        print(f"   ✅ Created: {output_dir}03_class_distribution.html")
+        # Save as PNG instead of HTML
+        try:
+            fig.write_image(f"{output_dir}10_class_distribution.png", 
+                          width=1200, height=1000, scale=2, engine="kaleido")
+            print(f"   ✅ Created: {output_dir}10_class_distribution.png")
+        except Exception as e:
+            print(f"   ⚠️ Kaleido error, using matplotlib fallback: {e}")
+            self._create_class_distribution_matplotlib_fallback(output_dir)
         
         return True
     
@@ -450,262 +461,209 @@ class SeparatePhylogeneticGenerator:
             margin=dict(t=80, b=60, l=60, r=40)
         )
         
-        # Save as standalone HTML
-        fig.write_html(f"{output_dir}04_evolutionary_timeline.html")
-        print(f"   ✅ Created: {output_dir}04_evolutionary_timeline.html")
+        # Save as PNG instead of HTML
+        try:
+            fig.write_image(f"{output_dir}11_evolutionary_timeline.png", 
+                          width=1600, height=1000, scale=2, engine="kaleido")
+            print(f"   ✅ Created: {output_dir}11_evolutionary_timeline.png")
+        except Exception as e:
+            print(f"   ⚠️ Kaleido error, using matplotlib fallback: {e}")
+            self._create_timeline_matplotlib_fallback(output_dir)
         
         return True
     
-    def create_navigation_index(self, output_dir):
-        """Create navigation index page"""
-        print("🏠 Creating Navigation Index page...")
+    def _create_sunburst_matplotlib_fallback(self, output_dir):
+        """Create matplotlib fallback for sunburst chart"""
+        import matplotlib.pyplot as plt
+        from collections import Counter
         
-        # Generate basic statistics
-        domains = set()
-        classes = set()
-        for robot in self.robots_data:
-            domain_id = robot.get('d', -1)
-            class_id = robot.get('c', -1)
-            
-            if domain_id >= 0 and domain_id < len(self.dict_data.get('domain', [])):
-                domains.add(self.dict_data['domain'][domain_id])
-            if class_id >= 0 and class_id < len(self.dict_data.get('class', [])):
-                classes.add(self.dict_data['class'][class_id])
-        
-        # Calculate diversity
+        # Count by class for pie chart fallback
         class_counts = Counter()
         for robot in self.robots_data:
             class_id = robot.get('c', -1)
             if class_id >= 0 and class_id < len(self.dict_data.get('class', [])):
                 class_counts[self.dict_data['class'][class_id]] += 1
         
-        total = sum(class_counts.values())
-        shannon_diversity = 0
-        if total > 0:
-            shannon_diversity = -sum((count/total) * np.log(count/total) for count in class_counts.values() if count > 0)
+        plt.figure(figsize=(12, 12))
+        plt.pie(list(class_counts.values()), labels=list(class_counts.keys()), 
+               autopct='%1.1f%%', startangle=90)
+        plt.title('Robot Taxonomy Distribution (Class Level)', fontsize=20, fontweight='bold', pad=20)
+        plt.axis('equal')
+        plt.tight_layout()
+        plt.savefig(f"{output_dir}07_sunburst_phylogenetic.png", dpi=300, bbox_inches='tight',
+                   facecolor='white', edgecolor='none')
+        plt.close()
         
-        html_content = f"""<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robot Phylogenetic Tree Analysis - Navigation</title>
-    <style>
-        body {{
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 0;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-        }}
-        .container {{
-            max-width: 1200px;
-            margin: 0 auto;
-            background: white;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            min-height: 100vh;
-        }}
-        .header {{
-            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
-            color: white;
-            padding: 50px;
-            text-align: center;
-        }}
-        .header h1 {{
-            margin: 0;
-            font-size: 3em;
-            font-weight: 300;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }}
-        .header p {{
-            margin: 20px 0 0 0;
-            opacity: 0.9;
-            font-size: 1.3em;
-        }}
-        .content {{
-            padding: 50px;
-        }}
-        .stats-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-            margin: 40px 0;
-        }}
-        .stat-card {{
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 15px;
-            text-align: center;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }}
-        .stat-number {{
-            font-size: 3em;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }}
-        .stat-label {{
-            font-size: 1.1em;
-            opacity: 0.9;
-        }}
-        .nav-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-            gap: 30px;
-            margin: 50px 0;
-        }}
-        .nav-card {{
-            background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
-            color: white;
-            padding: 30px;
-            border-radius: 15px;
-            text-decoration: none;
-            text-align: center;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        }}
-        .nav-card:hover {{
-            transform: translateY(-5px);
-            text-decoration: none;
-            color: white;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.2);
-        }}
-        .nav-card h3 {{
-            margin: 0 0 15px 0;
-            font-size: 1.5em;
-        }}
-        .nav-card p {{
-            margin: 0;
-            opacity: 0.9;
-            font-size: 1em;
-            line-height: 1.5;
-        }}
-        .nav-icon {{
-            font-size: 2.5em;
-            margin-bottom: 15px;
-            display: block;
-        }}
-        .methodology {{
-            background: linear-gradient(135deg, #f1f2f6 0%, #e8eaf6 100%);
-            border-left: 5px solid #3498db;
-            padding: 30px;
-            border-radius: 15px;
-            margin: 40px 0;
-        }}
-        .methodology h3 {{
-            color: #3498db;
-            margin-top: 0;
-            font-size: 1.5em;
-        }}
-        @media (max-width: 768px) {{
-            .nav-grid {{ grid-template-columns: 1fr; }}
-            .stats-grid {{ grid-template-columns: 1fr 1fr; }}
-            .header h1 {{ font-size: 2em; }}
-            .content {{ padding: 30px; }}
-        }}
-    </style>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h1>🌳 Robot Phylogenetic Tree Analysis</h1>
-            <p>Comprehensive Evolutionary Relationships and Taxonomic Diversity</p>
-            <p><strong>Linnaean-inspired Robot Taxonomy V2 Framework</strong></p>
-        </div>
+    def _create_treemap_matplotlib_fallback(self, output_dir):
+        """Create matplotlib fallback for treemap"""
+        import matplotlib.pyplot as plt
+        import matplotlib.patches as patches
+        from collections import Counter
         
-        <div class="content">
-            <!-- Summary Statistics -->
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-number">{len(self.robots_data):,}</div>
-                    <div class="stat-label">Total Robot Species</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">{len(domains)}</div>
-                    <div class="stat-label">Taxonomic Domains</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">{len(classes)}</div>
-                    <div class="stat-label">Robot Classes</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">{shannon_diversity:.3f}</div>
-                    <div class="stat-label">Shannon Diversity Index</div>
-                </div>
-            </div>
-            
-            <!-- Navigation to Individual Visualizations -->
-            <h2 style="color: #2c3e50; font-size: 2.2em; text-align: center; margin: 50px 0 30px 0;">🔍 Explore Phylogenetic Visualizations</h2>
-            
-            <div class="nav-grid">
-                <a href="01_sunburst_phylogenetic.html" class="nav-card">
-                    <span class="nav-icon">🌞</span>
-                    <h3>Sunburst Phylogenetic Tree</h3>
-                    <p>Interactive hierarchical circular tree showing Domain → Class → Role relationships with nested taxonomic levels</p>
-                </a>
-                
-                <a href="02_treemap_phylogenetic.html" class="nav-card">
-                    <span class="nav-icon">📊</span>
-                    <h3>Treemap Phylogeny</h3>
-                    <p>Area-proportional visualization where size represents population size of taxonomic groups</p>
-                </a>
-                
-                <a href="03_class_distribution.html" class="nav-card">
-                    <span class="nav-icon">📈</span>
-                    <h3>Class Distribution</h3>
-                    <p>Pie chart overview showing relative sizes and percentages of different robot classes</p>
-                </a>
-                
-                <a href="04_evolutionary_timeline.html" class="nav-card">
-                    <span class="nav-icon">⏰</span>
-                    <h3>Evolutionary Timeline</h3>
-                    <p>Temporal development of robot classes over time showing evolutionary patterns</p>
-                </a>
-                
-                <a href="05_network_phylogenetic.html" class="nav-card">
-                    <span class="nav-icon">🕸️</span>
-                    <h3>Network Phylogeny</h3>
-                    <p>Network-based visualization showing evolutionary relationships and taxonomic connections</p>
-                </a>
-            </div>
-            
-            <!-- Methodology -->
-            <div class="methodology">
-                <h3>📋 Methodology & Framework</h3>
-                <p><strong>Taxonomic Framework:</strong> Based on Linnaean-inspired Robot Taxonomy V2, representing evolutionary relationships through morphological and functional characteristics.</p>
-                <p><strong>Hierarchical Structure:</strong> Domain → Class → Order → Primary Role</p>
-                <p><strong>Data Coverage:</strong> {len(self.robots_data):,} robot species across {len(domains)} domains and {len(classes)} classes</p>
-                <p><strong>Diversity Metrics:</strong> Shannon diversity index: {shannon_diversity:.3f} - measures taxonomic richness and evenness</p>
-                <p><strong>Visualization Methods:</strong> Each page contains a dedicated, optimized visualization for detailed exploration of specific phylogenetic aspects.</p>
-            </div>
-            
-            <!-- Footer -->
-            <div style="text-align: center; padding: 40px; background: #f8f9fa; border-radius: 15px; margin-top: 50px;">
-                <h3 style="color: #2c3e50; margin-bottom: 15px;">🌳 Individual Phylogenetic Analysis Pages</h3>
-                <p style="color: #7f8c8d; margin: 10px 0;">Each visualization is now on a separate page for optimal performance and clarity</p>
-                <p style="color: #7f8c8d; font-size: 0.9em;">All visualizations are interactive - hover, zoom, and explore the robot kingdom!</p>
-            </div>
-        </div>
-    </div>
-</body>
-</html>"""
+        # Count by class
+        class_counts = Counter()
+        for robot in self.robots_data:
+            class_id = robot.get('c', -1)
+            if class_id >= 0 and class_id < len(self.dict_data.get('class', [])):
+                class_counts[self.dict_data['class'][class_id]] += 1
         
-        # Save navigation index
-        with open(f"{output_dir}00_phylogenetic_index.html", 'w', encoding='utf-8') as f:
-            f.write(html_content)
+        # Create horizontal bar chart as treemap alternative
+        classes = list(class_counts.keys())
+        counts = list(class_counts.values())
         
-        print(f"   ✅ Created: {output_dir}00_phylogenetic_index.html")
-        return True
+        plt.figure(figsize=(16, 10))
+        bars = plt.barh(range(len(classes)), counts)
+        plt.title('Robot Taxonomy Distribution (Treemap Alternative)', fontsize=20, fontweight='bold', pad=20)
+        plt.xlabel('Number of Robots', fontsize=14)
+        plt.ylabel('Robot Classes', fontsize=14)
+        plt.yticks(range(len(classes)), classes)
+        
+        # Color bars
+        colors = plt.cm.viridis(np.linspace(0, 1, len(bars)))
+        for bar, color in zip(bars, colors):
+            bar.set_color(color)
+        
+        plt.tight_layout()
+        plt.savefig(f"{output_dir}08_treemap_phylogenetic.png", dpi=300, bbox_inches='tight',
+                   facecolor='white', edgecolor='none')
+        plt.close()
+        
+    def _create_network_matplotlib_fallback(self, output_dir):
+        """Create matplotlib fallback for network graph"""
+        import matplotlib.pyplot as plt
+        import networkx as nx
+        from collections import defaultdict, Counter
+        
+        G = nx.Graph()
+        
+        # Count occurrences
+        domain_counts = defaultdict(int)
+        domain_class_counts = defaultdict(lambda: defaultdict(int))
+        
+        for robot in self.robots_data:
+            domain_id = robot.get('d', -1)
+            class_id = robot.get('c', -1)
+            
+            domain_name = 'Unknown Domain'
+            if domain_id >= 0 and domain_id < len(self.dict_data.get('domain', [])):
+                domain_name = self.dict_data['domain'][domain_id]
+            
+            class_name = 'Unknown Class'
+            if class_id >= 0 and class_id < len(self.dict_data.get('class', [])):
+                class_name = self.dict_data['class'][class_id]
+            
+            domain_counts[domain_name] += 1
+            domain_class_counts[domain_name][class_name] += 1
+        
+        # Add root node
+        G.add_node("Robot Kingdom", node_type='root', count=len(self.robots_data))
+        
+        # Add domain nodes and edges
+        for domain, count in domain_counts.items():
+            G.add_node(domain, node_type='domain', count=count)
+            G.add_edge("Robot Kingdom", domain)
+        
+        # Add class nodes and edges (limit to avoid overcrowding)
+        for domain, classes in domain_class_counts.items():
+            top_classes = sorted(classes.items(), key=lambda x: x[1], reverse=True)[:3]  # Top 3 classes per domain
+            for class_name, count in top_classes:
+                if count > 5:  # Only classes with more than 5 robots
+                    G.add_node(class_name, node_type='class', count=count)
+                    G.add_edge(domain, class_name)
+        
+        # Create layout
+        pos = nx.spring_layout(G, k=2, iterations=50, seed=42)
+        
+        plt.figure(figsize=(16, 12))
+        
+        # Draw edges
+        nx.draw_networkx_edges(G, pos, alpha=0.5, width=1)
+        
+        # Draw nodes by type
+        root_nodes = [n for n in G.nodes() if G.nodes[n]['node_type'] == 'root']
+        domain_nodes = [n for n in G.nodes() if G.nodes[n]['node_type'] == 'domain']
+        class_nodes = [n for n in G.nodes() if G.nodes[n]['node_type'] == 'class']
+        
+        if root_nodes:
+            nx.draw_networkx_nodes(G, pos, nodelist=root_nodes, node_color='red', 
+                                 node_size=1000, alpha=0.8)
+        if domain_nodes:
+            nx.draw_networkx_nodes(G, pos, nodelist=domain_nodes, node_color='blue', 
+                                 node_size=500, alpha=0.8)
+        if class_nodes:
+            nx.draw_networkx_nodes(G, pos, nodelist=class_nodes, node_color='green', 
+                                 node_size=200, alpha=0.8)
+        
+        # Draw labels
+        nx.draw_networkx_labels(G, pos, font_size=8, font_weight='bold')
+        
+        plt.title('Robot Taxonomy Network Graph', fontsize=20, fontweight='bold', pad=20)
+        plt.axis('off')
+        plt.tight_layout()
+        plt.savefig(f"{output_dir}09_network_phylogenetic.png", dpi=300, bbox_inches='tight',
+                   facecolor='white', edgecolor='none')
+        plt.close()
+        
+    def _create_class_distribution_matplotlib_fallback(self, output_dir):
+        """Create matplotlib fallback for class distribution"""
+        import matplotlib.pyplot as plt
+        from collections import Counter
+        
+        class_counts = Counter()
+        for robot in self.robots_data:
+            class_id = robot.get('c', -1)
+            if class_id >= 0 and class_id < len(self.dict_data.get('class', [])):
+                class_counts[self.dict_data['class'][class_id]] += 1
+        
+        plt.figure(figsize=(12, 12))
+        plt.pie(list(class_counts.values()), labels=list(class_counts.keys()), 
+               autopct='%1.1f%%', startangle=90)
+        plt.title('Robot Class Distribution', fontsize=20, fontweight='bold', pad=20)
+        plt.axis('equal')
+        plt.tight_layout()
+        plt.savefig(f"{output_dir}10_class_distribution.png", dpi=300, bbox_inches='tight',
+                   facecolor='white', edgecolor='none')
+        plt.close()
+        
+    def _create_timeline_matplotlib_fallback(self, output_dir):
+        """Create matplotlib fallback for timeline"""
+        import matplotlib.pyplot as plt
+        
+        timeline_data = []
+        for robot in self.robots_data:
+            year = robot.get('yr')
+            if year is not None and year > 0:
+                class_id = robot.get('c', -1)
+                class_name = 'Unknown'
+                if class_id >= 0 and class_id < len(self.dict_data.get('class', [])):
+                    class_name = self.dict_data['class'][class_id]
+                
+                timeline_data.append({'year': year, 'class': class_name})
+        
+        if timeline_data:
+            df_timeline = pd.DataFrame(timeline_data)
+            year_counts = df_timeline.groupby('year').size()
+            
+            plt.figure(figsize=(16, 8))
+            plt.plot(year_counts.index, year_counts.values, marker='o', linewidth=2, markersize=6)
+            plt.title('Robot Evolution Timeline', fontsize=20, fontweight='bold', pad=20)
+            plt.xlabel('Year', fontsize=14)
+            plt.ylabel('Number of Robots Developed', fontsize=14)
+            plt.grid(True, alpha=0.3)
+            plt.tight_layout()
+            plt.savefig(f"{output_dir}11_evolutionary_timeline.png", dpi=300, bbox_inches='tight',
+                       facecolor='white', edgecolor='none')
+            plt.close()
     
-    def generate_all_separate_pages(self, output_dir="phylogenetic_trees/"):
-        """Generate all separate phylogenetic pages"""
+    def generate_all_separate_pages(self, output_dir="outputs/figures/"):
+        """Generate all separate phylogenetic PNG images"""
         os.makedirs(output_dir, exist_ok=True)
         
-        print("🌳 Separate Phylogenetic Tree Generator")
+        print("🌳 Phylogenetic Tree PNG Generator")
         print("=" * 60)
         
         try:
-            # Create individual pages
+            # Create individual PNG images
             success_count = 0
             
             if self.create_sunburst_page(output_dir):
@@ -723,26 +681,23 @@ class SeparatePhylogeneticGenerator:
             if self.create_network_phylogeny_page(output_dir):
                 success_count += 1
             
-            if self.create_navigation_index(output_dir):
-                success_count += 1
-            
             if success_count >= 5:  # At least 5 main visualizations
-                print(f"\n🎉 SUCCESS! Created {success_count} separate phylogenetic pages!")
-                print(f"📁 Start with: {output_dir}00_phylogenetic_index.html")
+                print(f"\n🎉 SUCCESS! Created {success_count} phylogenetic PNG images!")
+                print(f"📁 Images saved to: {output_dir}")
                 return output_dir
             else:
-                print(f"\n⚠️ Only {success_count} pages created successfully.")
+                print(f"\n⚠️ Only {success_count} images created successfully.")
                 return None
                 
         except Exception as e:
-            print(f"\n❌ Error generating separate pages: {e}")
+            print(f"\n❌ Error generating PNG images: {e}")
             import traceback
             traceback.print_exc()
             return None
 
 def main():
-    """Main function to generate separate phylogenetic pages"""
-    print("🔧 Separate Phylogenetic Tree Generator")
+    """Main function to generate separate phylogenetic PNG images"""
+    print("🔧 Phylogenetic PNG Generator")
     print("=" * 60)
     
     try:
@@ -750,10 +705,10 @@ def main():
         output_dir = generator.generate_all_separate_pages()
         
         if output_dir:
-            print(f"\n✅ All separate phylogenetic pages created successfully!")
-            print(f"🌟 Navigation: {output_dir}00_phylogenetic_index.html")
+            print(f"\n✅ All phylogenetic PNG images created successfully!")
+            print(f"🌟 Images saved to: {output_dir}")
         else:
-            print(f"\n💥 Failed to generate separate pages.")
+            print(f"\n💥 Failed to generate PNG images.")
             
         return output_dir is not None
         

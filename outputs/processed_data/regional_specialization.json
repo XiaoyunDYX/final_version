@@ -1,0 +1,170 @@
+{
+  "Japan": {
+    "dominant_class": "Manipulator",
+    "class_diversity": 5,
+    "dominant_sector": "Industrial",
+    "sector_diversity": 4
+  },
+  "Sweden": {
+    "dominant_class": "Manipulator",
+    "class_diversity": 4,
+    "dominant_sector": "Industrial",
+    "sector_diversity": 3
+  },
+  "Germany": {
+    "dominant_class": "Manipulator",
+    "class_diversity": 6,
+    "dominant_sector": "Industrial",
+    "sector_diversity": 7
+  },
+  "United States": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 9,
+    "dominant_sector": "Military",
+    "sector_diversity": 9
+  },
+  "Israel": {
+    "dominant_class": "Legged",
+    "class_diversity": 2,
+    "dominant_sector": "Military",
+    "sector_diversity": 2
+  },
+  "United Kingdom": {
+    "dominant_class": "Soft-bodied",
+    "class_diversity": 3,
+    "dominant_sector": "Agricultural",
+    "sector_diversity": 4
+  },
+  "France": {
+    "dominant_class": "Legged",
+    "class_diversity": 4,
+    "dominant_sector": "Agricultural",
+    "sector_diversity": 4
+  },
+  "China": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 6,
+    "dominant_sector": "Service",
+    "sector_diversity": 7
+  },
+  "Spain": {
+    "dominant_class": "Legged",
+    "class_diversity": 2,
+    "dominant_sector": "Service",
+    "sector_diversity": 4
+  },
+  "Canada": {
+    "dominant_class": "Aquatic",
+    "class_diversity": 3,
+    "dominant_sector": "Research",
+    "sector_diversity": 4
+  },
+  "India": {
+    "dominant_class": "Aquatic",
+    "class_diversity": 2,
+    "dominant_sector": "Research",
+    "sector_diversity": 2
+  },
+  "Denmark": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 1,
+    "dominant_sector": "Collaborative",
+    "sector_diversity": 2
+  },
+  "Switzerland": {
+    "dominant_class": "Aquatic",
+    "class_diversity": 3,
+    "dominant_sector": "Research/Simulation",
+    "sector_diversity": 3
+  },
+  "Japan (Alt)": {
+    "dominant_class": "Manipulator",
+    "class_diversity": 5,
+    "dominant_sector": "Industrial",
+    "sector_diversity": 4
+  },
+  "Italy": {
+    "dominant_class": "Manipulator",
+    "class_diversity": 2,
+    "dominant_sector": "Industrial",
+    "sector_diversity": 3
+  },
+  "Unknown/International": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 7,
+    "dominant_sector": "Agricultural",
+    "sector_diversity": 4
+  },
+  "Australia": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 1,
+    "dominant_sector": "Agricultural",
+    "sector_diversity": 2
+  },
+  "European Union": {
+    "dominant_class": "Aerial",
+    "class_diversity": 2,
+    "dominant_sector": "Military",
+    "sector_diversity": 2
+  },
+  "Pakistan": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 1,
+    "dominant_sector": "Military",
+    "sector_diversity": 1
+  },
+  "Peru": {
+    "dominant_class": "Aerial",
+    "class_diversity": 1,
+    "dominant_sector": "Military",
+    "sector_diversity": 1
+  },
+  "Iran": {
+    "dominant_class": "Aerial",
+    "class_diversity": 2,
+    "dominant_sector": "Military",
+    "sector_diversity": 1
+  },
+  "South Africa": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 1,
+    "dominant_sector": "Military",
+    "sector_diversity": 1
+  },
+  "Lebanon": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 1,
+    "dominant_sector": "Military",
+    "sector_diversity": 1
+  },
+  "Taiwan": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 1,
+    "dominant_sector": "Military",
+    "sector_diversity": 1
+  },
+  "South Korea": {
+    "dominant_class": "Mobile Ground",
+    "class_diversity": 1,
+    "dominant_sector": "Service",
+    "sector_diversity": 1
+  },
+  "Poland": {
+    "dominant_class": "Aquatic",
+    "class_diversity": 1,
+    "dominant_sector": "Research",
+    "sector_diversity": 1
+  },
+  "Sweden (Alt)": {
+    "dominant_class": "Legged",
+    "class_diversity": 1,
+    "dominant_sector": "Industrial Simulation",
+    "sector_diversity": 1
+  },
+  "Belgium": {
+    "dominant_class": "Modular/Reconfigurable",
+    "class_diversity": 3,
+    "dominant_sector": "Research/Swarm robotics",
+    "sector_diversity": 1
+  }
+}

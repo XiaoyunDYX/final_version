@@ -1,0 +1,29 @@
+region_name,count,first_year,latest_year,avg_year,domains,classes,sectors
+Australia,2,2010.0,2020.0,2015.0,['Physical'],['Mobile Ground'],"['Agricultural', 'Military']"
+Belgium,3,2006.0,2006.0,2006.0,['Physical'],"['Modular/Reconfigurable', 'Aquatic', 'Legged']",['Research/Swarm robotics']
+Canada,8,2001.0,2019.0,2012.0,"['Physical', 'Virtual']","['Aquatic', 'Mobile Ground', 'Aerial']","['Research', 'Space Exploration', 'Agricultural', 'Industrial Simulation']"
+China,33,2016.0,2025.0,2021.448275862069,['Physical'],"['Legged', 'Mobile Ground', 'Aerial', 'Modular/Reconfigurable', 'Unknown', 'Manipulator']","['Service', 'Research', 'Industrial', 'Collaborative', 'Agricultural', 'Military', 'Medical']"
+Denmark,7,2008.0,2022.0,2015.857142857143,['Physical'],['Mobile Ground'],"['Agricultural', 'Collaborative']"
+European Union,2,2010.0,2012.0,2011.0,"['Physical', 'Virtual']","['Aerial', 'Modular/Reconfigurable']","['Military', 'Research/Simulation']"
+France,9,2008.0,2020.0,2013.888888888889,['Physical'],"['Aerial', 'Legged', 'Unknown', 'Mobile Ground']","['Military', 'Service', 'Research', 'Agricultural']"
+Germany,53,2010.0,2024.0,2013.076923076923,"['Physical', 'Hybrid']","['Soft-bodied', 'Manipulator', 'Aerial', 'Mobile Ground', 'Aquatic', 'Legged']","['Industrial', 'Bio-inspired', 'Agricultural', 'Collaborative', 'Service', 'Service/Telepresence', 'Research']"
+India,3,1997.0,2025.0,2010.6666666666667,['Physical'],"['Aquatic', 'Mobile Ground']","['Research', 'Military']"
+Iran,3,2010.0,2010.0,2010.0,['Physical'],"['Mobile Ground', 'Aerial']",['Military']
+Israel,3,2009.0,2016.0,2011.6666666666667,['Physical'],"['Mobile Ground', 'Legged']","['Military', 'Service']"
+Italy,43,2010.0,2010.0,2010.0,['Physical'],"['Manipulator', 'Mobile Ground']","['Collaborative', 'Industrial', 'Service']"
+Japan,52,1990.0,2019.0,2004.795918367347,['Physical'],"['Manipulator', 'Soft-bodied', 'Legged', 'Mobile Ground', 'Aquatic']","['Industrial', 'Service', 'Medical', 'Research']"
+Japan (Alt),72,2000.0,2015.0,2008.0422535211267,['Physical'],"['Manipulator', 'Soft-bodied', 'Mobile Ground', 'Aquatic', 'Legged']","['Collaborative', 'Small Industrial', 'SCARA Industrial', 'Industrial']"
+Lebanon,1,2010.0,2010.0,2010.0,['Physical'],['Mobile Ground'],['Military']
+Pakistan,4,2010.0,2010.0,2010.0,['Physical'],['Mobile Ground'],['Military']
+Peru,1,2010.0,2010.0,2010.0,['Physical'],['Aerial'],['Military']
+Poland,7,2018.0,2018.0,2018.0,['Physical'],['Aquatic'],['Research']
+South Africa,1,2010.0,2010.0,2010.0,['Physical'],['Mobile Ground'],['Military']
+South Korea,1,,,,['Physical'],['Mobile Ground'],['Service']
+Spain,4,2010.0,2017.0,2013.0,['Physical'],"['Legged', 'Mobile Ground']","['Service', 'Research', 'Agricultural', 'Military']"
+Sweden,40,1995.0,2024.0,2008.4,['Physical'],"['Soft-bodied', 'Manipulator', 'Legged', 'Mobile Ground']","['Industrial', 'Military', 'Service']"
+Sweden (Alt),1,1998.0,1998.0,1998.0,['Hybrid'],['Legged'],['Industrial Simulation']
+Switzerland,4,1996.0,2024.0,2010.5,"['Physical', 'Virtual']","['Mobile Ground', 'Aquatic', 'Legged']","['Agricultural', 'Research/Simulation', 'Research']"
+Taiwan,1,2010.0,2010.0,2010.0,['Physical'],['Mobile Ground'],['Military']
+United Kingdom,7,2007.0,2021.0,2015.8333333333333,['Physical'],"['Mobile Ground', 'Legged', 'Soft-bodied']","['Military', 'Bio-inspired', 'Agricultural', 'Service']"
+United States,115,1961.0,2025.0,2010.3274336283187,"['Physical', 'Virtual']","['Legged', 'Mobile Ground', 'Modular/Reconfigurable', 'Aerial', 'Aquatic', 'Manipulator', 'Unknown', 'Soft-bodied', 'Amphibious']","['Military', 'Service', 'Medical', 'Research', 'Space Exploration', 'Bio-inspired', 'Industrial', 'Agricultural', 'Research/Simulation']"
+Unknown/International,66,2010.0,2020.0,2016.888888888889,['Physical'],"['Unknown', 'Legged', 'Mobile Ground', 'Soft-bodied', 'Aquatic', 'Aerial', 'Modular/Reconfigurable']","['Agricultural', 'Military', 'Service', 'Research']"
